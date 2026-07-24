@@ -328,6 +328,16 @@
             box-shadow: 0 0 10px rgba(59, 130, 246, 0.1);
         }
 
+        .badge-series {
+            background: linear-gradient(135deg, rgba(168, 85, 247, 0.25), rgba(124, 58, 237, 0.25));
+            color: #c084fc;
+            border: 1px solid rgba(192, 132, 252, 0.4);
+            box-shadow: 0 0 12px rgba(192, 132, 252, 0.2);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+
         .theme-link-badge {
             display: inline-flex;
             align-items: center;
@@ -2646,7 +2656,7 @@
 
             <!-- Collapsible Links -->
             <div id="recursosSubmenu" class="drawer-submenu">
-                <a href="https://drive.google.com/drive/folders/1S8Zy5I5nQ5Ej4cwmp5_r-UD4fiRb4N4f" target="_blank"
+                <a href="https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP" target="_blank"
                     class="drawer-link-item">
                     <span class="drawer-link-icon">📂</span>
                     <div class="drawer-link-info">
@@ -2654,23 +2664,39 @@
                         <span class="drawer-link-desc">Rol general y lecciones</span>
                     </div>
                 </a>
-                <a href="https://drive.google.com/drive/folders/199YCnYF9tL-fk0segFH5zwHVDCkPtY_v" target="_blank"
+                <a href="https://drive.google.com/drive/folders/148da5_TSqHRTMEg3lvD5izuBLahXNAhW" target="_blank"
                     class="drawer-link-item">
-                    <span class="drawer-link-icon">👶👧</span>
+                    <span class="drawer-link-icon">🎓</span>
                     <div class="drawer-link-info">
-                        <span class="drawer-link-title">Clases 3-5 y 6-8 años</span>
-                        <span class="drawer-link-desc">Material de Pequeños y Medianos</span>
+                        <span class="drawer-link-title">Capacitación para maestros</span>
+                        <span class="drawer-link-desc">Materiales y recursos de capacitación</span>
                     </div>
                 </a>
-                <a href="https://drive.google.com/drive/folders/1XdLXbrPqR_I-9ibbIZppEnU2UMRLz65j" target="_blank"
+                <a href="https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n" target="_blank"
+                    class="drawer-link-item">
+                    <span class="drawer-link-icon">👶</span>
+                    <div class="drawer-link-info">
+                        <span class="drawer-link-title">Clase 3-5 años</span>
+                        <span class="drawer-link-desc">Material de Pequeños</span>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/drive/folders/199YCnYF9tL-fk0segFH5zwHVDCkPtY_v" target="_blank"
+                    class="drawer-link-item">
+                    <span class="drawer-link-icon">👧</span>
+                    <div class="drawer-link-info">
+                        <span class="drawer-link-title">Clase 6-8 años</span>
+                        <span class="drawer-link-desc">Material de Medianos</span>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/drive/folders/1CyetjuE3x-dzTMAR6wfMJPnHcN1cvsEC" target="_blank"
                     class="drawer-link-item">
                     <span class="drawer-link-icon">👦</span>
                     <div class="drawer-link-info">
-                        <span class="drawer-link-title">Clases 9-11 años</span>
+                        <span class="drawer-link-title">Clase 9-11 años</span>
                         <span class="drawer-link-desc">Material de Grandes</span>
                     </div>
                 </a>
-                <a href="https://drive.google.com/drive/folders/1cFyxxvBvxgcWTvmt5h1HdizNw-HnxF4q" target="_blank"
+                <a href="https://drive.google.com/drive/folders/1Z4kgoY0A6mOhTK84N0ZazT1CtjdWDrxa" target="_blank"
                     class="drawer-link-item">
                     <span class="drawer-link-icon">🎓</span>
                     <div class="drawer-link-info">
@@ -2790,7 +2816,7 @@
     <!-- Month Selector Grid -->
     <div class="month-selector-grid">
         <div class="month-card" data-month="Todos" onclick="selectMonth('Todos')">
-            <span class="month-lessons-badge">10</span>
+            <span class="month-lessons-badge">11</span>
             <span class="month-name">Todos</span>
         </div>
         <div class="month-card active" data-month="Junio" onclick="selectMonth('Junio')">
@@ -2804,6 +2830,10 @@
         <div class="month-card" data-month="Agosto" onclick="selectMonth('Agosto')">
             <span class="month-lessons-badge">5</span>
             <span class="month-name">Agosto</span>
+        </div>
+        <div class="month-card" data-month="Septiembre" onclick="selectMonth('Septiembre')">
+            <span class="month-lessons-badge">1</span>
+            <span class="month-name">Septiembre</span>
         </div>
     </div>
 
@@ -2977,7 +3007,7 @@
         const scheduleData = [
             {
                 date: "28 de Junio", theme: "⭐ Lección 7: Esteban enfrenta a la muerte", status: "current", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1S8Zy5I5nQ5Ej4cwmp5_r-UD4fiRb4N4f",
+                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
                 classes: {
                     "3-5": { encargado: "Danna", apoyo: "Alondra" },
                     "6-8": { encargado: "Sinddy", apoyo: "Carlos" },
@@ -2987,7 +3017,7 @@
             },
             {
                 date: "05 de Julio", theme: "🌟 Lección 8: Pablo en Filipos", status: "current", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1S8Zy5I5nQ5Ej4cwmp5_r-UD4fiRb4N4f",
+                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
                 classes: {
                     "3-5": { encargado: "Alexa", apoyo: "Rebeca" },
                     "6-8": { encargado: "Aby", apoyo: "Denisse" },
@@ -2996,8 +3026,8 @@
                 }
             },
             {
-                date: "12 de Julio", theme: "✨ Lección 9", status: "current", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1S8Zy5I5nQ5Ej4cwmp5_r-UD4fiRb4N4f",
+                date: "12 de Julio", theme: "🎉 Lección Libre", status: "current", badgeText: "Próximo",
+                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
                 classes: {
                     "3-5": { encargado: "Liz", apoyo: "Yadira" },
                     "6-8": { encargado: "Karla", apoyo: "Alexa Sarai" },
@@ -3006,8 +3036,8 @@
                 }
             },
             {
-                date: "19 de Julio", theme: "🌈 Lección 10", status: "current", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1S8Zy5I5nQ5Ej4cwmp5_r-UD4fiRb4N4f",
+                date: "19 de Julio", series: "Vivir es Cristo", theme: "Lección 1: Vivir es Cristo - Filipenses 1:1-11", status: "current", badgeText: "Próximo",
+                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
                 classes: {
                     "3-5": { encargado: "Danna", apoyo: "Rebeca" },
                     "6-8": { encargado: "Aby", apoyo: "Denisse" },
@@ -3016,8 +3046,8 @@
                 }
             },
             {
-                date: "26 de Julio", theme: "⚔️ Lección 11", status: "current", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1S8Zy5I5nQ5Ej4cwmp5_r-UD4fiRb4N4f",
+                date: "26 de Julio", series: "Vivir es Cristo", theme: "Lección 2: Vivir es Cristo - Filipenses 1:12-30", status: "current", badgeText: "Próximo",
+                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
                 classes: {
                     "3-5": { encargado: "Alexa", apoyo: "Yadira" },
                     "6-8": { encargado: "Ramón", apoyo: "Claudia" },
@@ -3026,8 +3056,8 @@
                 }
             },
             {
-                date: "02 de Agosto", theme: "📖 Lección 12", status: "current", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1S8Zy5I5nQ5Ej4cwmp5_r-UD4fiRb4N4f",
+                date: "02 de Agosto", series: "Vivir es Cristo", theme: "Lección 3: Vivir es Cristo - Filipenses 2:1-11", status: "current", badgeText: "Próximo",
+                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
                 classes: {
                     "3-5": { encargado: "Liz", apoyo: "Rebeca" },
                     "6-8": { encargado: "Sinddy", apoyo: "Carlos" },
@@ -3036,8 +3066,8 @@
                 }
             },
             {
-                date: "09 de Agosto", theme: "🛡️ Lección 13", status: "current", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1S8Zy5I5nQ5Ej4cwmp5_r-UD4fiRb4N4f",
+                date: "09 de Agosto", series: "Vivir es Cristo", theme: "Lección 4: Vivir es Cristo - Filipenses 2:12-18", status: "current", badgeText: "Próximo",
+                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
                 classes: {
                     "3-5": { encargado: "Danna", apoyo: "Yadira" },
                     "6-8": { encargado: "Karla", apoyo: "Alexa Sarai" },
@@ -3046,8 +3076,8 @@
                 }
             },
             {
-                date: "16 de Agosto", theme: "🧭 Lección 14", status: "current", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1S8Zy5I5nQ5Ej4cwmp5_r-UD4fiRb4N4f",
+                date: "16 de Agosto", series: "Vivir es Cristo", theme: "Lección 5: Vivir es Cristo - Filipenses 3", status: "current", badgeText: "Próximo",
+                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
                 classes: {
                     "3-5": { encargado: "Alexa", apoyo: "Alondra" },
                     "6-8": { encargado: "Aby", apoyo: "Denisse" },
@@ -3056,8 +3086,8 @@
                 }
             },
             {
-                date: "23 de Agosto", theme: "⚓ Lección 15", status: "current", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1S8Zy5I5nQ5Ej4cwmp5_r-UD4fiRb4N4f",
+                date: "23 de Agosto", series: "Vivir es Cristo", theme: "Lección 6: Vivir es Cristo - Filipenses 4:1-7", status: "current", badgeText: "Próximo",
+                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
                 classes: {
                     "3-5": { encargado: "Liz", apoyo: "Alondra" },
                     "6-8": { encargado: "Sinddy", apoyo: "Carlos" },
@@ -3066,13 +3096,23 @@
                 }
             },
             {
-                date: "30 de Agosto", theme: "🎯 Lección 16", status: "current", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1S8Zy5I5nQ5Ej4cwmp5_r-UD4fiRb4N4f",
+                date: "30 de Agosto", series: "Vivir es Cristo", theme: "Lección 7: Vivir es Cristo - Filipenses 4:8-9", status: "current", badgeText: "Próximo",
+                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
                 classes: {
                     "3-5": { encargado: "Danna", apoyo: "Rebeca" },
                     "6-8": { encargado: "Karla", apoyo: "Alexa Sarai" },
                     "9-11": { encargado: "Daniel", apoyo: "Cristina" },
                     "jv12": { encargado: "Robert", apoyo: "Sara" }
+                }
+            },
+            {
+                date: "06 de Septiembre", series: "Vivir es Cristo", theme: "Lección 8: Vivir es Cristo - Filipenses 4:10-23", status: "current", badgeText: "Próximo",
+                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
+                classes: {
+                    "3-5": { encargado: "Alexa", apoyo: "Yadira" },
+                    "6-8": { encargado: "Aby", apoyo: "Denisse" },
+                    "9-11": { encargado: "Alan", apoyo: "Mauricio" },
+                    "jv12": { encargado: "Josué", apoyo: "Raquel" }
                 }
             }
         ];
@@ -3142,14 +3182,23 @@
                 if (week.status === 'past') badgeClass = 'badge-past';
                 if (week.status === 'suspended') badgeClass = 'badge-suspended';
 
+                let seriesBadgeHtml = week.series 
+                    ? `<span class="state-badge badge-series">✝️ Serie: ${week.series}</span>` 
+                    : '';
+
+                let themeHtml = week.materialUrl 
+                    ? `<a href="${week.materialUrl}" target="_blank" class="theme-link-badge" title="Abrir carpeta de recursos de la serie">📖 ${week.theme}</a>` 
+                    : `<div class="week-theme">${week.theme}</div>`;
+
                 let headerHtml = `
                     <div class="week-header">
                         <div class="week-date">
                             📅 ${week.date} 
                             <span class="state-badge ${badgeClass}">${week.badgeText}</span>
+                            ${seriesBadgeHtml}
                         </div>
                         <div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
-                            <div class="week-theme">${week.theme}</div>
+                            ${themeHtml}
                         </div>
                     </div>
                 `;
@@ -3164,10 +3213,10 @@
                 } else {
                     let groupsHtml = `<div class="groups-grid">`;
                     const groupInfos = {
-                        "3-5": { name: "3 a 5 años", age: "👶 Pequeños", room: "Pequeños", cssClass: "g-3-5", url: "https://drive.google.com/drive/folders/199YCnYF9tL-fk0segFH5zwHVDCkPtY_v" },
+                        "3-5": { name: "3 a 5 años", age: "👶 Pequeños", room: "Pequeños", cssClass: "g-3-5", url: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n" },
                         "6-8": { name: "6 a 8 años", age: "👧 Medianos", room: "Medianos", cssClass: "g-6-8", url: "https://drive.google.com/drive/folders/199YCnYF9tL-fk0segFH5zwHVDCkPtY_v" },
-                        "9-11": { name: "9 a 11 años", age: "👦 Grandes", room: "Grandes", cssClass: "g-9-11", url: "https://drive.google.com/drive/folders/1XdLXbrPqR_I-9ibbIZppEnU2UMRLz65j" },
-                        "jv12": { name: "JV 12", age: "🎓 Pre-adolescentes", room: "Pre-adolescentes", cssClass: "g-jv12", url: "https://drive.google.com/drive/folders/1cFyxxvBvxgcWTvmt5h1HdizNw-HnxF4q" }
+                        "9-11": { name: "9 a 11 años", age: "👦 Grandes", room: "Grandes", cssClass: "g-9-11", url: "https://drive.google.com/drive/folders/1CyetjuE3x-dzTMAR6wfMJPnHcN1cvsEC" },
+                        "jv12": { name: "JV 12", age: "🎓 Pre-adolescentes", room: "Pre-adolescentes", cssClass: "g-jv12", url: "https://drive.google.com/drive/folders/1Z4kgoY0A6mOhTK84N0ZazT1CtjdWDrxa" }
                     };
 
                     Object.keys(week.classes).forEach(groupId => {
@@ -3176,6 +3225,7 @@
                         const dateParts = week.date.split(' ');
                         const dayNum = dateParts[0] || '??';
                         const monthAbbr = (dateParts[2] || '').substring(0, 3).toUpperCase();
+                        const lessonUrl = groupInfo.url;
 
                         groupsHtml += `
                             <div class="lesson-detail-card ${groupInfo.cssClass}" data-group="${groupId}">
@@ -3184,7 +3234,7 @@
                                     <span class="circle-date-month">${monthAbbr}</span>
                                 </div>
                                 <div class="card-date-label">🗓️ Domingo, ${week.date}</div>
-                                <a href="${groupInfo.url}" target="_blank" class="card-lesson-title" title="Ver material de esta clase">${week.theme}</a>
+                                <a href="${lessonUrl}" target="_blank" class="card-lesson-title" title="Ver material de esta clase">${week.theme}</a>
                                 <div class="card-capsules-row">
                                     <span class="capsule-badge capsule-age-${groupId}">${groupInfo.age}</span>
                                     <span class="capsule-badge capsule-room">🚪 ${groupInfo.room}</span>
@@ -3943,7 +3993,7 @@
 
         function shareApp() {
             const shareUrl = "https://rodriguezj75468-glitch.github.io/Rol_de_maestros/";
-            const shareText = "👋 ¡Hola! Aquí tienes el Rol de Clases Dominicales actualizado (Junio - Agosto 2026). Consúltalo en tiempo real aquí:";
+            const shareText = "👋 ¡Hola! Aquí tienes el Rol de Clases Dominicales actualizado (Junio - Septiembre 2026). Consúltalo en tiempo real aquí:";
             
             const urlInput = document.getElementById('shareUrlInput');
             if (urlInput) urlInput.value = shareUrl;
@@ -3980,7 +4030,7 @@
 
         async function copyShareUrl() {
             const shareUrl = "https://rodriguezj75468-glitch.github.io/Rol_de_maestros/";
-            const shareText = "👋 ¡Hola! Aquí tienes el Rol de Clases Dominicales actualizado (Junio - Agosto 2026). Consúltalo en tiempo real aquí:";
+            const shareText = "👋 ¡Hola! Aquí tienes el Rol de Clases Dominicales actualizado (Junio - Septiembre 2026). Consúltalo en tiempo real aquí:";
             
             try {
                 await navigator.clipboard.writeText(`${shareText}\n${shareUrl}`);
