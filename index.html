@@ -2647,10 +2647,10 @@
                 <span class="drawer-item-text">1. Roles y Cronograma</span>
             </div>
 
-            <!-- Option 1.5: Calendario y Asistencias -->
+            <!-- Option 1.5: Calendario y Cumpleaños -->
             <a href="calendario.html" class="drawer-item" style="text-decoration: none;">
-                <span class="drawer-item-icon">📅</span>
-                <span class="drawer-item-text">1.5. Calendario y Asistencias</span>
+                <span class="drawer-item-icon">🎂</span>
+                <span class="drawer-item-text">1.5. Calendario y Cumpleaños</span>
             </a>
 
             <!-- Option 2: Recursos (Collapsible Dropdown) -->
@@ -2686,7 +2686,7 @@
                         <span class="drawer-link-desc">Material de Pequeños</span>
                     </div>
                 </a>
-                <a href="https://drive.google.com/drive/folders/199YCnYF9tL-fk0segFH5zwHVDCkPtY_v" target="_blank"
+                <a href="https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n" target="_blank"
                     class="drawer-link-item">
                     <span class="drawer-link-icon">👧</span>
                     <div class="drawer-link-info">
@@ -2812,7 +2812,7 @@
         <div class="subtitle">Roles y Temas de Clases Dominicales 📅</div>
         <div style="margin-top: 1.5rem;">
             <a href="calendario.html" style="display: inline-flex; align-items: center; gap: 0.6rem; background: linear-gradient(135deg, #4f46e5, #7c3aed); color: white; padding: 0.75rem 1.5rem; border-radius: 50px; font-weight: 700; text-decoration: none; box-shadow: 0 4px 15px rgba(99, 102, 241, 0.35); font-family: 'Outfit', sans-serif; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); border: 1px solid rgba(255, 255, 255, 0.1); cursor: pointer;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 8px 25px rgba(124, 58, 237, 0.5)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(99, 102, 241, 0.35)';">
-                <span>📅</span> Calendario y Asistencias
+                <span>🎂</span> Calendario y Cumpleaños
             </a>
         </div>
     </header>
@@ -2830,7 +2830,7 @@
             <span class="month-lessons-badge">11</span>
             <span class="month-name">Todos</span>
         </div>
-        <div class="month-card active" data-month="Junio" onclick="selectMonth('Junio')">
+        <div class="month-card" data-month="Junio" onclick="selectMonth('Junio')">
             <span class="month-lessons-badge">1</span>
             <span class="month-name">Junio</span>
         </div>
@@ -2838,7 +2838,7 @@
             <span class="month-lessons-badge">4</span>
             <span class="month-name">Julio</span>
         </div>
-        <div class="month-card" data-month="Agosto" onclick="selectMonth('Agosto')">
+        <div class="month-card active" data-month="Agosto" onclick="selectMonth('Agosto')">
             <span class="month-lessons-badge">5</span>
             <span class="month-name">Agosto</span>
         </div>
@@ -3100,7 +3100,7 @@
                 date: "23 de Agosto", series: "Vivir es Cristo", theme: "Lección 6: Vivir es Cristo - Filipenses 4:1-7", status: "current", badgeText: "Próximo",
                 materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
                 classes: {
-                    "3-5": { encargado: "Liz", apoyo: "Alondra" },
+                    "3-5": { encargado: "Liz", apoyo: "Camila" },
                     "6-8": { encargado: "Sinddy", apoyo: "Carlos" },
                     "9-11": { encargado: "Joaquín", apoyo: "Isaí" },
                     "jv12": { encargado: "Ramón", apoyo: "Claudia" }
@@ -3137,7 +3137,7 @@
 
         const timelineContainer = document.getElementById('timelineContainer');
         let currentFilteredTeacher = '';
-        let currentSelectedMonth = 'Junio';
+        let currentSelectedMonth = 'Agosto';
         let currentSelectedRoom = 'all';
 
         function selectMonth(monthName) {
@@ -3225,7 +3225,7 @@
                     let groupsHtml = `<div class="groups-grid">`;
                     const groupInfos = {
                         "3-5": { name: "3 a 5 años", age: "👶 Pequeños", room: "Pequeños", cssClass: "g-3-5", url: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n" },
-                        "6-8": { name: "6 a 8 años", age: "👧 Medianos", room: "Medianos", cssClass: "g-6-8", url: "https://drive.google.com/drive/folders/199YCnYF9tL-fk0segFH5zwHVDCkPtY_v" },
+                        "6-8": { name: "6 a 8 años", age: "👧 Medianos", room: "Medianos", cssClass: "g-6-8", url: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n" },
                         "9-11": { name: "9 a 11 años", age: "👦 Grandes", room: "Grandes", cssClass: "g-9-11", url: "https://drive.google.com/drive/folders/1CyetjuE3x-dzTMAR6wfMJPnHcN1cvsEC" },
                         "jv12": { name: "JV 12", age: "🎓 Pre-adolescentes", room: "Pre-adolescentes", cssClass: "g-jv12", url: "https://drive.google.com/drive/folders/1Z4kgoY0A6mOhTK84N0ZazT1CtjdWDrxa" }
                     };
