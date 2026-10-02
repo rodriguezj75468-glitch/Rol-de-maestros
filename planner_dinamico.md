@@ -44,4 +44,4 @@ Este es el rol de maestros actualizado para los meses de **Junio, Julio, Agosto,
 ## 🛠️ Versión Interactiva
 Para buscar por tu nombre de maestro y ver automáticamente tus fechas de servicio, la cuenta regresiva a tu próxima clase y agregarlas a tu calendario, abre la aplicación en tu navegador:
 
-👉 [Abrir el Planner Dominical](https://TU-USUARIO.github.io/TU-REPOSITORIO/)
+👉 [Abrir el Planner Dominical](https://rodriguezj75468-glitch.github.io/Rol-de-maestros/)
