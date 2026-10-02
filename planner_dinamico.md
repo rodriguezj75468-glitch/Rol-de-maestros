@@ -1,10 +1,10 @@
 ﻿# 📅 PLANNER DOMINICAL — ROL ACTUALIZADO DE CLASES 🚀
 
-Este es el rol de maestros actualizado para los meses de **Junio, Julio, Agosto y Septiembre de 2026**, incorporando la rotación de maestros y coordinadores para todas las aulas dominicales a partir del 28 de Junio.
+Este es el rol de maestros actualizado para los meses de **Junio, Julio, Agosto, Septiembre y Octubre de 2026**, incorporando la rotación de maestros y coordinadores para todas las aulas dominicales a partir del 28 de Junio.
 
 ---
 
-## 📆 ROL DE CLASES (Junio - Septiembre 2026)
+## 📆 ROL DE CLASES (Junio - Octubre 2026)
 
 | Domingo | Lección / Tema | [👶 3 a 5 años](https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n) | [👧 6 a 8 años](https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n) | [👦 9 a 11 años](https://drive.google.com/drive/folders/1CyetjuE3x-dzTMAR6wfMJPnHcN1cvsEC) | [🎓 JV 12](https://drive.google.com/drive/folders/1Z4kgoY0A6mOhTK84N0ZazT1CtjdWDrxa) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -19,9 +19,13 @@ Este es el rol de maestros actualizado para los meses de **Junio, Julio, Agosto 
 | **23 de Agosto** | [Lección 6: Vivir es Cristo - Filipenses 4:1-7](https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n) | **E:** Liz <br> **A:** Camila | **E:** Sinddy <br> **A:** Carlos | **E:** Joaquín <br> **A:** Isaí | **E:** Ramón <br> **A:** Claudia |
 | **30 de Agosto** | [Lección 7: Vivir es Cristo - Filipenses 4:8-9](https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n) | **E:** Danna <br> **A:** Rebeca | **E:** Karla <br> **A:** Alexa Sarai | **E:** Daniel <br> **A:** Cristina | **E:** Robert <br> **A:** Sara |
 | **06 de Septiembre** | [Lección 8: Vivir es Cristo - Filipenses 4:10-23](https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n) | **E:** Alexa <br> **A:** Yadira | **E:** Aby <br> **A:** Denisse | **E:** Alan <br> **A:** Mauricio | **E:** Josué <br> **A:** Raquel |
-| **13 de Septiembre** | [Mensaje Directo â€” LecciÃ³n Especial](https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP) | **E:** Liz <br> **A:** Camila | **E:** Karla <br> **A:** Alexa Sarai | **E:** JoaquÃ­n <br> **A:** IsaÃ­ | **E:** Robert <br> **A:** Sara |
-| **20 de Septiembre** | [Mensaje Directo â€” LecciÃ³n 1](https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP) | **E:** Danna <br> **A:** Alondra | **E:** Danna <br> **A:** Alondra | **E:** Daniel <br> **A:** Cristina | **E:** Sinddy <br> **A:** Juan Carlos |
-| **27 de Septiembre** | [Mensaje Directo â€” LecciÃ³n 2](https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP) | **E:** Liz <br> **A:** Yadira | **E:** Liz <br> **A:** Yadira | **E:** JoaquÃ­n <br> **A:** Carlos | **E:** RamÃ³n <br> **A:** Claudia |
+| **13 de Septiembre** | [Mensaje Directo — Lección Especial](https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP) | **E:** Liz <br> **A:** Camila | **E:** Karla <br> **A:** Alexa Sarai | **E:** Joaquín <br> **A:** Isaí | **E:** Robert <br> **A:** Sara |
+| **20 de Septiembre** | [Mensaje Directo — Lección 1](https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP) | **E:** Danna <br> **A:** Alondra | **E:** Danna <br> **A:** Alondra | **E:** Daniel <br> **A:** Cristina | **E:** Sinddy <br> **A:** Juan Carlos |
+| **27 de Septiembre** | [Mensaje Directo — Lección 2](https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP) | **E:** Liz <br> **A:** Yadira | **E:** Liz <br> **A:** Yadira | **E:** Joaquín <br> **A:** Carlos | **E:** Ramón <br> **A:** Claudia |
+| **04 de Octubre** | [Mensaje Directo — Lección 3: Pedir su dirección (Salmo 119:26-35)](https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP) | **E:** Danna <br> **A:** Rebeca | **E:** Karla <br> **A:** Alexa Sarai | Mismo grupo que 6 a 8 | **E:** Sinddy <br> **A:** Juan Carlos |
+| **11 de Octubre** | [Mensaje Directo — Lección 4: Confiar en su amor (Efesios 3:14-21)](https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP) | **E:** Alexa <br> **A:** Camila | **E:** Alan <br> **A:** Mauricio | Mismo grupo que 6 a 8 | **E:** Robert <br> **A:** Sara |
+| **18 de Octubre** | [Mensaje Directo — Lección 5: Fortaleciendo para amar más y más (1 Tesalonicenses 3:12-13)](https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP) | **E:** Liz <br> **A:** Alondra | **E:** Aby <br> **A:** Denisse | Mismo grupo que 6 a 8 | **E:** Josué <br> **A:** Raquel |
+| **25 de Octubre** | [Mensaje Directo — Lección 6: Dando gloria a Dios (2 Tesalonicenses 1:11-12)](https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP) | **E:** Danna <br> **A:** Yadira | **E:** Daniel <br> **A:** Cristina | Mismo grupo que 6 a 8 | **E:** Ramón <br> **A:** Claudia |
 
 *Abreviaturas: **E** = Encargado, **A** = Apoyo.*
 
@@ -38,5 +42,6 @@ Este es el rol de maestros actualizado para los meses de **Junio, Julio, Agosto 
 ---
 
 ## 🛠️ Versión Interactiva
-Para buscar por tu nombre de maestro y ver automáticamente tus fechas de servicio con estadísticas personalizadas, abre la aplicación interactiva en tu navegador:
-👉 [index.html](file:///c:/Users/Rodri/OneDrive/20-ANTIGRAVITY/ROL/index.html) o [Planner_Dinamico.html](file:///c:/Users/Rodri/OneDrive/20-ANTIGRAVITY/ROL/Planner_Dinamico.html)
+Para buscar por tu nombre de maestro y ver automáticamente tus fechas de servicio, la cuenta regresiva a tu próxima clase y agregarlas a tu calendario, abre la aplicación en tu navegador:
+
+👉 [Abrir el Planner Dominical](https://TU-USUARIO.github.io/TU-REPOSITORIO/)
