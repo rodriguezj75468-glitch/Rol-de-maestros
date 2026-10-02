@@ -2885,6 +2885,14 @@ body.bg-theme-light .theme-link-badge {
         .next-class-actions { display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.6rem; }
         .nc-btn { display: flex; align-items: center; justify-content: center; gap: 0.4rem; min-height: 44px; padding: 0.55rem 0.9rem; box-sizing: border-box; border-radius: 12px; border: 1px solid color-mix(in srgb, var(--nc) 45%, transparent); background: color-mix(in srgb, var(--nc) 14%, transparent); color: var(--text-main); font: 600 0.9rem/1.25 'Figtree', 'Segoe UI', system-ui, sans-serif; text-align: center; text-decoration: none; cursor: pointer; transition: background 0.2s ease; }
         .nc-btn:hover { background: color-mix(in srgb, var(--nc) 26%, transparent); }
+        .nc-prep { display: flex; flex-direction: column; gap: 0.1rem; margin-top: 0.7rem; padding: 0.7rem 0.8rem; border-radius: 12px; border: 1px solid color-mix(in srgb, var(--nc) 30%, transparent); background: color-mix(in srgb, var(--nc) 7%, transparent); }
+        .nc-prep-head { display: flex; justify-content: space-between; align-items: center; gap: 0.5rem; font-size: 0.88rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.15rem; }
+        .nc-prep-count { font-weight: 600; font-size: 0.78rem; color: var(--text-muted); }
+        .nc-check { display: flex; align-items: center; gap: 0.7rem; min-height: 44px; font-size: 0.92rem; color: var(--text-main); cursor: pointer; }
+        .nc-check input { width: 22px; height: 22px; accent-color: var(--nc); flex-shrink: 0; cursor: pointer; }
+        .nc-check input:checked + span { text-decoration: line-through; opacity: 0.6; }
+        .nc-prep-note { font-size: 0.8rem; color: var(--text-muted); margin-top: 0.3rem; }
+        .nc-prep-note:empty { display: none; }
 
 
         /* ===== Tema blanco ===== */
@@ -2950,12 +2958,6 @@ body.bg-theme-light .theme-link-badge {
 
             <!-- Collapsible Links -->
             <div id="recursosSubmenu" class="drawer-submenu">
-                <a href="https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP" target="_blank"
-                    class="drawer-link-item">
-                    <span class="drawer-link-icon">📂</span><div class="drawer-link-info"><span class="drawer-link-title">Carpeta General</span>
-                        <span class="drawer-link-desc">Rol general y lecciones</span>
-                    </div>
-                </a>
                 <a href="https://drive.google.com/drive/folders/148da5_TSqHRTMEg3lvD5izuBLahXNAhW" target="_blank"
                     class="drawer-link-item">
                     <span class="drawer-link-icon">🎓</span><div class="drawer-link-info"><span class="drawer-link-title">Capacitación para maestros</span>
@@ -3266,7 +3268,7 @@ body.bg-theme-light .theme-link-badge {
         const scheduleData = [
             {
                 date: "28 de Junio", theme: "⭐ Lección 7: Esteban enfrenta a la muerte", status: "past", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
+                materialUrl: "https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2",
                 classes: {
                     "3-5": { encargado: "Danna", apoyo: "Alondra", pdfUrl: "https://drive.google.com/file/d/1EzcNBNLpfYamaMaCxUglPDYHk6Yk1Rex/view?usp=drive_web" },
                     "6-8": { encargado: "Sinddy, Joaquín", apoyo: "Carlos, Isaí" },
@@ -3275,7 +3277,7 @@ body.bg-theme-light .theme-link-badge {
             },
             {
                 date: "05 de Julio", theme: "🌟 Lección 8: Pablo en Filipos", status: "past", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
+                materialUrl: "https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2",
                 classes: {
                     "3-5": { encargado: "Alexa", apoyo: "Rebeca" },
                     "6-8": { encargado: "Aby, Alan", apoyo: "Denisse, Mauricio" },
@@ -3284,7 +3286,7 @@ body.bg-theme-light .theme-link-badge {
             },
             {
                 date: "12 de Julio", theme: "🎉 Lección Libre", status: "past", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
+                materialUrl: "https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2",
                 classes: {
                     "3-5": { encargado: "Liz", apoyo: "Yadira", pdfUrl: "https://drive.google.com/file/d/1OMgycMMi7shzo05vyaj_O7YCWpnKfmsT/view?usp=drive_web" },
                     "6-8": { encargado: "Karla, Daniel", apoyo: "Alexa Sarai, Cristina" },
@@ -3293,7 +3295,7 @@ body.bg-theme-light .theme-link-badge {
             },
             {
                 date: "19 de Julio", series: "Vivir es Cristo", theme: "Lección 1: Vivir es Cristo - Filipenses 1:1-11", status: "past", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
+                materialUrl: "https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2",
                 classes: {
                     "3-5": { encargado: "Danna", apoyo: "Rebeca", pdfUrl: "https://drive.google.com/file/d/1rAmMB34QB_sgRnBqUZ2DsBj_QE0iSqaq/view?usp=drive_web" },
                     "6-8": { encargado: "Aby, Joaquín", apoyo: "Denisse, Isaí" },
@@ -3302,7 +3304,7 @@ body.bg-theme-light .theme-link-badge {
             },
             {
                 date: "26 de Julio", series: "Vivir es Cristo", theme: "Lección 2: Vivir es Cristo - Filipenses 1:12-30", status: "past", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
+                materialUrl: "https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2",
                 classes: {
                     "3-5": { encargado: "Alexa", apoyo: "Yadira" },
                     "6-8": { encargado: "Ramón, Cristina", apoyo: "Claudia, Mauricio" },
@@ -3311,7 +3313,7 @@ body.bg-theme-light .theme-link-badge {
             },
             {
                 date: "02 de Agosto", series: "Vivir es Cristo", theme: "Lección 3: Vivir es Cristo - Filipenses 2:1-11", status: "past", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
+                materialUrl: "https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2",
                 classes: {
                     "3-5": { encargado: "Liz", apoyo: "Rebeca" },
                     "6-8": { encargado: "Sinddy, Alan", apoyo: "Carlos, Juan Carlos" },
@@ -3320,7 +3322,7 @@ body.bg-theme-light .theme-link-badge {
             },
             {
                 date: "09 de Agosto", series: "Vivir es Cristo", theme: "Lección 4: Vivir es Cristo - Filipenses 2:12-18", status: "past", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
+                materialUrl: "https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2",
                 classes: {
                     "3-5": { encargado: "Danna", apoyo: "Yadira", pdfUrl: "https://drive.google.com/file/d/1AK7dgxtIQT1UbXbkT3aQiKhEIFPXY1YQ/view?usp=drive_web" },
                     "6-8": { encargado: "Karla, Daniel", apoyo: "Alexa Sarai, Cristina" },
@@ -3329,7 +3331,7 @@ body.bg-theme-light .theme-link-badge {
             },
             {
                 date: "16 de Agosto", series: "Vivir es Cristo", theme: "Lección 5: Vivir es Cristo - Filipenses 3", status: "past", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
+                materialUrl: "https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2",
                 classes: {
                     "3-5": { encargado: "Alexa", apoyo: "Alondra" },
                     "6-8": { encargado: "Aby, Alan", apoyo: "Denisse, Mauricio" },
@@ -3338,7 +3340,7 @@ body.bg-theme-light .theme-link-badge {
             },
             {
                 date: "23 de Agosto", series: "Vivir es Cristo", theme: "Lección 6: Vivir es Cristo - Filipenses 4:1-7", status: "past", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
+                materialUrl: "https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2",
                 classes: {
                     "3-5": { encargado: "Liz", apoyo: "Camila" },
                     "6-8": { encargado: "Sinddy, Joaquín", apoyo: "Carlos, Isaí" },
@@ -3347,7 +3349,7 @@ body.bg-theme-light .theme-link-badge {
             },
             {
                 date: "30 de Agosto", series: "Vivir es Cristo", theme: "Lección 7: Vivir es Cristo - Filipenses 4:8-9", status: "past", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
+                materialUrl: "https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2",
                 classes: {
                     "3-5": { encargado: "Danna", apoyo: "Rebeca", pdfUrl: "https://drive.google.com/file/d/1rAmMB34QB_sgRnBqUZ2DsBj_QE0iSqaq/view?usp=drive_web" },
                     "6-8": { encargado: "Karla, Daniel", apoyo: "Alexa Sarai, Cristina" },
@@ -3355,7 +3357,7 @@ body.bg-theme-light .theme-link-badge {
                 }
             },            {
                 date: "06 de Septiembre", series: "Vivir es Cristo", theme: "Lección 8: Vivir es Cristo - Filipenses 4:10-23", status: "past", badgeText: "Completado",
-                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
+                materialUrl: "https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2",
                 classes: {
                     "3-5": { encargado: "Alexa", apoyo: "Yadira" },
                     "6-8": { encargado: "Aby, Alan", apoyo: "Denisse, Mauricio" },
@@ -3364,7 +3366,7 @@ body.bg-theme-light .theme-link-badge {
             },
             {
                 date: "13 de Septiembre", series: "Mensaje Directo", theme: "Mensaje Directo  •  Lección Especial", status: "past", badgeText: "Completado",
-                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
+                materialUrl: "https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2",
                 classes: {
                     "3-5": { encargado: "Liz", apoyo: "Camila" },
                     "6-8": { encargado: "Karla, Joaquín", apoyo: "Alexa Sarai, Isaí" },
@@ -3373,7 +3375,7 @@ body.bg-theme-light .theme-link-badge {
             },
                                     {
                 date: "20 de Septiembre", series: "Mensaje Directo", theme: "Mensaje Directo  •  Lección 1: Confesión y arrepentimiento (Salmo 51)", status: "past", badgeText: "Completado",
-                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
+                materialUrl: "https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2",
                 classes: {
                     "3-5": { encargado: "Danna", apoyo: "Alondra", pdfUrl: "https://drive.google.com/file/d/1EzcNBNLpfYamaMaCxUglPDYHk6Yk1Rex/view?usp=drive_web" },
                     "6-8": { encargado: "Danna, Daniel", apoyo: "Alondra, Cristina", pdfUrl: "https://drive.google.com/open?id=1m5bw80XkmdbMBtvE6zFPelcBusi2YGDl" },
@@ -3382,7 +3384,7 @@ body.bg-theme-light .theme-link-badge {
             },
             {
                 date: "27 de Septiembre", series: "Mensaje Directo", theme: "Mensaje Directo  •  Lección 2: Alabanza y gratitud (Salmo 136)", status: "past", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
+                materialUrl: "https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2",
                 classes: {
                     "3-5": { encargado: "Liz", apoyo: "Yadira", pdfUrl: "https://drive.google.com/file/d/1OMgycMMi7shzo05vyaj_O7YCWpnKfmsT/view?usp=drive_web" },
                     "6-8": { encargado: "Liz, Joaquín", apoyo: "Yadira, Carlos", pdfUrl: "https://drive.google.com/open?id=1DBVATmMUrn1LpbdwSD4hr74F3itS2unP" },
@@ -3391,7 +3393,6 @@ body.bg-theme-light .theme-link-badge {
             },
             {
                 date: "04 de Octubre", series: "Mensaje Directo", theme: "Mensaje Directo  •  Lección 3: Pedir su dirección (Salmo 119:26-35)", status: "current", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
                 classes: {
                     "3-5": { encargado: "Danna", apoyo: "Rebeca", pdfUrl: "https://drive.google.com/file/d/1rAmMB34QB_sgRnBqUZ2DsBj_QE0iSqaq/view?usp=drive_web" },
                     "6-8": { encargado: "Karla", apoyo: "Alexa Sarai", pdfUrl: "https://drive.google.com/open?id=1T3QatpPzZ52IdH5zvqSdvp79RJJwEFzd" },
@@ -3400,7 +3401,7 @@ body.bg-theme-light .theme-link-badge {
             },
             {
                 date: "11 de Octubre", series: "Mensaje Directo", theme: "Mensaje Directo  •  Lección 4: Confiar en su amor (Efesios 3:14-21)", status: "current", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
+                materialUrl: "https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2",
                 classes: {
                     "3-5": { encargado: "Alexa", apoyo: "Camila", pdfUrl: "https://drive.google.com/file/d/1yWy5Q6nmj1S8U-JoZmtnOfyeYEknTes8/view?usp=drive_web" },
                     "6-8": { encargado: "Alan", apoyo: "Mauricio", pdfUrl: "https://drive.google.com/open?id=1tTswqhANFj4Wt3nj-2wu6oYFB2dFG0ZL" },
@@ -3409,7 +3410,7 @@ body.bg-theme-light .theme-link-badge {
             },
             {
                 date: "18 de Octubre", series: "Mensaje Directo", theme: "Mensaje Directo  •  Lección 5: Fortaleciendo para amar más y más (1 Tesalonicenses 3:12-13)", status: "current", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
+                materialUrl: "https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2",
                 classes: {
                     "3-5": { encargado: "Liz", apoyo: "Alondra", pdfUrl: "https://drive.google.com/file/d/1TLwzYvidtCn1WmyPbZbr6NhDGVVEAuQF/view?usp=drive_web" },
                     "6-8": { encargado: "Aby", apoyo: "Denisse", pdfUrl: "https://drive.google.com/file/d/1Rqt4OzKp1b3gzzheVuaEUm3oz2hV705Q/view?usp=drive_web" },
@@ -3418,7 +3419,7 @@ body.bg-theme-light .theme-link-badge {
             },
             {
                 date: "25 de Octubre", series: "Mensaje Directo", theme: "Mensaje Directo  •  Lección 6: Dando gloria a Dios (2 Tesalonicenses 1:11-12)", status: "current", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
+                materialUrl: "https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2",
                 classes: {
                     "3-5": { encargado: "Danna", apoyo: "Yadira", pdfUrl: "https://drive.google.com/file/d/1AK7dgxtIQT1UbXbkT3aQiKhEIFPXY1YQ/view?usp=drive_web" },
                     "6-8": { encargado: "Daniel", apoyo: "Cristina", pdfUrl: "https://drive.google.com/open?id=1CqRyA-EQzs_FkD5oSNaG7TGXMLAIRq2b" },
@@ -4086,6 +4087,10 @@ body.bg-theme-light .theme-link-badge {
         const MONTHS_ES = { enero: 0, febrero: 1, marzo: 2, abril: 3, mayo: 4, junio: 5, julio: 6, agosto: 7, septiembre: 8, octubre: 9, noviembre: 10, diciembre: 11 };
         const GROUP_LABELS = { "3-5": "Preescolar y 1.º de Primaria", "6-8": "2.º a 6.º Primaria", "jv12": "JV12 / Secundaria" };
         let _myUpcoming = [];
+        // WhatsApp del coordinador que recibe las solicitudes de impresión del devocional (con lada, sin + ni espacios).
+        // Si se deja vacío, WhatsApp deja elegir el contacto al enviar.
+        const PRINT_REQUEST_PHONE = '528131729993';
+        let _prepTeacher = '';
         let _nextTicker = null;
 
         function parsePlannerDate(str) {
@@ -4140,6 +4145,8 @@ body.bg-theme-light .theme-link-badge {
         function buildNextClassHtml(teacherName) {
             _myUpcoming = getMyUpcoming(teacherName);
             if (!_myUpcoming.length) return '';
+            _prepTeacher = teacherName;
+            _prepCleanup();
             const n = _myUpcoming[0];
             const d = n.start.toLocaleDateString('es-MX', { weekday: 'long', day: 'numeric', month: 'long' });
             const dateStr = d.charAt(0).toUpperCase() + d.slice(1);
@@ -4153,11 +4160,19 @@ body.bg-theme-light .theme-link-badge {
                     <div class="next-class-when">${dateStr}, ${timeStr}</div>
                     <div class="next-class-theme">${n.theme}</div>
                     <div class="next-class-meta">${n.group} · ${roleTxt}${partnerTxt}</div>
+                    <div class="nc-prep">
+                        <div class="nc-prep-head"><span>✅ Mi preparación</span><span class="nc-prep-count" id="ncPrepCount">${_prepCountText(n)}</span></div>
+                        <label class="nc-check"><input type="checkbox" ${_prepLoad(n).read ? 'checked' : ''} onchange="togglePrep('read', this)"><span>Leí la lección</span></label>
+                        ${n.partner ? `<label class="nc-check"><input type="checkbox" ${_prepLoad(n).talked ? 'checked' : ''} onchange="togglePrep('talked', this)"><span>Hablé con ${n.partner}</span></label>` : ''}
+                        <label class="nc-check"><input type="checkbox" ${_prepLoad(n).printed ? 'checked' : ''} onchange="togglePrep('printed', this)"><span>Devocional impreso</span></label>
+                        <button class="nc-btn" onclick="requestPrint()">📨 Pedir que impriman el devocional</button>
+                        <div class="nc-prep-note" id="ncPrintNote">${_prepLoad(n).requested ? '✅ Ya enviaste la solicitud de impresión' : ''}</div>
+                    </div>
                     <div class="next-class-actions">
-                        <button class="nc-btn" onclick="downloadMyCalendar()">📅 Agregar mis ${_myUpcoming.length} fechas a mi calendario</button>
+                        <button class="nc-btn" onclick="addNextToCalendar()">📅 Agregar a mi calendario</button>
+                        ${_myUpcoming.length > 1 ? `<button class="nc-btn" onclick="addAllToCalendar()">🗓️ Agregar mis ${_myUpcoming.length} fechas</button>` : ''}
                         ${n.partner ? `<button class="nc-btn" onclick="messagePartner()">💬 Escribir a ${n.partner}</button>` : ''}
-                        ${n.material ? `<a class="nc-btn" href="${n.material}" target="_blank" rel="noopener">📂 Material de la lección</a>` : ''}
-                        ${n.pdf ? `<a class="nc-btn" href="${n.pdf}" target="_blank" rel="noopener">📄 PDF de mi clase</a>` : ''}
+                        ${(n.pdf || n.material) ? `<a class="nc-btn" href="${n.pdf || n.material}" target="_blank" rel="noopener">📄 Material de la lección</a>` : ''}
                     </div>
                 </div>`;
         }
@@ -4172,37 +4187,241 @@ body.bg-theme-light .theme-link-badge {
             _nextTicker = setInterval(tick, 30000);
         }
 
-        function downloadMyCalendar() {
-            if (!_myUpcoming.length) return;
-            const pad = x => String(x).padStart(2, '0');
-            const fmt = d => `${d.getFullYear()}${pad(d.getMonth() + 1)}${pad(d.getDate())}T${pad(d.getHours())}${pad(d.getMinutes())}00`;
+        // ---- Calendario: agregar clases al celular ----
+        function _isIOS() {
+            return /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+        }
+
+        function _calPad(x) { return String(x).padStart(2, '0'); }
+        function _calFmt(d) {
+            return `${d.getFullYear()}${_calPad(d.getMonth() + 1)}${_calPad(d.getDate())}T${_calPad(d.getHours())}${_calPad(d.getMinutes())}00`;
+        }
+        function _calRole(it) {
+            return it.role === 'lead' ? 'Encargado' : it.role === 'support' ? 'Apoyo' : 'Encargado y apoyo';
+        }
+        function _calDetails(it) {
+            return `${it.group} · ${_calRole(it)}` + (it.partner ? `\nCon: ${it.partner}` : '') + ((it.pdf || it.material) ? `\nMaterial: ${it.pdf || it.material}` : '');
+        }
+
+        function _buildIcs(items) {
             const esc = t => String(t).replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\n/g, '\\n');
             const stamp = new Date().toISOString().replace(/[-:]|\.\d{3}/g, '');
             const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Planner Dominical//ES', 'CALSCALE:GREGORIAN', 'X-WR-CALNAME:Mis clases dominicales'];
-            _myUpcoming.forEach((it, i) => {
-                const roleTxt = it.role === 'lead' ? 'Encargado' : it.role === 'support' ? 'Apoyo' : 'Encargado y apoyo';
-                const desc = `${it.group} · ${roleTxt}` + (it.partner ? `\nCon: ${it.partner}` : '') + (it.material ? `\nMaterial: ${it.material}` : '');
-                lines.push('BEGIN:VEVENT', `UID:planner-${fmt(it.start)}-${it.gid}-${i}@planner-dominical`, `DTSTAMP:${stamp}`,
-                    `DTSTART:${fmt(it.start)}`, `DTEND:${fmt(it.end)}`, `SUMMARY:${esc('Clase dominical: ' + it.theme)}`, `DESCRIPTION:${esc(desc)}`,
+            items.forEach((it, i) => {
+                lines.push('BEGIN:VEVENT', `UID:planner-${_calFmt(it.start)}-${it.gid}-${i}@planner-dominical`, `DTSTAMP:${stamp}`,
+                    `DTSTART:${_calFmt(it.start)}`, `DTEND:${_calFmt(it.end)}`, `SUMMARY:${esc('Clase dominical: ' + it.theme)}`, `DESCRIPTION:${esc(_calDetails(it))}`,
                     'BEGIN:VALARM', 'ACTION:DISPLAY', 'DESCRIPTION:Clase dominical mañana', 'TRIGGER:-P1D', 'END:VALARM',
                     'BEGIN:VALARM', 'ACTION:DISPLAY', 'DESCRIPTION:Clase dominical en 1 hora', 'TRIGGER:-PT1H', 'END:VALARM', 'END:VEVENT');
             });
             lines.push('END:VCALENDAR');
-            const blob = new Blob([lines.join('\r\n')], { type: 'text/calendar;charset=utf-8' });
+            return lines.join('\r\n');
+        }
+
+        // iPhone: Safari abre directo la pantalla "Agregar a Calendario" con un enlace data:
+        function _openIcsOnIOS(items) {
+            window.location.href = 'data:text/calendar;charset=utf-8,' + encodeURIComponent(_buildIcs(items));
+        }
+
+        function _downloadIcs(items) {
+            const blob = new Blob([_buildIcs(items)], { type: 'text/calendar;charset=utf-8' });
             const a = document.createElement('a');
             a.href = URL.createObjectURL(blob);
             a.download = 'mis-clases-dominicales.ics';
             document.body.appendChild(a);
             a.click();
             setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
-            showToastNotification(`📅 Listo: ${_myUpcoming.length} clases con recordatorio un día y una hora antes`);
+        }
+
+        // Un toque: agrega la próxima clase.
+        // iPhone -> pantalla nativa de Calendario. Android/PC -> Google Calendar con el evento ya llenado.
+        function addNextToCalendar() {
+            const n = _myUpcoming[0];
+            if (!n) return;
+            if (_isIOS()) {
+                _openIcsOnIOS([n]);
+                return;
+            }
+            const url = 'https://calendar.google.com/calendar/render?action=TEMPLATE'
+                + '&text=' + encodeURIComponent('Clase dominical: ' + n.theme)
+                + '&dates=' + _calFmt(n.start) + '/' + _calFmt(n.end)
+                + '&details=' + encodeURIComponent(_calDetails(n))
+                + '&ctz=America/Monterrey';
+            window.open(url, '_blank');
+            showToastNotification('📅 Toca «Guardar» en Google Calendar para terminar');
+        }
+
+        // Todas mis fechas en un solo archivo .ics (con recordatorio un día y una hora antes).
+        function addAllToCalendar() {
+            if (!_myUpcoming.length) return;
+            if (_isIOS()) {
+                _openIcsOnIOS(_myUpcoming);
+                return;
+            }
+            _downloadIcs(_myUpcoming);
+            showToastNotification(`📥 Abre el archivo descargado y elige «Agregar» para guardar tus ${_myUpcoming.length} clases`);
+        }
+
+        // ---- Lista de preparación (se guarda en el celular y se reinicia con cada clase) ----
+        function _isoDate(d) { return `${d.getFullYear()}${_calPad(d.getMonth() + 1)}${_calPad(d.getDate())}`; }
+        function _prepKey(n) { return `planner_prep_v1:${normalizeString(_prepTeacher)}:${_isoDate(n.start)}:${n.gid}`; }
+        function _prepLoad(n) {
+            try { return JSON.parse(localStorage.getItem(_prepKey(n)) || '{}') || {}; } catch (e) { return {}; }
+        }
+        function _prepSave(n, st) {
+            try { localStorage.setItem(_prepKey(n), JSON.stringify(st)); } catch (e) {}
+        }
+        function _prepCleanup() {
+            try {
+                const today = _isoDate(new Date());
+                Object.keys(localStorage).forEach(k => {
+                    if (!k.startsWith('planner_prep_v1:')) return;
+                    const parts = k.split(':');
+                    if (parts[parts.length - 2] < today) localStorage.removeItem(k);
+                });
+            } catch (e) {}
+        }
+        function _prepCountText(n) {
+            const st = _prepLoad(n);
+            const keys = n.partner ? ['read', 'talked', 'printed'] : ['read', 'printed'];
+            const done = keys.filter(k => st[k]).length;
+            return done === keys.length ? '¡Todo listo! 🎉' : `${done} de ${keys.length}`;
+        }
+        function togglePrep(field, el) {
+            const n = _myUpcoming[0];
+            if (!n) return;
+            const st = _prepLoad(n);
+            st[field] = el.checked;
+            _prepSave(n, st);
+            const c = document.getElementById('ncPrepCount');
+            if (c) c.textContent = _prepCountText(n);
+        }
+
+        // Mensaje para pedir que impriman el devocional de mi clase
+        function requestPrint() {
+            const n = _myUpcoming[0];
+            if (!n) return;
+            const fecha = n.start.toLocaleDateString('es-MX', { weekday: 'long', day: 'numeric', month: 'long' }).replace(',', '');
+            const leccion = String(n.theme).split(' — ').pop().trim();
+            const link = n.pdf || n.material;
+            const text = `¡Hola! 🙏 Te escribe ${_prepTeacher}. ¿Me ayudas a imprimir el devocional para mi clase del ${fecha}?\n`
+                + `Grupo: ${n.group}\n`
+                + `${leccion}`
+                + (link ? `\n📄 ${link}` : '')
+                + `\n¡Gracias!`;
+            const base = PRINT_REQUEST_PHONE ? `https://wa.me/${PRINT_REQUEST_PHONE}` : 'https://api.whatsapp.com/send';
+            window.open(`${base}?text=${encodeURIComponent(text)}`, '_blank');
+            const st = _prepLoad(n);
+            st.requested = true;
+            _prepSave(n, st);
+            const note = document.getElementById('ncPrintNote');
+            if (note) note.textContent = '✅ Ya enviaste la solicitud de impresión';
+        }
+
+        // ---- Recordatorio para el grupo de WhatsApp (panel de coordinación) ----
+        function _reminderName(v) {
+            const s = String(v == null ? '' : v).trim();
+            return s === '-' ? '' : s;
+        }
+
+        function _upcomingWeeksWithClasses() {
+            const now = new Date();
+            const out = [];
+            scheduleData.forEach((week, i) => {
+                if (week.status === 'suspended' || !week.classes) return;
+                const start = parsePlannerDate(week.date);
+                if (!start) return;
+                if (new Date(start.getTime() + CLASS_MINUTES * 60000) <= now) return;
+                out.push({ week, i, start });
+            });
+            return out;
+        }
+
+        function buildReminderCardHtml() {
+            const weeks = _upcomingWeeksWithClasses();
+            if (!weeks.length) return '';
+            const opts = weeks.map(w => {
+                const label = `${w.week.date} · ${cleanTheme(w.week.theme)}`;
+                return `<option value="${w.i}">${label}</option>`;
+            }).join('');
+            const btn = 'flex: 1 1 140px; min-height: 44px; padding: 0.55rem 0.9rem; border-radius: 12px; font: 700 0.9rem/1.2 inherit; cursor: pointer;';
+            return `
+                        <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 18px; padding: 1.2rem; display: flex; flex-direction: column; gap: 0.85rem;">
+                            <h4 style="margin: 0; color: #15803d; font-size: 0.95rem; font-family: 'Bricolage Grotesque', 'Segoe UI', sans-serif; display: flex; align-items: center; gap: 0.5rem; font-weight: 700;">
+                                📣 Recordatorio para el grupo
+                            </h4>
+                            <select id="reminderWeekSelect" style="width: 100%; min-height: 44px; padding: 0.5rem 0.7rem; border-radius: 10px; border: 1px solid #86efac; background: #ffffff; color: #0f172a; font-size: 0.88rem;">${opts}</select>
+                            <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                                <button type="button" onclick="sendGroupReminder()" style="${btn} border: 1px solid #16a34a; background: #16a34a; color: #ffffff;">💬 Enviar por WhatsApp</button>
+                                <button type="button" onclick="copyGroupReminder()" style="${btn} border: 1px solid #86efac; background: #ffffff; color: #15803d;">📋 Copiar texto</button>
+                            </div>
+                        </div>
+`;
+        }
+
+        function buildGroupReminderText(week) {
+            const start = parsePlannerDate(week.date);
+            const fecha = start.toLocaleDateString('es-MX', { weekday: 'long', day: 'numeric', month: 'long' }).replace(',', '');
+            const fechaCap = fecha.charAt(0).toUpperCase() + fecha.slice(1);
+            const dias = (start - new Date()) / 86400000;
+            const intro = dias <= 7 ? 'Este domingo les toca a:' : `El ${fecha} les toca a:`;
+            const icons = { '3-5': '👶', '6-8': '👧', 'jv12': '🎓' };
+            const lines = [`📣 *Recordatorio de clases — ${fechaCap}*`, '', intro, ''];
+            ['3-5', '6-8', 'jv12'].forEach(gid => {
+                const c = week.classes[gid];
+                if (!c) return;
+                const enc = _reminderName(c.encargado);
+                const ap = _reminderName(c.apoyo);
+                lines.push(`${icons[gid]} *${GROUP_LABELS[gid]}*`);
+                lines.push(`Encargado: ${enc || '—'}` + (ap ? ` · Apoyo: ${ap}` : ''));
+                lines.push('');
+            });
+            lines.push(`📖 ${cleanTheme(week.theme)}`, '');
+            lines.push('Recuerden leer la lección y coordinarse con su compañero. ¡Gracias por servir! 🙌');
+            return lines.join('\n');
+        }
+
+        function _selectedReminderText() {
+            const sel = document.getElementById('reminderWeekSelect');
+            const week = sel ? scheduleData[parseInt(sel.value, 10)] : null;
+            return week ? buildGroupReminderText(week) : '';
+        }
+
+        function sendGroupReminder() {
+            const text = _selectedReminderText();
+            if (!text) return;
+            window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`, '_blank');
+        }
+
+        function copyGroupReminder() {
+            const text = _selectedReminderText();
+            if (!text) return;
+            const done = () => showToastNotification('📋 Recordatorio copiado');
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text).then(done).catch(() => { _copyFallback(text); done(); });
+            } else {
+                _copyFallback(text); done();
+            }
+        }
+        function _copyFallback(text) {
+            const ta = document.createElement('textarea');
+            ta.value = text;
+            ta.style.cssText = 'position: fixed; opacity: 0;';
+            document.body.appendChild(ta);
+            ta.select();
+            try { document.execCommand('copy'); } catch (e) {}
+            ta.remove();
         }
 
         function messagePartner() {
             const n = _myUpcoming.find(x => x.partner);
             if (!n) return;
-            const d = n.start.toLocaleDateString('es-MX', { weekday: 'long', day: 'numeric', month: 'long' });
-            const text = `Hola ${n.partner} 👋 Nos toca juntos el ${d} con ${n.group}. La lección es "${n.theme}". ¿Nos ponemos de acuerdo para preparar la clase?` + (n.material ? `\nMaterial: ${n.material}` : '');
+            const fecha = n.start.toLocaleDateString('es-MX', { weekday: 'long', day: 'numeric', month: 'long' }).replace(',', '');
+            // Nombre de la lección sin el prefijo de la serie (ej. "Mensaje Directo — Lección 5: ...")
+            const leccion = String(n.theme).split(' — ').pop().trim();
+            const link = n.pdf || n.material;
+            const text = `¡Hola, ${n.partner}! 👋 Te escribo porque nos toca dar clase juntos este ${fecha} con el grupo de ${n.group}.\n`
+                + `Veremos la ${leccion}. ¿Cuándo tienes un tiempo para coordinarnos con la clase y el material?`
+                + (link ? `\n\n📄 Material: ${link}` : '');
             window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`, '_blank');
         }
 
@@ -4283,6 +4502,8 @@ body.bg-theme-light .theme-link-badge {
                             <h3 class="dashboard-username" style="font-size: 1.35rem; margin-top: 0.6rem; color: var(--text-main);">Panel de Coordinación</h3>
                             <span class="welcome-badge" style="background: rgba(99, 102, 241, 0.15); border: 1px solid rgba(99, 102, 241, 0.3); color: #a5b4fc; font-size: 0.78rem; padding: 0.3rem 0.85rem; border-radius: 30px; margin-top: 0.35rem; font-weight: 600;">${adminBadgeLabel}</span>
                         </div>
+
+                        ${buildReminderCardHtml()}
 
                         <!-- Bloque exclusivo de Coordinación: Edades y Grados de los Niños -->
                         <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 18px; padding: 1.2rem; display: flex; flex-direction: column; gap: 0.85rem;">
