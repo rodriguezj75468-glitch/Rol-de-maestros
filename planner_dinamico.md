@@ -1,4 +1,4 @@
-# 📅 PLANNER DOMINICAL — ROL ACTUALIZADO DE CLASES 🚀
+﻿# 📅 PLANNER DOMINICAL — ROL ACTUALIZADO DE CLASES 🚀
 
 Este es el rol de maestros actualizado para los meses de **Junio, Julio, Agosto y Septiembre de 2026**, incorporando la rotación de maestros y coordinadores para todas las aulas dominicales a partir del 28 de Junio.
 
@@ -19,6 +19,9 @@ Este es el rol de maestros actualizado para los meses de **Junio, Julio, Agosto 
 | **23 de Agosto** | [Lección 6: Vivir es Cristo - Filipenses 4:1-7](https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n) | **E:** Liz <br> **A:** Camila | **E:** Sinddy <br> **A:** Carlos | **E:** Joaquín <br> **A:** Isaí | **E:** Ramón <br> **A:** Claudia |
 | **30 de Agosto** | [Lección 7: Vivir es Cristo - Filipenses 4:8-9](https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n) | **E:** Danna <br> **A:** Rebeca | **E:** Karla <br> **A:** Alexa Sarai | **E:** Daniel <br> **A:** Cristina | **E:** Robert <br> **A:** Sara |
 | **06 de Septiembre** | [Lección 8: Vivir es Cristo - Filipenses 4:10-23](https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n) | **E:** Alexa <br> **A:** Yadira | **E:** Aby <br> **A:** Denisse | **E:** Alan <br> **A:** Mauricio | **E:** Josué <br> **A:** Raquel |
+| **13 de Septiembre** | [Mensaje Directo â€” LecciÃ³n Especial](https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP) | **E:** Liz <br> **A:** Camila | **E:** Karla <br> **A:** Alexa Sarai | **E:** JoaquÃ­n <br> **A:** IsaÃ­ | **E:** Robert <br> **A:** Sara |
+| **20 de Septiembre** | [Mensaje Directo â€” LecciÃ³n 1](https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP) | **E:** Danna <br> **A:** Alondra | **E:** Danna <br> **A:** Alondra | **E:** Daniel <br> **A:** Cristina | **E:** Sinddy <br> **A:** Juan Carlos |
+| **27 de Septiembre** | [Mensaje Directo â€” LecciÃ³n 2](https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP) | **E:** Liz <br> **A:** Yadira | **E:** Liz <br> **A:** Yadira | **E:** JoaquÃ­n <br> **A:** Carlos | **E:** RamÃ³n <br> **A:** Claudia |
 
 *Abreviaturas: **E** = Encargado, **A** = Apoyo.*
 

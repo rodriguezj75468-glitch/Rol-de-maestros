@@ -8,17 +8,17 @@
 
     <!-- Open Graph / Meta etiquetas para compartir (WhatsApp, Facebook, etc.) -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://rodriguezj75468-glitch.github.io/Rol_de_maestros/">
-    <meta property="og:title" content="📅 Planner Dominical — Rol de Maestros">
+    <meta property="og:url" content="https://rodriguezj75468-glitch.github.io/Rol_de_maños/">
+    <meta property="og:title" content="📅 Planner Dominical - Rol de Maños">
     <meta property="og:description" content="Consulta tu rol de clases dominicales, tus fechas asignadas y descarga tus materiales de estudio en tiempo real.">
-    <meta property="og:image" content="https://rodriguezj75468-glitch.github.io/Rol_de_maestros/logo_ngo.png">
+    <meta property="og:image" content="https://rodriguezj75468-glitch.github.io/Rol_de_maños/logo_ngo.png">
     
     <!-- Meta etiquetas para Twitter/X -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://rodriguezj75468-glitch.github.io/Rol_de_maestros/">
-    <meta name="twitter:title" content="📅 Planner Dominical — Rol de Maestros">
+    <meta name="twitter:url" content="https://rodriguezj75468-glitch.github.io/Rol_de_maños/">
+    <meta name="twitter:title" content="📅 Planner Dominical - Rol de Maños">
     <meta name="twitter:description" content="Consulta tu rol of clases dominicales, tus fechas asignadas y descarga tus materiales de estudio en tiempo real.">
-    <meta name="twitter:image" content="https://rodriguezj75468-glitch.github.io/Rol_de_maestros/logo_ngo.png">
+    <meta name="twitter:image" content="https://rodriguezj75468-glitch.github.io/Rol_de_maños/logo_ngo.png">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap');
 
@@ -284,7 +284,7 @@
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
             transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
             animation: slideUp 0.8s ease-out forwards;
-            opacity: 0;
+            opacity: 1;
             position: relative;
             overflow: hidden;
         }
@@ -339,26 +339,30 @@
         }
 
         .theme-link-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.4rem;
-            font-size: 0.8rem;
-            font-weight: 600;
-            color: #60a5fa;
-            background: rgba(59, 130, 246, 0.12);
-            border: 1px solid rgba(59, 130, 246, 0.25);
-            padding: 0.35rem 0.8rem;
-            border-radius: 50px;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            cursor: pointer;
+            display: inline-flex !important;
+            align-items: center !important;
+            gap: 0.5rem !important;
+            font-size: 1.5rem !important;
+            font-weight: 800 !important;
+            color: #2563eb !important;
+            background: transparent !important;
+            background-color: transparent !important;
+            border: none !important;
+            border-radius: 0 !important;
+            padding: 0 !important;
+            box-shadow: none !important;
+            text-decoration: none !important;
+            cursor: pointer !important;
+            line-height: 1.3 !important;
         }
 
         .theme-link-badge:hover {
-            background: #3b82f6;
-            color: #ffffff;
-            box-shadow: 0 0 10px rgba(59, 130, 246, 0.4);
-            transform: translateY(-1px);
+            background: transparent !important;
+            background-color: transparent !important;
+            border: none !important;
+            box-shadow: none !important;
+            color: #1e40af !important;
+            transform: translateY(-1px) !important;
         }
 
         .group-title a {
@@ -395,14 +399,26 @@
             gap: 0.75rem;
         }
 
-        .week-theme {
-            font-size: 1.15rem;
-            font-weight: 500;
-            padding: 0.4rem 1.25rem;
-            background: rgba(255, 255, 255, 0.04);
-            border-radius: 50px;
-            color: #cbd5e1;
-            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
+        .week-theme, .theme-link-badge {
+            font-size: 1.5rem !important;
+            font-weight: 800 !important;
+            color: #2563eb !important;
+            background: transparent !important;
+            background-color: transparent !important;
+            border: none !important;
+            border-radius: 0 !important;
+            padding: 0 !important;
+            box-shadow: none !important;
+            line-height: 1.3 !important;
+        }
+
+        .theme-link-badge:hover {
+            background: transparent !important;
+            background-color: transparent !important;
+            border: none !important;
+            box-shadow: none !important;
+            color: #1e40af !important;
+            transform: translateY(-1px) !important;
         }
 
         .suspended-content {
@@ -431,16 +447,22 @@
 
         .groups-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 1.5rem;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 1.2rem;
             transition: all 0.3s ease;
         }
 
-        /* Enhanced Vertical Lesson Card */
+        @media (max-width: 1100px) {
+            .groups-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Enhanced Vertical León Card */
         .lesson-detail-card {
             background: rgba(15, 23, 42, 0.55);
             border-radius: 20px;
-            padding: 2.2rem 1.5rem 1.5rem;
+            padding: 2rem 1.1rem 1.2rem;
             border-top: 1px solid rgba(255, 255, 255, 0.08);
             border-right: 1px solid rgba(255, 255, 255, 0.08);
             border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -655,7 +677,7 @@
             display: flex;
             flex-direction: column;
             gap: 0.6rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            border-top: 1px solid #e2e8f0;
             padding-top: 0.85rem;
             margin-top: auto;
         }
@@ -663,31 +685,56 @@
         .card-role-item {
             display: flex;
             align-items: center;
-            gap: 0.65rem;
-            font-size: 0.95rem;
-            padding: 0.4rem 0.55rem;
-            border-radius: 8px;
-            background: rgba(255, 255, 255, 0.01);
-            border: 1px solid rgba(255, 255, 255, 0.02);
+            justify-content: space-between;
+            gap: 0.5rem;
+            font-size: 0.88rem;
+            padding: 0.45rem 0.65rem;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.05);
             transition: all 0.2s ease;
+            box-sizing: border-box;
+            width: 100%;
         }
 
         .card-role-item:hover {
-            background: rgba(255, 255, 255, 0.03);
-            border-color: rgba(255, 255, 255, 0.06);
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .card-role-icon {
+            font-size: 0.9rem;
+            opacity: 0.9;
+            flex-shrink: 0;
         }
 
         .card-role-label {
-            font-size: 0.65rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.68rem;
             text-transform: uppercase;
-            font-weight: 700;
+            font-weight: 750;
             letter-spacing: 0.5px;
-            padding: 0.2rem 0.45rem;
+            padding: 0.25rem 0.55rem;
             border-radius: 6px;
-            min-width: 75px;
+            white-space: nowrap;
+            flex-shrink: 0;
             text-align: center;
             box-sizing: border-box;
             border: 1px solid transparent;
+        }
+
+        .role-name {
+            font-weight: 700;
+            font-size: 0.88rem;
+            color: var(--text-main);
+            text-align: right;
+            margin-left: auto;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            word-break: normal;
         }
 
         .card-role-item.role-lead .card-role-label {
@@ -1077,7 +1124,7 @@
             color: #ffffff;
         }
 
-        /* Center-Stacked Lesson Count Badge */
+        /* Center-Stacked León Count Badge */
         .month-lessons-badge {
             font-family: 'Outfit', sans-serif;
             font-size: 0.75rem;
@@ -1237,12 +1284,27 @@
                 gap: 0.5rem;
             }
 
-            .week-theme {
-                font-size: 1rem;
-                width: 100%;
-                box-sizing: border-box;
-                text-align: center;
-            }
+                    .week-theme, .theme-link-badge {
+            font-size: 1.5rem !important;
+            font-weight: 800 !important;
+            color: #2563eb !important;
+            background: transparent !important;
+            background-color: transparent !important;
+            border: none !important;
+            border-radius: 0 !important;
+            padding: 0 !important;
+            box-shadow: none !important;
+            line-height: 1.3 !important;
+        }
+
+        .theme-link-badge:hover {
+            background: transparent !important;
+            background-color: transparent !important;
+            border: none !important;
+            box-shadow: none !important;
+            color: #1e40af !important;
+            transform: translateY(-1px) !important;
+        }
 
             .filter-container {
                 padding: 1.25rem;
@@ -1299,7 +1361,7 @@
                 padding: 0.1rem 0.45rem;
             }
 
-            /* Lesson Card spacing adjustments to prevent text cut-off */
+            /* León Card spacing adjustments to prevent text cut-off */
             .lesson-detail-card {
                 padding: 2rem 1.1rem 1.2rem;
             }
@@ -1314,9 +1376,7 @@
             }
 
             .card-role-label {
-                font-size: 0.6rem;
-                min-width: 65px;
-                padding: 0.15rem 0.35rem;
+                font-size: 0.6rem; padding: 0.2rem 0.45rem; flex-shrink: 0; white-space: nowrap; width: max-content;
             }
         }
 
@@ -1973,6 +2033,18 @@
             border-color: rgba(0, 0, 0, 0.08);
         }
 
+        body.bg-theme-light .card-role-item.role-lead .card-role-label {
+            background: #fef3c7;
+            color: #d97706;
+            border-color: #fde68a;
+        }
+
+        body.bg-theme-light .card-role-item.role-support .card-role-label {
+            background: #dbeafe;
+            color: #2563eb;
+            border-color: #bfdbfe;
+        }
+
         /* High-contrast and extremely readable teacher and support names in Light Theme */
         body.bg-theme-light .role-name {
             color: #0f172a !important; /* Very dark slate black for maximum legibility */
@@ -2095,9 +2167,26 @@
             background: rgba(255, 255, 255, 0.35);
         }
 
-        body.bg-theme-light .week-theme {
-            background: rgba(0, 0, 0, 0.03);
-            color: #334155;
+        body.bg-theme-light         .week-theme, .theme-link-badge {
+            font-size: 1.5rem !important;
+            font-weight: 800 !important;
+            color: #2563eb !important;
+            background: transparent !important;
+            background-color: transparent !important;
+            border: none !important;
+            border-radius: 0 !important;
+            padding: 0 !important;
+            box-shadow: none !important;
+            line-height: 1.3 !important;
+        }
+
+        .theme-link-badge:hover {
+            background: transparent !important;
+            background-color: transparent !important;
+            border: none !important;
+            box-shadow: none !important;
+            color: #1e40af !important;
+            transform: translateY(-1px) !important;
         }
 
         body.bg-theme-light .group-age {
@@ -2106,8 +2195,26 @@
             color: #334155;
         }
 
-        body.bg-theme-light .theme-link-badge {
-            background: rgba(59, 130, 246, 0.08);
+        body.bg-theme-light .week-theme,
+body.bg-theme-light .theme-link-badge {
+            color: #1d4ed8 !important;
+            background: transparent !important;
+            background-color: transparent !important;
+            border: none !important;
+            border-radius: 0 !important;
+            padding: 0 !important;
+            box-shadow: none !important;
+            font-size: 1.5rem !important;
+            font-weight: 800 !important;
+        }
+
+        body.bg-theme-light .theme-link-badge:hover {
+            background: transparent !important;
+            background-color: transparent !important;
+            border: none !important;
+            box-shadow: none !important;
+            color: #1e40af !important;
+            transform: translateY(-1px) !important;
         }
 
         /* Dark Theme variables */
@@ -2228,7 +2335,7 @@
             transform: scale(1) translateY(0);
         }
 
-        .share-modal-close {
+        .share-modañose {
             position: absolute;
             top: 1.25rem;
             right: 1.25rem;
@@ -2246,7 +2353,7 @@
             transition: all 0.3s ease;
         }
 
-        .share-modal-close:hover {
+        .share-modañose:hover {
             background: rgba(244, 63, 94, 0.2);
             color: #f43f5e;
             border-color: rgba(244, 63, 94, 0.4);
@@ -2439,7 +2546,7 @@
             transform: scale(1) translateY(0);
         }
 
-        .admin-modal-close {
+        .admin-modañose {
             position: absolute;
             top: 1.25rem;
             right: 1.25rem;
@@ -2458,7 +2565,7 @@
             z-index: 10;
         }
 
-        .admin-modal-close:hover {
+        .admin-modañose:hover {
             background: rgba(244, 63, 94, 0.2);
             color: #f43f5e;
             border-color: rgba(244, 63, 94, 0.4);
@@ -2619,13 +2726,61 @@
                 grid-template-columns: 1fr 380px; /* Wider sidebar */
             }
         }
-    </style>
-</head>
+            /* Recuaños de Cronograma de Clases y Panel de Coordinacion con fondo blanco */
+        .timeline-header {
+            background: #ffffff !important;
+            border: 1px solid #e2e8f0 !important;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06) !important;
+            color: #0f172a !important;
+        }
+        .timeline-header h2 {
+            background: linear-gradient(135deg, #4f46e5, #7c3aed) !important;
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+        }
+        .timeline-header .toggle-container {
+            background: #f1f5f9 !important;
+            border: 1px solid #e2e8f0 !important;
+        }
+        .timeline-header .toggle-container span {
+            color: #334155 !important;
+        }
+        .room-filter-container {
+            border-top: 1px solid #e2e8f0 !important;
+        }
+        .room-filter-container span {
+            color: #475569 !important;
+        }
+        .room-btn {
+            background: #f8fafc !important;
+            border: 1px solid #cbd5e1 !important;
+            color: #334155 !important;
+        }
+        .room-btn:hover {
+            background: #f1f5f9 !important;
+            color: #0f172a !important;
+        }
+        .teacher-dashboard-card {
+            background: #ffffff !important;
+            border: 1px solid #e2e8f0 !important;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08) !important;
+            color: #0f172a !important;
+        }
+        .dashboard-user-profile {
+            border-bottom: 1px solid #e2e8f0 !important;
+        }
+        .dashboard-username {
+            color: #0f172a !important;
+        }
+        .dashboard-agenda-title {
+            color: #0f172a !important;
+        }
+</style></head>
 
 <body>
 
     <!-- Hamburger Menu Button -->
-    <button id="menuToggleBtn" class="menu-toggle-btn" onclick="toggleMenu()" aria-label="Menú">
+    <button id="menuToggleBtn" class="menu-toggle-btn" onclick="toggleMenu()" aria-label="Men • ">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
@@ -2637,77 +2792,65 @@
     <!-- Slide-out Navigation Drawer -->
     <div id="navDrawer" class="nav-drawer">
         <div class="drawer-header">
-            <div class="drawer-title">☰ Menú</div>
+            <div class="drawer-title">? Men • </div>
             <button class="drawer-close-btn" onclick="toggleMenu()">&times;</button>
         </div>
         <div class="drawer-content">
             <!-- Option 1: Roles -->
             <div class="drawer-item" onclick="navigateToSection('roles')">
-                <span class="drawer-item-icon">📆</span>
-                <span class="drawer-item-text">1. Roles y Cronograma</span>
+                <span class="drawer-item-icon">📅</span><span class="drawer-item-text">1. Roles y Cronograma</span>
             </div>
-
-            <!-- Option 1.5: Calendario y Cumpleaños -->
-            <a href="calendario.html" class="drawer-item" style="text-decoration: none;">
-                <span class="drawer-item-icon">🎂</span>
-                <span class="drawer-item-text">1.5. Calendario y Cumpleaños</span>
-            </a>
 
             <!-- Option 2: Recursos (Collapsible Dropdown) -->
             <div id="recursosToggleItem" class="drawer-item" onclick="toggleRecursosMenu()">
-                <span class="drawer-item-icon">📚</span>
-                <span class="drawer-item-text">2. Recursos</span>
-                <span class="arrow-icon">▼</span>
+                <span class="drawer-item-icon">📁</span><span class="drawer-item-text">2. Recursos</span>
+                <span class="arrow-icon">&#9660;</span>
             </div>
 
             <!-- Collapsible Links -->
             <div id="recursosSubmenu" class="drawer-submenu">
                 <a href="https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP" target="_blank"
                     class="drawer-link-item">
-                    <span class="drawer-link-icon">📂</span>
-                    <div class="drawer-link-info">
-                        <span class="drawer-link-title">Carpeta General</span>
+                    <span class="drawer-link-icon">📂</span><div class="drawer-link-info"><span class="drawer-link-title">Carpeta General</span>
                         <span class="drawer-link-desc">Rol general y lecciones</span>
                     </div>
                 </a>
                 <a href="https://drive.google.com/drive/folders/148da5_TSqHRTMEg3lvD5izuBLahXNAhW" target="_blank"
                     class="drawer-link-item">
-                    <span class="drawer-link-icon">🎓</span>
-                    <div class="drawer-link-info">
-                        <span class="drawer-link-title">Capacitación para maestros</span>
-                        <span class="drawer-link-desc">Materiales y recursos de capacitación</span>
+                    <span class="drawer-link-icon">🎓</span><div class="drawer-link-info"><span class="drawer-link-title">Capacitación para maños</span>
+                        <span class="drawer-link-desc">Materiales y recursos de Capacitación</span>
                     </div>
                 </a>
                 <a href="https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n" target="_blank"
                     class="drawer-link-item">
-                    <span class="drawer-link-icon">👶</span>
+                    <span class="drawer-link-icon"></span>
                     <div class="drawer-link-info">
-                        <span class="drawer-link-title">Clase 3-5 años</span>
-                        <span class="drawer-link-desc">Material de Pequeños</span>
+                        <span class="drawer-link-title">Preescolar y 1.° •  Primaria</span>
+                        <span class="drawer-link-desc">Preescolar y 1.° •  de Primaria</span>
                     </div>
                 </a>
                 <a href="https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n" target="_blank"
                     class="drawer-link-item">
-                    <span class="drawer-link-icon">👧</span>
+                    <span class="drawer-link-icon"></span>
                     <div class="drawer-link-info">
-                        <span class="drawer-link-title">Clase 6-8 años</span>
-                        <span class="drawer-link-desc">Material de Medianos</span>
+                        <span class="drawer-link-title">2.º a 4.º Primaria</span>
+                        <span class="drawer-link-desc">2.º a 4.º de Primaria</span>
                     </div>
                 </a>
                 <a href="https://drive.google.com/drive/folders/1CyetjuE3x-dzTMAR6wfMJPnHcN1cvsEC" target="_blank"
                     class="drawer-link-item">
-                    <span class="drawer-link-icon">👦</span>
+                    <span class="drawer-link-icon"></span>
                     <div class="drawer-link-info">
-                        <span class="drawer-link-title">Clase 9-11 años</span>
-                        <span class="drawer-link-desc">Material de Grandes</span>
+                        <span class="drawer-link-title">5.º y 6.º Primaria</span>
+                        <span class="drawer-link-desc">5.º y 6.º de Primaria</span>
                     </div>
                 </a>
                 <a href="https://drive.google.com/drive/folders/1Z4kgoY0A6mOhTK84N0ZazT1CtjdWDrxa" target="_blank"
                     class="drawer-link-item">
-                    <span class="drawer-link-icon">🎓</span>
+                    <span class="drawer-link-icon"></span>
                     <div class="drawer-link-info">
-                        <span class="drawer-link-title">Clase JV 12</span>
-                        <span class="drawer-link-desc">Material de Pre-adolescentes</span>
+                        <span class="drawer-link-title">JV12 / Secundaria</span>
+                        <span class="drawer-link-desc">JV12 / Secundaria</span>
                     </div>
                 </a>
             </div>
@@ -2726,10 +2869,9 @@
             </div>
 
             <!-- Option 4: Compartir -->
-            <div class="drawer-section-title">🔗 Compartir</div>
+            <div class="drawer-section-title">📢 Compartir</div>
             <div class="drawer-item" onclick="shareApp()" style="background: rgba(99, 102, 241, 0.15); border: 1px solid rgba(99, 102, 241, 0.3); border-radius: 12px; margin-top: 0.5rem; justify-content: center; cursor: pointer; transition: all 0.3s ease;">
-                <span class="drawer-item-icon">📤</span>
-                <span class="drawer-item-text" style="color: #a5b4fc; font-weight: 700;">Compartir Planeador</span>
+                <span class="drawer-link-icon">🔗</span><span class="drawer-item-text" style="color: #a5b4fc; font-weight: 700;">Compartir Planeador</span>
             </div>
         </div>
     </div>
@@ -2737,23 +2879,23 @@
     <!-- Custom Premium Share Modal -->
     <div id="shareModal" class="share-modal-overlay" onclick="closeShareModal(event)">
         <div class="share-modal-card">
-            <button class="share-modal-close" onclick="closeShareModal(null)">&times;</button>
-            <img src="logo_ngo.png" alt="NGO Logo" class="share-modal-logo" onerror="this.src='https://rodriguezj75468-glitch.github.io/Rol_de_maestros/logo_ngo.png'">
+            <button class="share-modañose" onclick="closeShareModal(null)">&times;</button>
+            <img src="logo_ngo.png" alt="NGO Logo" class="share-modal-logo" onerror="this.src='https://rodriguezj75468-glitch.github.io/Rol_de_maños/logo_ngo.png'">
             <h2 class="share-modal-title">Compartir Rol</h2>
-            <p class="share-modal-subtitle">Comparte el acceso rápido con los maestros de la iglesia para que consulten su rol en tiempo real.</p>
+            <p class="share-modal-subtitle">Comparte el acceso rápido con los maños de la iglesia para que consulten su rol en tiempo real.</p>
             
             <div class="share-qr-wrapper">
-                <img id="shareQrImg" src="" alt="Código QR del Rol" class="share-qr-image">
+                <img id="shareQrImg" src="" alt="C • digo QR del Rol" class="share-qr-image">
             </div>
  
             <div class="share-link-box">
-                <input type="text" id="shareUrlInput" class="share-link-input" readonly value="https://rodriguezj75468-glitch.github.io/Rol_de_maestros/">
+                <input type="text" id="shareUrlInput" class="share-link-input" readonly value="https://rodriguezj75468-glitch.github.io/Rol_de_maños/">
                 <button class="share-copy-btn" onclick="copyShareUrl()">Copiar</button>
             </div>
  
             <div class="share-social-grid">
                 <a id="shareWhatsappBtn" href="#" target="_blank" class="social-share-btn btn-whatsapp">
-                    <span>💬</span> Enviar por WhatsApp
+                    <span>ðŸ’¬</span> Enviar por WhatsApp
                 </a>
             </div>
         </div>
@@ -2762,19 +2904,19 @@
     <!-- Admin Expanded View Modal -->
     <div id="adminModal" class="admin-modal-overlay" onclick="closeAdminModal(event)">
         <div class="admin-modal-card">
-            <button class="admin-modal-close" onclick="closeAdminModal(null)">&times;</button>
-            <h2 class="admin-modal-title">📋 Control Rápido de Clases (Vista Ampliada)</h2>
-            <p class="admin-modal-subtitle">Consulta la asignación completa de maestros para todas las aulas dominicales de un solo vistazo.</p>
+            <button class="admin-modañose" onclick="closeAdminModal(null)">&times;</button>
+            <h2 class="admin-modal-title">⚡ Control Rápido de Clases (Vista Ampliada)</h2>
+            <p class="admin-modal-subtitle">Consulta la asignaci • n completa de maños para todas las aulas dominicales de un solo vistazo.</p>
             <div class="admin-table-wrapper">
                 <table class="admin-table">
                     <thead>
                         <tr>
                             <th>Fecha</th>
-                            <th>Lección / Tema</th>
-                            <th>👶 3 a 5 años</th>
-                            <th>👧 6 a 8 años</th>
-                            <th>👦 9 a 11 años</th>
-                            <th>🎓 JV 12</th>
+                            <th>León / Tema</th>
+                            <th>Preescolar y 1.° • </th>
+                            <th>2.º a 4.º Primaria</th>
+                            <th>5.º y 6.º Primaria</th>
+                            <th>🎓 JV12 / Secundaria</th>
                         </tr>
                     </thead>
                     <tbody id="adminTableBody">
@@ -2785,12 +2927,12 @@
         </div>
     </div>
  
-    <!-- (Modal de ausencia eliminado ya que se redirige a la página dedicada de calendario) -->
+    <!-- (Modal de ausencia eliminado ya que se redirige a la p • gina dedicada de calendario) -->
 
     <!-- Login Modal (Who are you?) -->
     <div id="loginModal" class="login-modal" style="display: none;">
         <div class="login-modal-content">
-            <div class="login-logo">🔐</div>
+            <div class="login-logo">📖</div>
             <h2 class="login-title">Planner Dominical</h2>
             <p class="login-subtitle">Para darte una experiencia personalizada y mostrar tu agenda dominical, dinos
                 quién eres:</p>
@@ -2809,12 +2951,7 @@
 
     <header>
         <h1>Planner Dominical</h1>
-        <div class="subtitle">Roles y Temas de Clases Dominicales 📅</div>
-        <div style="margin-top: 1.5rem;">
-            <a href="calendario.html" style="display: inline-flex; align-items: center; gap: 0.6rem; background: linear-gradient(135deg, #4f46e5, #7c3aed); color: white; padding: 0.75rem 1.5rem; border-radius: 50px; font-weight: 700; text-decoration: none; box-shadow: 0 4px 15px rgba(99, 102, 241, 0.35); font-family: 'Outfit', sans-serif; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); border: 1px solid rgba(255, 255, 255, 0.1); cursor: pointer;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 8px 25px rgba(124, 58, 237, 0.5)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(99, 102, 241, 0.35)';">
-                <span>🎂</span> Calendario y Cumpleaños
-            </a>
-        </div>
+        <div class="subtitle">Roles y Temas de Clases Dominicales 🚀</div>
     </header>
 
     <!-- Welcome Banner Container -->
@@ -2825,9 +2962,9 @@
         onchange="uploadDashboardPhoto(event)">
 
     <!-- Month Selector Grid -->
-    <div class="month-selector-grid">
+        <div class="month-selector-grid">
         <div class="month-card" data-month="Todos" onclick="selectMonth('Todos')">
-            <span class="month-lessons-badge">11</span>
+            <span class="month-lessons-badge">18</span>
             <span class="month-name">Todos</span>
         </div>
         <div class="month-card" data-month="Junio" onclick="selectMonth('Junio')">
@@ -2838,19 +2975,22 @@
             <span class="month-lessons-badge">4</span>
             <span class="month-name">Julio</span>
         </div>
-        <div class="month-card active" data-month="Agosto" onclick="selectMonth('Agosto')">
+        <div class="month-card" data-month="Agosto" onclick="selectMonth('Agosto')">
             <span class="month-lessons-badge">5</span>
             <span class="month-name">Agosto</span>
         </div>
         <div class="month-card" data-month="Septiembre" onclick="selectMonth('Septiembre')">
-            <span class="month-lessons-badge">1</span>
+            <span class="month-lessons-badge">4</span>
             <span class="month-name">Septiembre</span>
+        </div>
+        <div class="month-card active" data-month="Octubre" onclick="selectMonth('Octubre')">
+            <span class="month-lessons-badge">4</span>
+            <span class="month-name">Octubre</span>
         </div>
     </div>
 
     <!-- Unified Filters and Timeline Header -->
-    <div id="timelineHeader" class="timeline-header"
-        style="display: none; flex-direction: column; gap: 1.25rem; width: 90%; max-width: 1100px; margin: 0.5rem auto 1.5rem; box-sizing: border-box; background: rgba(30, 41, 59, 0.25); border: 1px solid var(--card-border); padding: 1.25rem; border-radius: 20px; backdrop-filter: blur(8px);">
+    <div id="timelineHeader" class="timeline-header" style="display: none; flex-direction: column; gap: 1.25rem; width: 90%; max-width: 1100px; margin: 0.5rem auto 1.5rem; box-sizing: border-box; background: #ffffff; border: 1px solid #e2e8f0; padding: 1.25rem; border-radius: 20px; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06); color: #0f172a;">
         <div
             style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; width: 100%;">
             <h2 id="timelineTitle"
@@ -2858,9 +2998,9 @@
                 📅 Cronograma de Clases</h2>
 
             <div class="toggle-container"
-                style="display: flex; align-items: center; gap: 0.75rem; background: rgba(15, 23, 42, 0.45); border: 1px solid rgba(255,255,255,0.05); padding: 0.45rem 1rem; border-radius: 50px;">
+                style="display: flex; align-items: center; gap: 0.75rem; background: #f1f5f9; border: 1px solid #e2e8f0; padding: 0.45rem 1rem; border-radius: 50px;">
                 <span style="font-size: 0.85rem; color: var(--text-muted); font-weight: 500;">👀 Ver fechas de otros
-                    maestros</span>
+                    maños</span>
                 <label class="switch"
                     style="position: relative; display: inline-block; width: 40px; height: 22px; margin: 0;">
                     <input type="checkbox" id="showOthersToggle" onchange="toggleOthersDates(this.checked)"
@@ -2872,16 +3012,15 @@
         </div>
 
         <!-- Unified Classroom Visual Pill Buttons -->
-        <div class="room-filter-container"
-            style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; width: 100%; border-top: 1px solid rgba(255, 255, 255, 0.05); padding-top: 0.75rem;">
+                <div class="room-filter-container"
+            style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; width: 100%; border-top: 1px solid #e2e8f0; padding-top: 0.75rem;">
             <span
-                style="font-size: 0.85rem; color: var(--text-muted); font-weight: 700; font-family: 'Outfit', sans-serif; text-transform: uppercase; letter-spacing: 0.5px; margin-right: 0.5rem;">🔍
+                style="font-size: 0.85rem; color: var(--text-muted); font-weight: 700; font-family: 'Outfit', sans-serif; text-transform: uppercase; letter-spacing: 0.5px; margin-right: 0.5rem;">
                 Filtrar por Aula:</span>
             <button class="room-btn active" data-room="all" onclick="selectRoom('all')">Todas</button>
-            <button class="room-btn room-3-5" data-room="3-5" onclick="selectRoom('3-5')">👶 3 a 5 años</button>
-            <button class="room-btn room-6-8" data-room="6-8" onclick="selectRoom('6-8')">👧 6 a 8 años</button>
-            <button class="room-btn room-9-11" data-room="9-11" onclick="selectRoom('9-11')">👦 9 a 11 años</button>
-            <button class="room-btn room-jv12" data-room="jv12" onclick="selectRoom('jv12')">🎓 JV 12</button>
+            <button class="room-btn room-3-5" data-room="3-5" onclick="selectRoom('3-5')">Grupo 1: Preescolar y 1.° • </button>
+            <button class="room-btn room-6-8" data-room="6-8" onclick="selectRoom('6-8')">Grupo 2: 2.º a 6.º Primaria</button>
+            <button class="room-btn room-jv12" data-room="jv12" onclick="selectRoom('jv12')">🎓 Grupo 3: JV12 / Secundaria</button>
         </div>
     </div>
 
@@ -2899,7 +3038,7 @@
     <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
 
     <script>
-        // --- ☁️ CONFIGURACIÓN DE FIREBASE ---
+        // --- 📅 CONFIGURACI • N DE FIREBASE ---
         // Reemplaza con tus propias credenciales de Firebase cuando crees tu proyecto.
         const firebaseConfig = {
             apiKey: "YOUR_API_KEY",
@@ -2921,41 +3060,45 @@
             console.error("Error al inicializar Firebase:", error);
         }
 
-        // --- 🔐 SISTEMA DE PERFILES Y FEEDBACK SIMULADO ---
+        // --- 👤 SISTEMA DE PERFILES Y FEEDBACK SIMULADO ---
         const teacherProfiles = {
-            "Aby": { pass: "Aby2026!", feedback: "Excelente manejo de los niños, ¡sigue así!" },
+            "Aby": { pass: "Aby2026!", feedback: "Excelente manejo de los Niños, • sigue as • !" },
             "Alan": { pass: "Alan#Lider", feedback: "Muy buen liderazgo en las clases." },
-            "Alondra": { pass: "Alo*Domingo", feedback: "Gracias por tu servicio y dedicación en las clases." },
-            "Alexa": { pass: "Alexa26$", feedback: "Gracias por tu servicio y dedicación en las clases." },
-            "Alexa Sarai": { pass: "Sarai#Kids", feedback: "Gracias por tu servicio y dedicación en las clases." },
-            "Camila": { pass: "Cami@2026", feedback: "Gracias por tu servicio y dedicación en las clases." },
-            "Carlos": { pass: "Carlos#Apoyo", feedback: "Gracias por tu servicio y dedicación en las clases." },
-            "Cristina": { pass: "Cris*Equipo", feedback: "Haces un gran equipo con Mauricio y Daniel. Muy buenas dinámicas." },
-            "Daniel": { pass: "Dani@Apoyo", feedback: "Excelente apoyo logístico." },
-            "Danna": { pass: "Danna#2026", feedback: "Gracias por tu servicio y dedicación en las clases." },
-            "Denisse": { pass: "Deni!Clase", feedback: "Gracias por tu servicio y dedicación en las clases." },
-            "Isaí": { pass: "Isai*26", feedback: "Gracias por tu servicio y dedicación en las clases." },
-            "Joaquín": { pass: "Joaquin@Dom", feedback: "Gracias por tu servicio y dedicación en las clases." },
-            "Juan Carlos": { pass: "JuanC!2026", feedback: "Gracias por tu servicio y dedicación en las clases." },
-            "Karla": { pass: "Karla$Kids", feedback: "Gracias por tu servicio y dedicación en las clases." },
-            "Liz": { pass: "Liz*Domingo", feedback: "Gracias por tu servicio y dedicación en las clases." },
-            "Mauricio": { pass: "Mauri#2026", feedback: "Tus clases son muy interactivas, sigue así." },
-            "Rebeca": { pass: "Rebe*Peques", feedback: "Gracias por unirte a los más pequeñitos como apoyo. Tu paciencia es clave." },
-            "Sinddy": { pass: "Sinddy*Dom", feedback: "Gracias por tu servicio y dedicación en las clases." },
-            "Yadira": { pass: "Yadira@2026", feedback: "Gracias por tu servicio y dedicación en las clases." },
+            "Alondra": { pass: "Alo*Domingo", feedback: "Gracias por tu servicio y dedicaci • n en las clases." },
+            "Alexa": { pass: "Alexa26$", feedback: "Gracias por tu servicio y dedicaci • n en las clases." },
+            "Alexa Sarai": { pass: "Sarai#Kids", feedback: "Gracias por tu servicio y dedicaci • n en las clases." },
+            "Camila": { pass: "Cami@2026", feedback: "Gracias por tu servicio y dedicaci • n en las clases." },
+            "Caños": { pass: "Caños#Apoyo", feedback: "Gracias por tu servicio y dedicaci • n en las clases." },
+            "Cristina": { pass: "Cris*Equipo", feedback: "Haces un gran equipo con Mauricio y Daniel. Muy buenas din • micas." },
+            "Daniel": { pass: "Dani@Apoyo", feedback: "Excelente apoyo log • stico." },
+            "Danna": { pass: "Danna#2026", feedback: "Gracias por tu servicio y dedicaci • n en las clases." },
+            "Denisse": { pass: "Deni!Clase", feedback: "Gracias por tu servicio y dedicaci • n en las clases." },
+            "Isaí": { pass: "Isai*26", feedback: "Gracias por tu servicio y dedicaci • n en las clases." },
+            "Joaquín": { pass: "Joaquin@Dom", feedback: "Gracias por tu servicio y dedicaci • n en las clases." },
+            "Juan Caños": { pass: "JuanC!2026", feedback: "Gracias por tu servicio y dedicaci • n en las clases." },
+            "Karla": { pass: "Karla$Kids", feedback: "Gracias por tu servicio y dedicaci • n en las clases." },
+            "Liz": { pass: "Liz*Domingo", feedback: "Gracias por tu servicio y dedicaci • n en las clases." },
+            "Mauricio": { pass: "Mauri#2026", feedback: "Tus clases son muy interactivas, sigue as • ." },
+            "Rebeca": { pass: "Rebe*Peques", feedback: "Gracias por unirte a los más peque • itos como apoyo. Tu paciencia es clave." },
+            "Sinddy": { pass: "Sinddy*Dom", feedback: "Gracias por tu servicio y dedicaci • n en las clases." },
+            "Yadira": { pass: "Yadira@2026", feedback: "Gracias por tu servicio y dedicaci • n en las clases." },
             
-            // Perfiles combinados de esposos
+                        "Juan Caños y Sinddy": { 
+                pass: ["JuanC!2026", "Sinddy*Dom"], 
+                feedback: "Juan Caños y Sinddy: Gracias por su servicio y dedicaci • n en las clases de JV 12." 
+            },
+            // Perfiles combinaños de esposos
             "Robert y Sara": { 
                 pass: ["Robert#26", "Sara$JV12"], 
-                feedback: "Robert: Gracias por avisar de sus ausencias en junio con anticipación. / Sara: Gracias por tu servicio y dedicación en las clases." 
+                feedback: "Robert: Gracias por avisar de sus ausencias en junio con anticipaci • n. / Sara: Gracias por tu servicio y dedicaci • n en las clases." 
             },
             "Josué y Raquel": { 
                 pass: ["Josue#JV12", "Raquel!JV12"], 
-                feedback: "Josué y Raquel: Gracias por tu servicio y dedicación en las clases." 
+                feedback: "Josué y Raquel: Gracias por tu servicio y dedicaci • n en las clases." 
             },
             "Ramón y Claudia": { 
                 pass: ["Ramon@Clase", "Clau!Kids"], 
-                feedback: "Ramón y Claudia: Gracias por tu servicio y dedicación en las clases." 
+                feedback: "Ramón y Claudia: Gracias por tu servicio y dedicaci • n en las clases." 
             }
         };
 
@@ -2984,9 +3127,9 @@
         }
 
         function reportAbsence(teacherName) {
-            const adminPhone = "528131729993"; // Teléfono del administrador
+            const adminPhone = "528131729993"; // Tel • fono del administrador
             
-            // Buscar la fecha de la próxima clase del maestro
+            // Buscar la fecha de la pr • xima clase del maestro
             let nextDate = "";
             if (typeof scheduleData !== 'undefined') {
                 for (let i = 0; i < scheduleData.length; i++) {
@@ -3008,8 +3151,8 @@
             }
             
             const message = nextDate 
-                ? `Hola, Joaquin. Espero que te encuentres muy bien. Te escribo para informarte que, no estaré disponible para dar clase el próximo ${nextDate}.` 
-                : `Hola, Joaquin. Espero que te encuentres muy bien. Te escribo para informarte que, no estaré disponible para dar clase el próximo domingo.`;
+                ? `Hola, Joaquin. Espero que te encuentres muy bien. Te escribo para informarte que, no estará disponible para dar clase el Próximo ${nextDate}.` 
+                : `Hola, Joaquin. Espero que te encuentres muy bien. Te escribo para informarte que, no estará disponible para dar clase el Próximo domingo.`;
             const url = `https://api.whatsapp.com/send?phone=${adminPhone}&text=${encodeURIComponent(message)}`;
             window.open(url, '_blank');
         }
@@ -3017,127 +3160,212 @@
         // --- 📅 BASE DE DATOS DE ROLES ACTUALIZADA ---
         const scheduleData = [
             {
-                date: "28 de Junio", theme: "⭐ Lección 7: Esteban enfrenta a la muerte", status: "current", badgeText: "Próximo",
+                date: "28 de Junio", theme: "⭐ León 7: Esteban enfrenta a la muerte", status: "past", badgeText: "Próximo",
                 materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
                 classes: {
-                    "3-5": { encargado: "Danna", apoyo: "Alondra" },
-                    "6-8": { encargado: "Sinddy", apoyo: "Carlos" },
-                    "9-11": { encargado: "Joaquín", apoyo: "Isaí" },
+                    "3-5": { encargado: "Danna", apoyo: "Alondra", pdfUrl: "https://drive.google.com/file/d/1EzcNBNLpfYamaMaCxUglPDYHk6Yk1Rex/view?usp=drive_web" },
+                    "6-8": { encargado: "Sinddy, Joaquín", apoyo: "Caños, Isaí" },
                     "jv12": { encargado: "Josué", apoyo: "Raquel" }
                 }
             },
             {
-                date: "05 de Julio", theme: "🌟 Lección 8: Pablo en Filipos", status: "current", badgeText: "Próximo",
+                date: "05 de Julio", theme: "🌟 León 8: Pablo en Filipos", status: "past", badgeText: "Próximo",
                 materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
                 classes: {
                     "3-5": { encargado: "Alexa", apoyo: "Rebeca" },
-                    "6-8": { encargado: "Aby", apoyo: "Denisse" },
-                    "9-11": { encargado: "Alan", apoyo: "Mauricio" },
-                    "jv12": { encargado: "Robert", apoyo: "Sara" }
+                    "6-8": { encargado: "Aby, Alan", apoyo: "Denisse, Mauricio" },
+                    "jv12": { encargado: "Robert", apoyo: "Sara", pdfUrl: "https://drive.google.com/file/d/1RqHOtxuiOfq6ysBewqfb969tHhFV_0Ev/view?usp=drive_web" }
                 }
             },
             {
-                date: "12 de Julio", theme: "🎉 Lección Libre", status: "current", badgeText: "Próximo",
+                date: "12 de Julio", theme: "🎉 León Libre", status: "past", badgeText: "Próximo",
                 materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
                 classes: {
-                    "3-5": { encargado: "Liz", apoyo: "Yadira" },
-                    "6-8": { encargado: "Karla", apoyo: "Alexa Sarai" },
-                    "9-11": { encargado: "Daniel", apoyo: "Cristina" },
+                    "3-5": { encargado: "Liz", apoyo: "Yadira", pdfUrl: "https://drive.google.com/file/d/1OMgycMMi7shzo05vyaj_O7YCWpnKfmsT/view?usp=drive_web" },
+                    "6-8": { encargado: "Karla, Daniel", apoyo: "Alexa Sarai, Cristina" },
                     "jv12": { encargado: "Ramón", apoyo: "Claudia" }
                 }
             },
             {
-                date: "19 de Julio", series: "Vivir es Cristo", theme: "Lección 1: Vivir es Cristo - Filipenses 1:1-11", status: "current", badgeText: "Próximo",
+                date: "19 de Julio", series: "Vivir es Cristo", theme: "León 1: Vivir es Cristo - Filipenses 1:1-11", status: "past", badgeText: "Próximo",
                 materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
                 classes: {
-                    "3-5": { encargado: "Danna", apoyo: "Rebeca" },
-                    "6-8": { encargado: "Aby", apoyo: "Denisse" },
-                    "9-11": { encargado: "Joaquín", apoyo: "Isaí" },
-                    "jv12": { encargado: "Sinddy", apoyo: "Juan Carlos" }
+                    "3-5": { encargado: "Danna", apoyo: "Rebeca", pdfUrl: "https://drive.google.com/file/d/1rAmMB34QB_sgRnBqUZ2DsBj_QE0iSqaq/view?usp=drive_web" },
+                    "6-8": { encargado: "Aby, Joaquín", apoyo: "Denisse, Isaí" },
+                    "jv12": { encargado: "Sinddy", apoyo: "Juan Caños", pdfUrl: "https://drive.google.com/file/d/1q6fEWXrPCzsyrROCEbLuhGie1XF7ekEJ/view?usp=drive_web" }
                 }
             },
             {
-                date: "26 de Julio", series: "Vivir es Cristo", theme: "Lección 2: Vivir es Cristo - Filipenses 1:12-30", status: "current", badgeText: "Próximo",
+                date: "26 de Julio", series: "Vivir es Cristo", theme: "León 2: Vivir es Cristo - Filipenses 1:12-30", status: "past", badgeText: "Próximo",
                 materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
                 classes: {
                     "3-5": { encargado: "Alexa", apoyo: "Yadira" },
-                    "6-8": { encargado: "Ramón", apoyo: "Claudia" },
-                    "9-11": { encargado: "Cristina", apoyo: "Mauricio" },
-                    "jv12": { encargado: "Aby", apoyo: "Alan" }
+                    "6-8": { encargado: "Ramón, Cristina", apoyo: "Claudia, Mauricio" },
+                    "jv12": { encargado: "Aby y Alan", apoyo: "Alan" }
                 }
             },
             {
-                date: "02 de Agosto", series: "Vivir es Cristo", theme: "Lección 3: Vivir es Cristo - Filipenses 2:1-11", status: "current", badgeText: "Próximo",
+                date: "02 de Agosto", series: "Vivir es Cristo", theme: "León 3: Vivir es Cristo - Filipenses 2:1-11", status: "past", badgeText: "Próximo",
                 materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
                 classes: {
                     "3-5": { encargado: "Liz", apoyo: "Rebeca" },
-                    "6-8": { encargado: "Sinddy", apoyo: "Carlos" },
-                    "9-11": { encargado: "Alan", apoyo: "Juan Carlos" },
-                    "jv12": { encargado: "Robert", apoyo: "Sara" }
+                    "6-8": { encargado: "Sinddy, Alan", apoyo: "Caños" },
+                    "jv12": { encargado: "Robert", apoyo: "Sara", pdfUrl: "https://drive.google.com/file/d/1RqHOtxuiOfq6ysBewqfb969tHhFV_0Ev/view?usp=drive_web" }
                 }
             },
             {
-                date: "09 de Agosto", series: "Vivir es Cristo", theme: "Lección 4: Vivir es Cristo - Filipenses 2:12-18", status: "current", badgeText: "Próximo",
+                date: "09 de Agosto", series: "Vivir es Cristo", theme: "León 4: Vivir es Cristo - Filipenses 2:12-18", status: "past", badgeText: "Próximo",
                 materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
                 classes: {
-                    "3-5": { encargado: "Danna", apoyo: "Yadira" },
-                    "6-8": { encargado: "Karla", apoyo: "Alexa Sarai" },
-                    "9-11": { encargado: "Daniel", apoyo: "Cristina" },
+                    "3-5": { encargado: "Danna", apoyo: "Yadira", pdfUrl: "https://drive.google.com/file/d/1AK7dgxtIQT1UbXbkT3aQiKhEIFPXY1YQ/view?usp=drive_web" },
+                    "6-8": { encargado: "Karla, Daniel", apoyo: "Alexa Sarai, Cristina" },
                     "jv12": { encargado: "Ramón", apoyo: "Claudia" }
                 }
             },
             {
-                date: "16 de Agosto", series: "Vivir es Cristo", theme: "Lección 5: Vivir es Cristo - Filipenses 3", status: "current", badgeText: "Próximo",
+                date: "16 de Agosto", series: "Vivir es Cristo", theme: "León 5: Vivir es Cristo - Filipenses 3", status: "past", badgeText: "Próximo",
                 materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
                 classes: {
                     "3-5": { encargado: "Alexa", apoyo: "Alondra" },
-                    "6-8": { encargado: "Aby", apoyo: "Denisse" },
-                    "9-11": { encargado: "Alan", apoyo: "Mauricio" },
+                    "6-8": { encargado: "Aby, Alan", apoyo: "Denisse, Mauricio" },
                     "jv12": { encargado: "Josué", apoyo: "Raquel" }
                 }
             },
             {
-                date: "23 de Agosto", series: "Vivir es Cristo", theme: "Lección 6: Vivir es Cristo - Filipenses 4:1-7", status: "current", badgeText: "Próximo",
+                date: "23 de Agosto", series: "Vivir es Cristo", theme: "León 6: Vivir es Cristo - Filipenses 4:1-7", status: "past", badgeText: "Próximo",
                 materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
                 classes: {
                     "3-5": { encargado: "Liz", apoyo: "Camila" },
-                    "6-8": { encargado: "Sinddy", apoyo: "Carlos" },
-                    "9-11": { encargado: "Joaquín", apoyo: "Isaí" },
+                    "6-8": { encargado: "Sinddy, Joaquín", apoyo: "Caños, Isaí" },
                     "jv12": { encargado: "Ramón", apoyo: "Claudia" }
                 }
             },
             {
-                date: "30 de Agosto", series: "Vivir es Cristo", theme: "Lección 7: Vivir es Cristo - Filipenses 4:8-9", status: "current", badgeText: "Próximo",
+                date: "30 de Agosto", series: "Vivir es Cristo", theme: "León 7: Vivir es Cristo - Filipenses 4:8-9", status: "past", badgeText: "Próximo",
                 materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
                 classes: {
-                    "3-5": { encargado: "Danna", apoyo: "Rebeca" },
-                    "6-8": { encargado: "Karla", apoyo: "Alexa Sarai" },
-                    "9-11": { encargado: "Daniel", apoyo: "Cristina" },
-                    "jv12": { encargado: "Robert", apoyo: "Sara" }
+                    "3-5": { encargado: "Danna", apoyo: "Rebeca", pdfUrl: "https://drive.google.com/file/d/1rAmMB34QB_sgRnBqUZ2DsBj_QE0iSqaq/view?usp=drive_web" },
+                    "6-8": { encargado: "Karla, Daniel", apoyo: "Alexa Sarai, Cristina" },
+                    "jv12": { encargado: "Robert", apoyo: "Sara", pdfUrl: "https://drive.google.com/file/d/1RqHOtxuiOfq6ysBewqfb969tHhFV_0Ev/view?usp=drive_web" }
                 }
-            },
-            {
-                date: "06 de Septiembre", series: "Vivir es Cristo", theme: "Lección 8: Vivir es Cristo - Filipenses 4:10-23", status: "current", badgeText: "Próximo",
+            },            {
+                date: "06 de Septiembre", series: "Vivir es Cristo", theme: "León 8: Vivir es Cristo - Filipenses 4:10-23", status: "past", badgeText: "Completado",
                 materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
                 classes: {
                     "3-5": { encargado: "Alexa", apoyo: "Yadira" },
-                    "6-8": { encargado: "Aby", apoyo: "Denisse" },
-                    "9-11": { encargado: "Alan", apoyo: "Mauricio" },
+                    "6-8": { encargado: "Aby, Alan", apoyo: "Denisse, Mauricio" },
                     "jv12": { encargado: "Josué", apoyo: "Raquel" }
+                }
+            },
+            {
+                date: "13 de Septiembre", series: "Mensaje Directo", theme: "Mensaje Directo  •  León Especial", status: "past", badgeText: "Completado",
+                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
+                classes: {
+                    "3-5": { encargado: "Liz", apoyo: "Camila" },
+                    "6-8": { encargado: "Karla, Joaquín", apoyo: "Alexa Sarai, Isaí" },
+                    "jv12": { encargado: "Robert", apoyo: "Sara", pdfUrl: "https://drive.google.com/file/d/1RqHOtxuiOfq6ysBewqfb969tHhFV_0Ev/view?usp=drive_web" }
+                }
+            },
+                                    {
+                date: "20 de Septiembre", series: "Mensaje Directo", theme: "Mensaje Directo  •  León 1: Confesión y arrepentimiento (Salmo 51)", status: "past", badgeText: "Completado",
+                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
+                classes: {
+                    "3-5": { encargado: "Danna", apoyo: "Alondra", pdfUrl: "https://drive.google.com/file/d/1EzcNBNLpfYamaMaCxUglPDYHk6Yk1Rex/view?usp=drive_web" },
+                    "6-8": { encargado: "Danna, Daniel", apoyo: "Alondra, Cristina", pdfUrl: "https://drive.google.com/open?id=1m5bw80XkmdbMBtvE6zFPelcBusi2YGDl" },
+                    "jv12": { encargado: "Sinddy", apoyo: "Juan Caños", pdfUrl: "https://drive.google.com/file/d/1q6fEWXrPCzsyrROCEbLuhGie1XF7ekEJ/view?usp=drive_web" }
+                }
+            },
+            {
+                date: "27 de Septiembre", series: "Mensaje Directo", theme: "Mensaje Directo  •  León 2: Alabanza y gratitud (Salmo 136)", status: "past", badgeText: "Próximo",
+                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
+                classes: {
+                    "3-5": { encargado: "Liz", apoyo: "Yadira", pdfUrl: "https://drive.google.com/file/d/1OMgycMMi7shzo05vyaj_O7YCWpnKfmsT/view?usp=drive_web" },
+                    "6-8": { encargado: "Liz, Joaquín", apoyo: "Yadira, Caños", pdfUrl: "https://drive.google.com/open?id=1DBVATmMUrn1LpbdwSD4hr74F3itS2unP" },
+                    "jv12": { encargado: "Ramón", apoyo: "Claudia", pdfUrl: "https://drive.google.com/file/d/1Be9P9zysMmTbMp82nRwfCzDG3j2tE0N9/view?usp=drive_web" }
+                }
+            },
+            {
+                date: "04 de Octubre", series: "Mensaje Directo", theme: "Mensaje Directo  •  León 3: Pedir su dirección (Salmo 119:26-35)", status: "current", badgeText: "Próximo",
+                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
+                classes: {
+                    "3-5": { encargado: "Danna", apoyo: "Rebeca", pdfUrl: "https://drive.google.com/file/d/1rAmMB34QB_sgRnBqUZ2DsBj_QE0iSqaq/view?usp=drive_web" },
+                    "6-8": { encargado: "Karla", apoyo: "Alexa Sarai", pdfUrl: "https://drive.google.com/open?id=1T3QatpPzZ52IdH5zvqSdvp79RJJwEFzd" },
+                    "jv12": { encargado: "Sinddy", apoyo: "Juan Caños", pdfUrl: "https://drive.google.com/file/d/1S_I7Qf1rCtgdp0A1ufnd5TOL3i1ul-Le/view?usp=drive_web" }
+                }
+            },
+            {
+                date: "11 de Octubre", series: "Mensaje Directo", theme: "Mensaje Directo  •  León 4: Confiar en su amor (Efesios 3:14-21)", status: "current", badgeText: "Próximo",
+                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
+                classes: {
+                    "3-5": { encargado: "Alexa", apoyo: "Camila", pdfUrl: "https://drive.google.com/file/d/1yWy5Q6nmj1S8U-JoZmtnOfyeYEknTes8/view?usp=drive_web" },
+                    "6-8": { encargado: "Alan", apoyo: "Mauricio", pdfUrl: "https://drive.google.com/open?id=1tTswqhANFj4Wt3nj-2wu6oYFB2dFG0ZL" },
+                    "jv12": { encargado: "Robert", apoyo: "Sara", pdfUrl: "https://drive.google.com/file/d/1RqHOtxuiOfq6ysBewqfb969tHhFV_0Ev/view?usp=drive_web" }
+                }
+            },
+            {
+                date: "18 de Octubre", series: "Mensaje Directo", theme: "Mensaje Directo  •  León 5: Fortaños para amar más y más (1 Tesalonicenses 3:12-13)", status: "current", badgeText: "Próximo",
+                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
+                classes: {
+                    "3-5": { encargado: "Liz", apoyo: "Alondra", pdfUrl: "https://drive.google.com/file/d/1TLwzYvidtCn1WmyPbZbr6NhDGVVEAuQF/view?usp=drive_web" },
+                    "6-8": { encargado: "Aby", apoyo: "Denisse", pdfUrl: "https://drive.google.com/file/d/1Rqt4OzKp1b3gzzheVuaEUm3oz2hV705Q/view?usp=drive_web" },
+                    "jv12": { encargado: "Josué", apoyo: "Raquel", pdfUrl: "https://drive.google.com/file/d/19GjbLXVgDaLBQbMKmGKx7wNHvdYvc6Ri/view?usp=drive_web" }
+                }
+            },
+            {
+                date: "25 de Octubre", series: "Mensaje Directo", theme: "Mensaje Directo  •  León 6: Daños gloria a Dios (2 Tesalonicenses 1:11-12)", status: "current", badgeText: "Próximo",
+                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
+                classes: {
+                    "3-5": { encargado: "Danna", apoyo: "Yadira", pdfUrl: "https://drive.google.com/file/d/1AK7dgxtIQT1UbXbkT3aQiKhEIFPXY1YQ/view?usp=drive_web" },
+                    "6-8": { encargado: "Daniel", apoyo: "Cristina", pdfUrl: "https://drive.google.com/open?id=1CqRyA-EQzs_FkD5oSNaG7TGXMLAIRq2b" },
+                    "jv12": { encargado: "Ramón", apoyo: "Claudia", pdfUrl: "https://drive.google.com/file/d/1ZXZocw3D0EvB9tazYiGbr-i76iMtDa2T/view?usp=drive_web" }
                 }
             }
         ];
 
+        const marriedCouples = [
+            ["Josué", "Raquel"],
+            ["Robert", "Sara"],
+            ["Ramón", "Claudia"],
+            ["Juan Caños", "Sinddy"],
+            ["Sinddy", "Juan Caños"]
+        ];
+
+        function isCouple(encargado, apoyo) {
+            if (!encargado || typeof encargado !== 'string') return false;
+            if (encargado.includes(" y ") || encargado.includes(" & ")) return true;
+            if (!apoyo || apoyo === '-' || typeof apoyo !== 'string') return false;
+            return marriedCouples.some(pair => 
+                (pair[0].toLowerCase() === encargado.trim().toLowerCase() && pair[1].toLowerCase() === apoyo.trim().toLowerCase()) ||
+                (pair[1].toLowerCase() === encargado.trim().toLowerCase() && pair[0].toLowerCase() === apoyo.trim().toLowerCase())
+            );
+        }
+
+        function getRoomClassBadgesHtml(encargado, apoyo) {
+            if (!encargado && !apoyo) return '';
+            if (isCouple(encargado, apoyo)) {
+                const name = (encargado && typeof encargado === 'string' && (encargado.includes(" y ") || encargado.includes(" & "))) 
+                    ? encargado 
+                    : (encargado ? `${encargado} y ${apoyo || ''}` : apoyo);
+                return getTeacherBadgeHtml(name, 'E');
+            } else {
+                let html = getTeacherBadgeHtml(encargado, 'E');
+                if (apoyo && apoyo !== '-') {
+                    html += getTeacherBadgeHtml(apoyo, 'A');
+                }
+                return html;
+            }
+        }
+
         const teacherList = [
-            "Aby", "Alan", "Alondra", "Alexa", "Alexa Sarai", "Camila", "Carlos",
+            "Aby", "Aby y Alan", "Alan", "Alondra", "Alexa", "Alexa Sarai", "Camila", "Caños",
             "Cristina", "Daniel", "Danna", "Denisse", "Isaí",
-            "Joaquín", "Josué y Raquel", "Juan Carlos", "Karla", "Liz", "Mauricio",
-            "Ramón y Claudia", "Rebeca", "Robert y Sara", "Sinddy", "Yadira"
+            "Joaquín", "Josué y Raquel", "Karla", "Liz", "Mauricio",
+            "Ramón y Claudia", "Rebeca", "Robert y Sara", "Yadira"
         ];
 
         const timelineContainer = document.getElementById('timelineContainer');
         let currentFilteredTeacher = '';
-        let currentSelectedMonth = 'Agosto';
+        let currentSelectedMonth = 'Octubre';
         let currentSelectedRoom = 'all';
 
         function selectMonth(monthName) {
@@ -3163,20 +3391,30 @@
             applyFilters();
         }
 
-        function renderTimeline() {
+                                function renderTimeline() {
+            if (!timelineContainer) return;
             timelineContainer.innerHTML = '';
-            let filteredWeeks = scheduleData;
-            if (currentSelectedMonth !== 'Todos') {
-                filteredWeeks = scheduleData.filter(week => week.date.toLowerCase().includes(currentSelectedMonth.toLowerCase()));
-            }
 
-            if (filteredWeeks.length === 0 && currentSelectedMonth !== 'Todos') {
+            const filteredWeeks = scheduleData.filter(week => {
+                if (!week.date) return false;
+                if (currentSelectedMonth !== 'Todos') {
+                    if (!week.date.toLowerCase().includes(currentSelectedMonth.toLowerCase())) {
+                        return false;
+                    }
+                }
+                if (currentSelectedRoom !== 'all' && week.classes) {
+                    if (!week.classes[currentSelectedRoom]) return false;
+                }
+                return true;
+            });
+
+            if (filteredWeeks.length === 0) {
                 const emptyBlock = document.createElement('div');
-                emptyBlock.className = 'coming-soon-card';
+                emptyBlock.className = 'week-block empty-month-block';
                 emptyBlock.innerHTML = `
                     <div class="coming-soon-icon">⏳</div>
                     <div class="coming-soon-title">Rol de ${currentSelectedMonth} 2026 en Planeación</div>
-                    <div class="coming-soon-desc">El rol de maestros para este mes aún está siendo coordinado con los directores y coordinadores de apoyo. ¡Próximamente estará disponible!</div>
+                    <div class="coming-soon-desc">El rol de maños para este mes aÃºn está siendo coordinado con los directores y coordinadores de apoyo. • Pr • ximamente estará disponible!</div>
                 `;
                 timelineContainer.appendChild(emptyBlock);
                 return;
@@ -3197,10 +3435,16 @@
                     ? `<span class="state-badge badge-series">✝️ Serie: ${week.series}</span>` 
                     : '';
 
-                let themeHtml = week.materialUrl 
-                    ? `<a href="${week.materialUrl}" target="_blank" class="theme-link-badge" title="Abrir carpeta de recursos de la serie">📖 ${week.theme}</a>` 
-                    : `<div class="week-theme">${week.theme}</div>`;
+                let headerThemeText = week.theme || '';
+                if (headerThemeText.includes("  •  ")) {
+                    headerThemeText = headerThemeText.split("  •  ").slice(1).join("  •  ");
+                } else if (headerThemeText.includes(" - ")) {
+                    headerThemeText = headerThemeText.split(" - ").slice(1).join(" - ");
+                }
 
+                let themeHtml = week.materialUrl 
+                    ? `<a href="${week.materialUrl}" target="_blank" class="theme-link-badge" title="Abrir carpeta de recursos de la serie">📖 ${headerThemeText}</a>` 
+                    : `<div class="week-theme">${headerThemeText}</div>`;
                 let headerHtml = `
                     <div class="week-header">
                         <div class="week-date">
@@ -3218,25 +3462,60 @@
                     weekBlock.innerHTML = headerHtml + `
                         <div class="suspended-content">
                             <div class="suspended-title">🚫 Sesión Suspendida</div>
-                            <div class="suspended-desc">Este domingo no habrá clases programadas debido a la suspensión general. Las actividades y lecciones se recorren una semana hacia adelante a partir de este domingo.</div>
+                            <div class="suspended-desc">Este domingo no habr •  clases programadas debido a la suspensi • n general. Las actividades y lecciones se recorren una semana hacia adelante a partir de este domingo.</div>
                         </div>
                     `;
-                } else {
+                } else if (week.classes) {
                     let groupsHtml = `<div class="groups-grid">`;
                     const groupInfos = {
-                        "3-5": { name: "3 a 5 años", age: "👶 Pequeños", room: "Pequeños", cssClass: "g-3-5", url: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n" },
-                        "6-8": { name: "6 a 8 años", age: "👧 Medianos", room: "Medianos", cssClass: "g-6-8", url: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n" },
-                        "9-11": { name: "9 a 11 años", age: "👦 Grandes", room: "Grandes", cssClass: "g-9-11", url: "https://drive.google.com/drive/folders/1CyetjuE3x-dzTMAR6wfMJPnHcN1cvsEC" },
-                        "jv12": { name: "JV 12", age: "🎓 Pre-adolescentes", room: "Pre-adolescentes", cssClass: "g-jv12", url: "https://drive.google.com/drive/folders/1Z4kgoY0A6mOhTK84N0ZazT1CtjdWDrxa" }
+                        "3-5": { name: "Preescolar y 1.° •  de Primaria", age: "👶 Grupo 1", room: "Grupo 1", cssClass: "g-3-5", url: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n" },
+                        "6-8": { name: "2.º a 6.º de Primaria", age: "👧 Grupo 2", room: "Grupo 2", cssClass: "g-6-8", url: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n" },
+                        "jv12": { name: "JV12 / Secundaria", age: "🎓 Grupo 3", room: "Grupo 3", cssClass: "g-jv12", url: "https://drive.google.com/drive/folders/1Z4kgoY0A6mOhTK84N0ZazT1CtjdWDrxa" }
                     };
 
-                    Object.keys(week.classes).forEach(groupId => {
+                    Object.keys(groupInfos).forEach(groupId => {
                         const classData = week.classes[groupId];
+                        if (!classData) return;
                         const groupInfo = groupInfos[groupId];
+                        if (!groupInfo) return;
                         const dateParts = week.date.split(' ');
-                        const dayNum = dateParts[0] || '??';
+                        const dayNum = dateParts[0] || '';
                         const monthAbbr = (dateParts[2] || '').substring(0, 3).toUpperCase();
-                        const lessonUrl = groupInfo.url;
+                        const lessonUrl = classData.pdfUrl || classData.materialUrl || (week.pdfUrls && week.pdfUrls[groupId]) || groupInfo.url;
+
+                        let rolesHtml = '';
+                        const isMarried = isCouple(classData.encargado, classData.apoyo);
+                        if (isMarried) {
+                            const coupleName = (classData.encargado && typeof classData.encargado === 'string' && (classData.encargado.includes(" y ") || classData.encargado.includes(" & "))) 
+                                ? classData.encargado 
+                                : `${classData.encargado} y ${classData.apoyo || ''}`;
+                            rolesHtml = `
+                                <div class="card-role-item role-lead" data-role="encargado" data-name="${coupleName}">
+                                    <span class="card-role-icon">🔨</span>
+                                    <span class="card-role-label">Encaños</span>
+                                    <span class="role-name">${coupleName}</span>
+                                </div>
+                            `;
+                        } else {
+                            if (classData.encargado && classData.encargado !== '-') {
+                                rolesHtml += `
+                                    <div class="card-role-item role-lead" data-role="encargado" data-name="${classData.encargado}">
+                                        <span class="card-role-icon">🔨</span>
+                                        <span class="card-role-label">Encargado</span>
+                                        <span class="role-name">${classData.encargado}</span>
+                                    </div>
+                                `;
+                            }
+                            if (classData.apoyo && classData.apoyo !== '-') {
+                                rolesHtml += `
+                                    <div class="card-role-item role-support" data-role="apoyo" data-name="${classData.apoyo}">
+                                        <span class="card-role-icon">🔨</span>
+                                        <span class="card-role-label">Apoyo</span>
+                                        <span class="role-name">${classData.apoyo}</span>
+                                    </div>
+                                `;
+                            }
+                        }
 
                         groupsHtml += `
                             <div class="lesson-detail-card ${groupInfo.cssClass}" data-group="${groupId}">
@@ -3244,24 +3523,10 @@
                                     <span class="circle-date-day">${dayNum}</span>
                                     <span class="circle-date-month">${monthAbbr}</span>
                                 </div>
-                                <div class="card-date-label">🗓️ Domingo, ${week.date}</div>
-                                <a href="${lessonUrl}" target="_blank" class="card-lesson-title" title="Ver material de esta clase">${week.theme}</a>
-                                <div class="card-capsules-row">
-                                    <span class="capsule-badge capsule-age-${groupId}">${groupInfo.age}</span>
-                                    <span class="capsule-badge capsule-room">🚪 ${groupInfo.room}</span>
-                                    <span class="capsule-badge capsule-status-badge">${week.status === 'past' ? '✅ COMPLETADO' : '🟢 PRÓXIMO'}</span>
-                                </div>
+                                <div class="card-date-label">📅 Domingo, ${week.date}</div>
+                                <a href="${lessonUrl}" target="_blank" class="card-lesson-title" title="Ver material de esta clase">${week.theme.includes(":") ? week.theme.split(":")[0].trim() : week.theme}</a>
                                 <div class="card-role-row">
-                                    <div class="card-role-item role-lead" data-role="encargado" data-name="${classData.encargado}">
-                                        <span class="card-role-icon">🔨</span>
-                                        <span class="card-role-label">Encargado</span>
-                                        <span class="role-name">${classData.encargado}</span>
-                                    </div>
-                                    <div class="card-role-item role-support" data-role="apoyo" data-name="${classData.apoyo}">
-                                        <span class="card-role-icon">🤝</span>
-                                        <span class="card-role-label">Apoyo</span>
-                                        <span class="role-name">${classData.apoyo}</span>
-                                    </div>
+                                    ${rolesHtml}
                                 </div>
                             </div>
                         `;
@@ -3274,6 +3539,7 @@
             applyFilters();
         }
 
+
         function filterSchedule(teacherName) {
             currentFilteredTeacher = teacherName;
             const welcomeBanner = document.getElementById('welcomeBanner');
@@ -3281,7 +3547,7 @@
 
             if (!teacherName) {
                 welcomeBanner.style.display = 'none';
-                if (timelineHeader) timelineHeader.style.display = 'none';
+                if (timelineHeader) timelineHeader.style.display = 'flex';
                 renderTeacherDashboard('');
                 applyFilters();
                 return;
@@ -3296,7 +3562,7 @@
                         <span>👋 ¡Hola, ${matchedTeacher}!</span>
                     </div>
                     <div class="welcome-actions">
-                        <button class="change-user-btn" onclick="clearPreferredTeacher()">Cerrar sesión</button>
+                        <button class="change-user-btn" onclick="clearPreferredTeacher()">Cerrar Sesión</button>
                     </div>
                 `;
                 welcomeBanner.style.display = 'flex';
@@ -3320,7 +3586,7 @@
 
             const timelineHeader = document.getElementById('timelineHeader');
             if (timelineHeader) {
-                timelineHeader.style.display = hasTeacherFilter ? 'flex' : 'none';
+                timelineHeader.style.display = 'flex';
                 const toggleContainer = timelineHeader.querySelector('.toggle-container');
                 if (toggleContainer) toggleContainer.style.display = isJoaquin ? 'none' : 'flex';
             }
@@ -3456,7 +3722,7 @@
                     clearTeacherUrl();
                 }
 
-                document.getElementById('loginModal').style.display = 'none';
+                const lmHide = document.getElementById('loginModal'); if (lmHide) lmHide.style.display = 'none';
                 welcomeBanner.innerHTML = `
                     <div class="welcome-text">
                         <span>👋 ¡Hola, ${teacherName}!</span>
@@ -3470,9 +3736,9 @@
                 filterSchedule(teacherName);
             } else {
                 welcomeBanner.style.display = 'none';
-                if (timelineHeader) timelineHeader.style.display = 'none';
+                if (timelineHeader) timelineHeader.style.display = 'flex';
                 if (!fromUrl && !loginSkipped) {
-                    document.getElementById('loginModal').style.display = 'flex';
+                    const lmShow = document.getElementById('loginModal'); if (lmShow) lmShow.style.display = 'flex';
                 }
             }
         }
@@ -3494,15 +3760,15 @@
                 else btn.classList.remove('active');
             });
 
-            document.getElementById('welcomeBanner').style.display = 'none';
-            document.getElementById('timelineHeader').style.display = 'none';
+            const wbClear = document.getElementById('welcomeBanner'); if (wbClear) wbClear.style.display = 'none';
+            const thClear = document.getElementById('timelineHeader'); if (thClear) thClear.style.display = 'none';
 
             const selectElem = document.getElementById('loginTeacherSelect');
             if (selectElem) selectElem.value = "";
             const confirmBtn = document.getElementById('loginConfirmBtn');
             if (confirmBtn) confirmBtn.disabled = true;
 
-            document.getElementById('loginModal').style.display = 'flex';
+            const lmShow = document.getElementById('loginModal'); if (lmShow) lmShow.style.display = 'flex';
             renderTeacherDashboard('');
             filterSchedule('');
             window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -3512,7 +3778,7 @@
             const selectedTeacher = document.getElementById('loginTeacherSelect').value;
             if (selectedTeacher) {
                 localStorage.setItem('preferredTeacher', selectedTeacher);
-                document.getElementById('loginModal').style.display = 'none';
+                const lmHide = document.getElementById('loginModal'); if (lmHide) lmHide.style.display = 'none';
                 detectTeacher();
                 setTimeout(() => {
                     const selector = document.querySelector('.month-selector-grid');
@@ -3556,7 +3822,7 @@
         function getTeacherBadgeHtml(name, roleLabel) {
             if (!name || name === '-') return '';
             const color = getTeacherColor(name);
-            const icon = roleLabel === 'E' ? '🔨' : '🤝';
+            const icon = roleLabel === 'E' ? 'ðŸ‘‘' : 'ðŸ¤';
             return `
                 <span class="teacher-chip" style="background: ${color.bg}; color: ${color.text}; border: 1px solid ${color.border}; display: inline-flex; align-items: center; gap: 0.25rem; padding: 0.25rem 0.6rem; border-radius: 8px; font-size: 0.78rem; font-weight: 700; font-family: 'Inter', sans-serif; white-space: nowrap; width: fit-content; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                     <span style="font-size: 0.72rem; opacity: 0.8;">${icon}</span>
@@ -3577,7 +3843,7 @@
                         <tr class="suspended-row">
                             <td style="font-weight: 700; white-space: nowrap;">📅 ${week.date}</td>
                             <td colspan="5" style="text-align: center; vertical-align: middle;">
-                                <span class="admin-badge-suspended">🚫 Sesión Suspendida - Sin clases programadas</span>
+                                <span class="admin-badge-suspended">Sesión Suspendida - Sin clases programadas</span>
                             </td>
                         </tr>
                     `;
@@ -3593,26 +3859,22 @@
                             </td>
                             <td>
                                 <div class="admin-table-role">
-                                    ${getTeacherBadgeHtml(week.classes["3-5"].encargado, 'E')}
-                                    ${getTeacherBadgeHtml(week.classes["3-5"].apoyo, 'A')}
+                                    ${getRoomClassBadgesHtml(week.classes["3-5"]?.encargado, week.classes["3-5"]?.apoyo)}
                                 </div>
                             </td>
                             <td>
                                 <div class="admin-table-role">
-                                    ${getTeacherBadgeHtml(week.classes["6-8"].encargado, 'E')}
-                                    ${getTeacherBadgeHtml(week.classes["6-8"].apoyo, 'A')}
+                                    ${getRoomClassBadgesHtml(week.classes["6-8"]?.encargado, week.classes["6-8"]?.apoyo)}
                                 </div>
                             </td>
                             <td>
                                 <div class="admin-table-role">
-                                    ${getTeacherBadgeHtml(week.classes["9-11"].encargado, 'E')}
-                                    ${getTeacherBadgeHtml(week.classes["9-11"].apoyo, 'A')}
+                                    ${getRoomClassBadgesHtml(week.classes["9-11"]?.encargado, week.classes["9-11"]?.apoyo)}
                                 </div>
                             </td>
                             <td>
                                 <div class="admin-table-role">
-                                    ${getTeacherBadgeHtml(week.classes["jv12"].encargado, 'E')}
-                                    ${getTeacherBadgeHtml(week.classes["jv12"].apoyo, 'A')}
+                                    ${getRoomClassBadgesHtml(week.classes["jv12"]?.encargado, week.classes["jv12"]?.apoyo)}
                                 </div>
                             </td>
                         </tr>
@@ -3633,7 +3895,7 @@
 
         function skipLogin() {
             loginSkipped = true;
-            document.getElementById('loginModal').style.display = 'none';
+            const lmHide = document.getElementById('loginModal'); if (lmHide) lmHide.style.display = 'none';
             detectTeacher();
             setTimeout(() => {
                 const selector = document.querySelector('.month-selector-grid');
@@ -3674,7 +3936,7 @@
         }
 
         function removeProfilePhoto(teacherName) {
-            if (confirm("¿Estás seguro de que quieres eliminar tu foto de perfil?")) {
+            if (confirm(" • Est • s seguro de que quieres eliminar tu foto de perfil?")) {
                 localStorage.removeItem('profilePhoto_' + teacherName);
                 
                 // Eliminar de Firebase en segundo plano
@@ -3725,7 +3987,12 @@
                 loadPhotoFromFirebase(teacherName);
             }
 
-            if (normalizeString(teacherName) === 'joaquin') {
+            const normTeacher = normalizeString(teacherName);
+            const isCoordinationAdmin = normTeacher === 'joaquin' || normTeacher === 'aby y alan' || normTeacher === 'alan y aby' || normTeacher === 'aby & alan' || normTeacher === 'aby' || normTeacher === 'alan';
+            if (isCoordinationAdmin) {
+                const isAbyAlan = normTeacher.includes('aby') || normTeacher.includes('alan');
+                const avatarInitialsStr = isAbyAlan ? 'A&A' : 'JQ';
+                const adminBadgeLabel = isAbyAlan ? 'Vista Coordinación (Aby y Alan)' : 'Vista Administrador (Joaquín)';
                 // Render Joaquin's admin dashboard
                 let scheduleRowsHtml = '';
                 scheduleData.forEach(week => {
@@ -3734,99 +4001,183 @@
                             <div style="padding: 1.2rem 1rem; border-bottom: 1px solid rgba(120, 120, 120, 0.15); display: flex; justify-content: space-between; align-items: center; background: rgba(244, 63, 94, 0.03);">
                                 <strong style="color: var(--text-main); font-family: 'Outfit', sans-serif; font-size: 0.95rem; min-width: 90px;">📅 ${week.date}</strong>
                                 <span style="color: #f43f5e; font-weight: 800; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px; background: rgba(244, 63, 94, 0.1); padding: 0.25rem 0.65rem; border-radius: 6px;">
-                                    🚫 SIN CLASE
+                                    🏖 SIN CLASE
                                 </span>
                             </div>
                         `;
                     } else if (week.classes) {
                         scheduleRowsHtml += `
-                            <div style="padding: 1.2rem 1rem; border-bottom: 1px solid rgba(120, 120, 120, 0.15); display: flex; flex-direction: column; gap: 0.75rem;">
+                            <div style="padding: 1.2rem 1rem; border-bottom: 1px solid #e2e8f0; display: flex; flex-direction: column; gap: 0.75rem; background: #ffffff; border-radius: 12px; margin-bottom: 0.5rem; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
                                 <div style="display: flex; justify-content: space-between; align-items: center;">
                                     <span style="font-family: 'Outfit', sans-serif; font-weight: 800; color: #a5b4fc; font-size: 0.95rem;">📅 ${week.date}</span>
-                                    <span style="font-size: 0.72rem; background: rgba(120, 120, 120, 0.15); padding: 0.2rem 0.6rem; border-radius: 50px; color: var(--text-main); font-weight: 600; letter-spacing: 0.25px;">
+                                    <span style="font-size: 0.72rem; background: #f1f5f9; padding: 0.2rem 0.6rem; border-radius: 50px; color: #334155; font-weight: 600; letter-spacing: 0.25px; border: 1px solid #e2e8f0;">
                                         ${week.theme.split(':')[0]}
                                     </span>
                                 </div>
-                                <div style="display: flex; flex-direction: column; gap: 0.5rem;">
-                                    <div style="display: flex; align-items: center; justify-content: space-between; background: rgba(59, 130, 246, 0.08); border: 1px solid rgba(59, 130, 246, 0.2); padding: 0.45rem 0.75rem; border-radius: 10px; font-size: 0.82rem;">
-                                        <span style="color: #60a5fa; font-weight: 800; display: flex; align-items: center; gap: 0.3rem;">👶 3-5 años</span>
+                                                                                                <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                                    <div style="display: flex; align-items: center; justify-content: space-between; background: #eff6ff; border: 1px solid #bfdbfe; padding: 0.45rem 0.75rem; border-radius: 10px; font-size: 0.82rem;">
+                                        <span style="color: #60a5fa; font-weight: 800; display: flex; align-items: center; gap: 0.3rem;">Grupo 1: Preescolar y 1.° • </span>
                                         <div style="display: flex; gap: 0.25rem; flex-wrap: wrap; justify-content: flex-end;">
-                                            ${getTeacherBadgeHtml(week.classes["3-5"].encargado, 'E')}
-                                            ${getTeacherBadgeHtml(week.classes["3-5"].apoyo, 'A')}
+                                            ${getRoomClassBadgesHtml(week.classes["3-5"]?.encargado, week.classes["3-5"]?.apoyo)}
                                         </div>
                                     </div>
-                                    <div style="display: flex; align-items: center; justify-content: space-between; background: rgba(16, 185, 129, 0.08); border: 1px solid rgba(16, 185, 129, 0.2); padding: 0.45rem 0.75rem; border-radius: 10px; font-size: 0.82rem;">
-                                        <span style="color: #34d399; font-weight: 800; display: flex; align-items: center; gap: 0.3rem;">👧 6-8 años</span>
+                                    <div style="display: flex; align-items: center; justify-content: space-between; background: #ecfdf5; border: 1px solid #a7f3d0; padding: 0.45rem 0.75rem; border-radius: 10px; font-size: 0.82rem;">
+                                        <span style="color: #34d399; font-weight: 800; display: flex; align-items: center; gap: 0.3rem;">Grupo 2: 2.º a 6.º Primaria</span>
                                         <div style="display: flex; gap: 0.25rem; flex-wrap: wrap; justify-content: flex-end;">
-                                            ${getTeacherBadgeHtml(week.classes["6-8"].encargado, 'E')}
-                                            ${getTeacherBadgeHtml(week.classes["6-8"].apoyo, 'A')}
+                                            ${getRoomClassBadgesHtml(week.classes["6-8"]?.encargado, week.classes["6-8"]?.apoyo)}
                                         </div>
                                     </div>
-                                    <div style="display: flex; align-items: center; justify-content: space-between; background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.2); padding: 0.45rem 0.75rem; border-radius: 10px; font-size: 0.82rem;">
-                                        <span style="color: #fbbf24; font-weight: 800; display: flex; align-items: center; gap: 0.3rem;">👦 9-11 años</span>
+                                    <div style="display: flex; align-items: center; justify-content: space-between; background: #f5f3ff; border: 1px solid #ddd6fe; padding: 0.45rem 0.75rem; border-radius: 10px; font-size: 0.82rem;">
+                                        <span style="color: #a78bfa; font-weight: 800; display: flex; align-items: center; gap: 0.3rem;">🎓 Grupo 3: JV12 / Secundaria</span>
                                         <div style="display: flex; gap: 0.25rem; flex-wrap: wrap; justify-content: flex-end;">
-                                            ${getTeacherBadgeHtml(week.classes["9-11"].encargado, 'E')}
-                                            ${getTeacherBadgeHtml(week.classes["9-11"].apoyo, 'A')}
-                                        </div>
-                                    </div>
-                                    <div style="display: flex; align-items: center; justify-content: space-between; background: rgba(139, 92, 246, 0.08); border: 1px solid rgba(139, 92, 246, 0.2); padding: 0.45rem 0.75rem; border-radius: 10px; font-size: 0.82rem;">
-                                        <span style="color: #a78bfa; font-weight: 800; display: flex; align-items: center; gap: 0.3rem;">🎓 JV 12 años</span>
-                                        <div style="display: flex; gap: 0.25rem; flex-wrap: wrap; justify-content: flex-end;">
-                                            ${getTeacherBadgeHtml(week.classes["jv12"].encargado, 'E')}
-                                            ${getTeacherBadgeHtml(week.classes["jv12"].apoyo, 'A')}
+                                            ${getRoomClassBadgesHtml(week.classes["jv12"]?.encargado, week.classes["jv12"]?.apoyo)}
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         `;
                     }
                 });
 
                 dashboard.innerHTML = `
-                    <div class="teacher-dashboard-card" style="border-color: rgba(99, 102, 241, 0.35); background: rgba(30, 41, 59, 0.55); padding: 1.8rem; display: flex; flex-direction: column; gap: 1.5rem;">
+                    <div class="teacher-dashboard-card" style="border-color: #e2e8f0; background: #ffffff; padding: 1.8rem; display: flex; flex-direction: column; gap: 1.5rem; color: #0f172a; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
                         <div class="dashboard-user-profile" style="padding-bottom: 1.25rem; border-bottom: 1px solid rgba(120, 120, 120, 0.15);">
                             <div class="avatar-container" style="width: 76px; height: 76px; box-shadow: 0 0 20px rgba(99, 102, 241, 0.45); border-color: rgba(99, 102, 241, 0.3);">
-                                <span class="avatar-initials" style="font-size: 1.8rem; font-family: 'Outfit', sans-serif;">JQ</span>
+                                <span class="avatar-initials" style="font-size: 1.8rem; font-family: 'Outfit', sans-serif;">${avatarInitialsStr}</span>
                             </div>
                             <h3 class="dashboard-username" style="font-size: 1.35rem; margin-top: 0.6rem; color: var(--text-main);">Panel de Coordinación</h3>
-                            <span class="welcome-badge" style="background: rgba(99, 102, 241, 0.15); border: 1px solid rgba(99, 102, 241, 0.3); color: #a5b4fc; font-size: 0.75rem; padding: 0.3rem 0.85rem; border-radius: 30px; margin-top: 0.35rem; font-weight: 600;">Vista Administrador (Joaquín)</span>
+                            <span class="welcome-badge" style="background: rgba(99, 102, 241, 0.15); border: 1px solid rgba(99, 102, 241, 0.3); color: #a5b4fc; font-size: 0.75rem; padding: 0.3rem 0.85rem; border-radius: 30px; margin-top: 0.35rem; font-weight: 600;">${adminBadgeLabel}</span>
                         </div>
 
                         <!-- Bloque de quiénes estarán fuera -->
-                        <div style="background: rgba(244, 63, 94, 0.05); border: 1px solid rgba(244, 63, 94, 0.2); border-radius: 18px; padding: 1.2rem; display: flex; flex-direction: column; gap: 0.85rem;">
-                            <h4 style="margin: 0; color: #fda4af; font-size: 0.95rem; font-family: 'Outfit', sans-serif; display: flex; align-items: center; gap: 0.5rem; font-weight: 700;">
-                                🛫 Maestros Fuera / Licencias
+                        <div style="background: #fff1f2; border: 1px solid #fecdd3; border-radius: 18px; padding: 1.2rem; display: flex; flex-direction: column; gap: 0.85rem;">
+                            <h4 style="margin: 0; color: #e11d48; font-size: 0.95rem; font-family: 'Outfit', sans-serif; display: flex; align-items: center; gap: 0.5rem; font-weight: 700;">
+                                🌴 Maños Fuera / Licencias
                             </h4>
                             <div style="display: flex; flex-direction: column; gap: 0.65rem;">
-                                <div style="display: flex; align-items: start; gap: 0.5rem; background: rgba(120, 120, 120, 0.08); padding: 0.6rem 0.85rem; border-radius: 10px; border-left: 3.5px solid #f43f5e;">
+                                <div style="display: flex; align-items: start; gap: 0.5rem; background: #ffffff; padding: 0.6rem 0.85rem; border-radius: 10px; border-left: 3.5px solid #f43f5e; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
                                     <div style="font-size: 0.78rem; line-height: 1.45;">
-                                        <div style="font-weight: 800; color: var(--text-main);">14 y 28 de Junio (Vacaciones)</div>
-                                        <div style="color: var(--text-muted); margin-top: 0.1rem; font-weight: 500;">Aby, Alan y Rebeca</div>
+                                        <div style="font-weight: 800; color: #0f172a;">14 y 28 de Junio (Vacaciones)</div>
+                                        <div style="color: #475569; margin-top: 0.1rem; font-weight: 500;">Aby, Alan y Rebeca</div>
                                     </div>
                                 </div>
-                                <div style="display: flex; align-items: start; gap: 0.5rem; background: rgba(120, 120, 120, 0.08); padding: 0.6rem 0.85rem; border-radius: 10px; border-left: 3.5px solid #f43f5e;">
+                                <div style="display: flex; align-items: start; gap: 0.5rem; background: #ffffff; padding: 0.6rem 0.85rem; border-radius: 10px; border-left: 3.5px solid #f43f5e; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
                                     <div style="font-size: 0.78rem; line-height: 1.45;">
-                                        <div style="font-weight: 800; color: var(--text-main);">Todo Julio (Ausencia temporal)</div>
-                                        <div style="color: var(--text-muted); margin-top: 0.1rem; font-weight: 500;">Josué y Raquel</div>
+                                        <div style="font-weight: 800; color: #0f172a;">Todo Julio (Ausencia temporal)</div>
+                                        <div style="color: #475569; margin-top: 0.1rem; font-weight: 500;">Josué y Raquel</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
+                        <!-- Bloque exclusivo de Coordinación: Edades y Graños de los Niños -->
+                        <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 18px; padding: 1.2rem; display: flex; flex-direction: column; gap: 0.85rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <h4 style="margin: 0; color: #0369a1; font-size: 0.95rem; font-family: 'Outfit', sans-serif; display: flex; align-items: center; gap: 0.5rem; font-weight: 700;">
+                                    👶 Listado de Niños y Edades
+                                </h4>
+                                <span style="font-size: 0.72rem; background: #e0f2fe; color: #0284c7; padding: 0.2rem 0.6rem; border-radius: 50px; font-weight: 700;">Exclusivo Coordinación</span>
+                            </div>
+
+                            <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+                                <!-- Grupo Infantil / Kínder y Primaria Menor (Grupo 1) -->
+                                <div style="background: #ffffff; border: 1px solid #bfdbfe; border-radius: 12px; padding: 0.75rem; display: flex; flex-direction: column; gap: 0.4rem;">
+                                    <div style="font-size: 0.78rem; font-weight: 800; color: #1d4ed8; display: flex; align-items: center; gap: 0.35rem; border-bottom: 1px solid #eff6ff; padding-bottom: 0.35rem;">
+                                        👶 Grupo Infantil / Kínder y Primaria Menor (3 a 7 años)
+                                    </div>
+                                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 0.4rem; margin-top: 0.2rem;">
+                                        <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 0.35rem 0.55rem; border-radius: 8px; font-size: 0.75rem;">
+                                            <div style="font-weight: 700; color: #0f172a;">Romina</div>
+                                            <div style="color: #475569; font-size: 0.7rem;">4 años • 2.º Kínder</div>
+                                        </div>
+                                        <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 0.35rem 0.55rem; border-radius: 8px; font-size: 0.75rem;">
+                                            <div style="font-weight: 700; color: #0f172a;">Sofia</div>
+                                            <div style="color: #475569; font-size: 0.7rem;">5 años • 3.º Kínder</div>
+                                        </div>
+                                        <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 0.35rem 0.55rem; border-radius: 8px; font-size: 0.75rem;">
+                                            <div style="font-weight: 700; color: #0f172a;">Juan Pablo</div>
+                                            <div style="color: #475569; font-size: 0.7rem;">6 años • 1.º Escuela</div>
+                                        </div>
+                                        <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 0.35rem 0.55rem; border-radius: 8px; font-size: 0.75rem;">
+                                            <div style="font-weight: 700; color: #0f172a;">Alexa</div>
+                                            <div style="color: #475569; font-size: 0.7rem;">7 años • 1.º Escuela</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Grupo 2 (2.º a 6.º de Primaria) -->
+                                <div style="background: #ffffff; border: 1px solid #a7f3d0; border-radius: 12px; padding: 0.75rem; display: flex; flex-direction: column; gap: 0.4rem;">
+                                    <div style="font-size: 0.78rem; font-weight: 800; color: #047857; display: flex; align-items: center; gap: 0.35rem; border-bottom: 1px solid #ecfdf5; padding-bottom: 0.35rem;">
+                                        👧 Grupo 2 (2.º a 6.º de Primaria / 7 a 11 años)
+                                    </div>
+                                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 0.4rem; margin-top: 0.2rem;">
+                                        <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 0.35rem 0.55rem; border-radius: 8px; font-size: 0.75rem;">
+                                            <div style="font-weight: 700; color: #0f172a;">Emanuel Esau</div>
+                                            <div style="color: #475569; font-size: 0.7rem;">7 años • 2.º Primaria</div>
+                                        </div>
+                                        <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 0.35rem 0.55rem; border-radius: 8px; font-size: 0.75rem;">
+                                            <div style="font-weight: 700; color: #0f172a;">Dylan Rocha</div>
+                                            <div style="color: #475569; font-size: 0.7rem;">8 años • 3.º Primaria</div>
+                                        </div>
+                                        <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 0.35rem 0.55rem; border-radius: 8px; font-size: 0.75rem;">
+                                            <div style="font-weight: 700; color: #0f172a;">Ashly</div>
+                                            <div style="color: #475569; font-size: 0.7rem;">8 años • 3.º Primaria</div>
+                                        </div>
+                                        <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 0.35rem 0.55rem; border-radius: 8px; font-size: 0.75rem;">
+                                            <div style="font-weight: 700; color: #0f172a;">Ileana Correa</div>
+                                            <div style="color: #475569; font-size: 0.7rem;">9 años • 4.º Primaria</div>
+                                        </div>
+                                        <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 0.35rem 0.55rem; border-radius: 8px; font-size: 0.75rem;">
+                                            <div style="font-weight: 700; color: #0f172a;">Angela Alvarez</div>
+                                            <div style="color: #475569; font-size: 0.7rem;">11 años • 6.º Primaria</div>
+                                        </div>
+                                        <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 0.35rem 0.55rem; border-radius: 8px; font-size: 0.75rem;">
+                                            <div style="font-weight: 700; color: #0f172a;">Evelyn De León</div>
+                                            <div style="color: #475569; font-size: 0.7rem;">11 años • 6.º Primaria</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Nivel Preparatoria (JV12) -->
+                                <div style="background: #ffffff; border: 1px solid #ddd6fe; border-radius: 12px; padding: 0.75rem; display: flex; flex-direction: column; gap: 0.4rem;">
+                                    <div style="font-size: 0.78rem; font-weight: 800; color: #6d28d9; display: flex; align-items: center; gap: 0.35rem; border-bottom: 1px solid #f5f3ff; padding-bottom: 0.35rem;">
+                                        🎓 Nivel Preparatoria (JV12)
+                                    </div>
+                                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 0.4rem; margin-top: 0.2rem;">
+                                        <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 0.35rem 0.55rem; border-radius: 8px; font-size: 0.75rem;">
+                                            <div style="font-weight: 700; color: #0f172a;">David Torres</div>
+                                            <div style="color: #475569; font-size: 0.7rem;">15 años •  Prepa</div>
+                                        </div>
+                                        <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 0.35rem 0.55rem; border-radius: 8px; font-size: 0.75rem;">
+                                            <div style="font-weight: 700; color: #0f172a;">Alexa Alanis</div>
+                                            <div style="color: #475569; font-size: 0.7rem;">15 años •  Prepa</div>
+                                        </div>
+                                        <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 0.35rem 0.55rem; border-radius: 8px; font-size: 0.75rem;">
+                                            <div style="font-weight: 700; color: #0f172a;">Marcos De León</div>
+                                            <div style="color: #475569; font-size: 0.7rem;">15 años •  Prepa</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
                         <div>
                             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem;">
-                                <div class="dashboard-agenda-title" style="margin: 0; font-family: 'Outfit', sans-serif; font-size: 1.05rem; font-weight: 700; color: var(--text-main);">📋 Control Rápido de Clases</div>
+                                <div class="dashboard-agenda-title" style="margin: 0; font-family: 'Outfit', sans-serif; font-size: 1.05rem; font-weight: 700; color: var(--text-main);">⚡ Control Rápido de Clases</div>
                                 <button onclick="openAdminModal()" class="expand-btn" style="background: rgba(99, 102, 241, 0.15); border: 1px solid rgba(99, 102, 241, 0.3); color: #a5b4fc; border-radius: 8px; padding: 0.3rem 0.6rem; font-size: 0.75rem; font-family: 'Outfit', sans-serif; font-weight: 600; cursor: pointer; transition: all 0.2s; display: flex; align-items: center; gap: 0.3rem;">
-                                    <span>⛶</span> Vista Ampliada
+                                    <span>?</span> Vista Ampliada
                                 </button>
                             </div>
-                            <div class="dashboard-agenda-list" style="max-height: 480px; border: 1px solid rgba(120, 120, 120, 0.15); border-radius: 18px; background: rgba(120, 120, 120, 0.03); padding: 0.25rem;">
+                            <div class="dashboard-agenda-list" style="max-height: 480px; border: 1px solid #e2e8f0; border-radius: 18px; background: #f8fafc; padding: 0.4rem;">
                                 ${scheduleRowsHtml}
                             </div>
                         </div>
 
                         <button onclick="clearPreferredTeacher()" class="change-user-btn" style="width: 100%; margin-top: 0.5rem; padding: 0.85rem; border-radius: 14px; font-size: 0.88rem; font-weight: 600; box-sizing: border-box; cursor: pointer; transition: all 0.2s;">
-                            Cerrar sesión de Administrador
+                            Cerrar Sesión de Administrador
                         </button>
                     </div>
                 `;
@@ -3837,7 +4188,7 @@
             const normalizedSearch = normalizeString(teacherName);
             let totalClasses = 0;
             let classesThisMonth = 0;
-            let upcomingLessons = [];
+            let upcomingLeóns = [];
             let agendaListHtml = '';
             const activeMonthCard = document.querySelector('.month-card.active');
             const activeMonth = activeMonthCard ? activeMonthCard.getAttribute('data-month') : 'Todos';
@@ -3861,7 +4212,7 @@
                         }
 
                         if (week.status === 'current') {
-                            upcomingLessons.push(week.theme.replace(/^[^\w\s]+/, '').trim());
+                            upcomingLeóns.push(week.theme.replace(/^[^\w\s]+/, '').trim());
                             const roleText = userRoleThisWeek === 'lead' ? 'Encargado' : 'Apoyo';
                             const roleClass = userRoleThisWeek;
 
@@ -3879,7 +4230,7 @@
                 });
             });
 
-            const lessonsSummaryStr = upcomingLessons.length > 0 ? upcomingLessons.slice(0, 2).join(', ') : 'Sin lecciones próximas';
+            const lessonsSummaryStr = upcomingLeóns.length > 0 ? upcomingLeóns.slice(0, 2).join(', ') : 'Sin lecciones pr • ximas';
             let initials = '';
             if (teacherName.includes(' y ')) {
                 initials = teacherName.split(' y ').map(n => n.trim()[0]).join('&');
@@ -3915,12 +4266,12 @@
                             <span class="metric-lbl">Clases Totales</span>
                         </div>
                         <div class="metric-large-box">
-                            <span class="metric-large-title">📖 Mis Temas Próximos</span>
+                            <span class="metric-large-title">📚 Mis Temas Próximos</span>
                             <span class="metric-large-desc">${lessonsSummaryStr}</span>
                         </div>
                     </div>
 
-                    <div class="dashboard-agenda-title">🗓️ Mis Próximas Fechas</div>
+                    <div class="dashboard-agenda-title">📅 Mis Próximas Fechas</div>
                     <div class="dashboard-agenda-list">
                         ${agendaListHtml || '<div style="font-size: 0.8rem; color: var(--text-muted); text-align: center; padding: 1rem 0;">No tienes clases próximas programadas.</div>'}
                     </div>
@@ -3931,7 +4282,7 @@
                     </div>
 
                     <button onclick="reportAbsence('${teacherName}')" style="width: 100%; margin-top: 0.5rem; padding: 0.8rem; background: rgba(244, 63, 94, 0.15); color: #f43f5e; border: 1px solid rgba(244, 63, 94, 0.4); border-radius: 12px; cursor: pointer; font-weight: bold; font-family: 'Inter', sans-serif; transition: all 0.2s;">
-                        ⚠️ No puedo dar clase (Avisar)
+                        🚨 No puedo dar clase (Avisar)
                     </button>
                 </div>
             `;
@@ -4003,8 +4354,8 @@
         }
 
         function shareApp() {
-            const shareUrl = "https://rodriguezj75468-glitch.github.io/Rol_de_maestros/";
-            const shareText = "👋 ¡Hola! Aquí tienes el Rol de Clases Dominicales actualizado (Junio - Septiembre 2026). Consúltalo en tiempo real aquí:";
+            const shareUrl = "https://rodriguezj75468-glitch.github.io/Rol_de_maños/";
+            const shareText = "👋 ¡Hola! Aquí tienes el Rol de Clases Dominicales actualizado (Junio - Octubre 2026). Consúltalo en tiempo real aquí:";
             
             const urlInput = document.getElementById('shareUrlInput');
             if (urlInput) urlInput.value = shareUrl;
@@ -4040,18 +4391,18 @@
         }
 
         async function copyShareUrl() {
-            const shareUrl = "https://rodriguezj75468-glitch.github.io/Rol_de_maestros/";
-            const shareText = "👋 ¡Hola! Aquí tienes el Rol de Clases Dominicales actualizado (Junio - Septiembre 2026). Consúltalo en tiempo real aquí:";
+            const shareUrl = "https://rodriguezj75468-glitch.github.io/Rol_de_maños/";
+            const shareText = "👋 ¡Hola! Aquí tienes el Rol de Clases Dominicales actualizado (Junio - Octubre 2026). Consúltalo en tiempo real aquí:";
             
             try {
                 await navigator.clipboard.writeText(`${shareText}\n${shareUrl}`);
-                showToastNotification('📋 ¡Mensaje y enlace copiados!');
+                showToastNotification('📋 ¡Mensaje y enlace copiaños!');
             } catch (err) {
                 const urlInput = document.getElementById('shareUrlInput');
                 if (urlInput) {
                     urlInput.select();
                     document.execCommand('copy');
-                    showToastNotification('📋 ¡Enlace copiado!');
+                    showToastNotification('🔗 ¡Enlace copiado!');
                 }
             }
         }
