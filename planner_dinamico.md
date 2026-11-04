@@ -1,31 +1,34 @@
-﻿# 📅 PLANNER DOMINICAL — ROL ACTUALIZADO DE CLASES 🚀
+# 📅 PLANNER DOMINICAL — ROL ACTUALIZADO DE CLASES 🚀
 
-Este es el rol de maestros actualizado para los meses de **Junio, Julio, Agosto, Septiembre y Octubre de 2026**, incorporando la rotación de maestros y coordinadores para todas las aulas dominicales a partir del 28 de Junio.
+Rol de maestros de **Noviembre de 2026 a Enero de 2027**, organizado por grado en 3 grupos, con la serie **Estatura Espiritual**.
 
 ---
 
-## 📆 ROL DE CLASES (Junio - Octubre 2026)
+## 📢 Ajustes y Reglas
+1. **29 de Noviembre: SIN CLASE por Cierre de Ayuno.** El rol y las lecciones posteriores se recorrieron una semana hacia adelante.
+2. **20 de Diciembre:** tema especial *La verdadera celebración (Navidad)*; la serie continúa el 27 de Diciembre.
+3. **Ningún maestro repite en domingos consecutivos** (en ningún grupo).
+4. **Cristina** solo sirve cuando está **Daniel** o **Mauricio** en su mismo grupo.
+5. **Mauricio** solo sirve cuando **Alexa** está programada.
+6. **Matrimonios** (Ramón y Claudia, Robert y Sara, Josué y Raquel, Sinddy y Juan Carlos): los dos van juntos como Encargados, sin Apoyo.
 
-| Domingo | Lección / Tema | [👶 3 a 5 años](https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n) | [👧 6 a 8 años](https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n) | [👦 9 a 11 años](https://drive.google.com/drive/folders/1CyetjuE3x-dzTMAR6wfMJPnHcN1cvsEC) | [🎓 JV 12](https://drive.google.com/drive/folders/1Z4kgoY0A6mOhTK84N0ZazT1CtjdWDrxa) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **28 de Junio** | [Lección 7: Esteban](https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2) | **E:** Danna <br> **A:** Alondra | **E:** Sinddy <br> **A:** Carlos | **E:** Joaquín <br> **A:** Isaí | **E:** Josué <br> **A:** Raquel |
-| **05 de Julio** | [Lección 8: Pablo](https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2) | **E:** Alexa <br> **A:** Rebeca | **E:** Aby <br> **A:** Denisse | **E:** Alan <br> **A:** Mauricio | **E:** Robert <br> **A:** Sara |
-| **12 de Julio** | [Lección Libre](https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2) | **E:** Liz <br> **A:** Yadira | **E:** Karla <br> **A:** Alexa Sarai | **E:** Daniel <br> **A:** Cristina | **E:** Ramón <br> **A:** Claudia |
-| **19 de Julio** | [Lección 1: Vivir es Cristo - Filipenses 1:1-11](https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2) | **E:** Danna <br> **A:** Rebeca | **E:** Aby <br> **A:** Denisse | **E:** Joaquín <br> **A:** Isaí | **E:** Sinddy <br> **A:** Juan Carlos |
-| **26 de Julio** | [Lección 2: Vivir es Cristo - Filipenses 1:12-30](https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2) | **E:** Alexa <br> **A:** Yadira | **E:** Ramón <br> **A:** Claudia | **E:** Cristina <br> **A:** Mauricio | **E:** Aby <br> **A:** Alan |
-| **02 de Agosto** | [Lección 3: Vivir es Cristo - Filipenses 2:1-11](https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2) | **E:** Liz <br> **A:** Rebeca | **E:** Sinddy <br> **A:** Carlos | **E:** Alan <br> **A:** Juan Carlos | **E:** Robert <br> **A:** Sara |
-| **09 de Agosto** | [Lección 4: Vivir es Cristo - Filipenses 2:12-18](https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2) | **E:** Danna <br> **A:** Yadira | **E:** Karla <br> **A:** Alexa Sarai | **E:** Daniel <br> **A:** Cristina | **E:** Ramón <br> **A:** Claudia |
-| **16 de Agosto** | [Lección 5: Vivir es Cristo - Filipenses 3](https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2) | **E:** Alexa <br> **A:** Alondra | **E:** Aby <br> **A:** Denisse | **E:** Alan <br> **A:** Mauricio | **E:** Josué <br> **A:** Raquel |
-| **23 de Agosto** | [Lección 6: Vivir es Cristo - Filipenses 4:1-7](https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2) | **E:** Liz <br> **A:** Camila | **E:** Sinddy <br> **A:** Carlos | **E:** Joaquín <br> **A:** Isaí | **E:** Ramón <br> **A:** Claudia |
-| **30 de Agosto** | [Lección 7: Vivir es Cristo - Filipenses 4:8-9](https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2) | **E:** Danna <br> **A:** Rebeca | **E:** Karla <br> **A:** Alexa Sarai | **E:** Daniel <br> **A:** Cristina | **E:** Robert <br> **A:** Sara |
-| **06 de Septiembre** | [Lección 8: Vivir es Cristo - Filipenses 4:10-23](https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2) | **E:** Alexa <br> **A:** Yadira | **E:** Aby <br> **A:** Denisse | **E:** Alan <br> **A:** Mauricio | **E:** Josué <br> **A:** Raquel |
-| **13 de Septiembre** | [Mensaje Directo — Lección Especial](https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2) | **E:** Liz <br> **A:** Camila | **E:** Karla <br> **A:** Alexa Sarai | **E:** Joaquín <br> **A:** Isaí | **E:** Robert <br> **A:** Sara |
-| **20 de Septiembre** | [Mensaje Directo — Lección 1](https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2) | **E:** Danna <br> **A:** Alondra | **E:** Danna <br> **A:** Alondra | **E:** Daniel <br> **A:** Cristina | **E:** Sinddy <br> **A:** Juan Carlos |
-| **27 de Septiembre** | [Mensaje Directo — Lección 2](https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2) | **E:** Liz <br> **A:** Yadira | **E:** Liz <br> **A:** Yadira | **E:** Joaquín <br> **A:** Carlos | **E:** Ramón <br> **A:** Claudia |
-| **04 de Octubre** | [Mensaje Directo — Lección 3: Pedir su dirección (Salmo 119:26-35)](https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2) | **E:** Danna <br> **A:** Rebeca | **E:** Karla <br> **A:** Alexa Sarai | Mismo grupo que 6 a 8 | **E:** Sinddy <br> **A:** Juan Carlos |
-| **11 de Octubre** | [Mensaje Directo — Lección 4: Confiar en su amor (Efesios 3:14-21)](https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2) | **E:** Alexa <br> **A:** Camila | **E:** Alan <br> **A:** Mauricio | Mismo grupo que 6 a 8 | **E:** Robert <br> **A:** Sara |
-| **18 de Octubre** | [Mensaje Directo — Lección 5: Fortaleciendo para amar más y más (1 Tesalonicenses 3:12-13)](https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2) | **E:** Liz <br> **A:** Alondra | **E:** Aby <br> **A:** Denisse | Mismo grupo que 6 a 8 | **E:** Josué <br> **A:** Raquel |
-| **25 de Octubre** | [Mensaje Directo — Lección 6: Dando gloria a Dios (2 Tesalonicenses 1:11-12)](https://drive.google.com/drive/folders/1yQpcPqzQ3ypKRbrgBtFSLk1zx_hSAxv2) | **E:** Danna <br> **A:** Yadira | **E:** Daniel <br> **A:** Cristina | Mismo grupo que 6 a 8 | **E:** Ramón <br> **A:** Claudia |
+---
+
+## 📆 ROL DE CLASES (Noviembre - Enero)
+
+| Domingo | Lección / Tema | 👶 Grupo 1: Preescolar y 1.° | 🧒 Grupo 2: 2.° a 6.° Primaria | 🎓 Grupo 3: JV12 / Secundaria |
+| :--- | :--- | :--- | :--- | :--- |
+| **01 de Noviembre** *(Completado)* | *Completado* | **E:** Liz | **E:** Joaquín <br> **A:** Carlos | **E:** Alan <br> **A:** Aby |
+| **08 de Noviembre** | Estatura Espiritual — Lección 1 <br> [Niños](https://drive.google.com/file/d/1jLgzbfk8iE211R9nc_yLz9XhneH2GP8D/view?usp=drive_web) · [Preadolescentes](https://drive.google.com/file/d/1uAGpfyFvCEgjDiK6lUwkBKOVUt6YfOa-/view?usp=drive_web) · [Adolescentes](https://drive.google.com/file/d/1jlxZk0SvlxvcIdqkgw3wJLqvjDKF5tQz/view?usp=drive_web) | **E:** Danna <br> **A:** Rebeca | **E:** Ramón y Claudia | **E:** Sinddy y Juan Carlos |
+| **15 de Noviembre** | Estatura Espiritual — Lección 2 <br> [Niños](https://drive.google.com/file/d/1RvNkk4sWk9u6WRIbgJklxsRCFOg73SRp/view?usp=drive_web) · [Preadolescentes](https://drive.google.com/file/d/1uykt60oDwNyWIT81SyIOxcEM6BZEFKsF/view?usp=drive_web) · [Adolescentes](https://drive.google.com/open?id=1tcSyKVwUJcyyGcvzhHmTKWHcdJn6nfnL) | **E:** Alexa <br> **A:** Yadira | **E:** Alan <br> **A:** Mauricio | **E:** Robert y Sara |
+| **22 de Noviembre** | Estatura Espiritual — Lección 3 <br> [Niños](https://drive.google.com/file/d/1MXyfcL1KFGEYgtUyvvK8TIcXE_3XdAc5/view?usp=drive_web) · [Preadolescentes](https://drive.google.com/file/d/1Kdfm96PgVZgo2pn0wQkWKGe9bEYfS9JO/view?usp=drive_web) · [Adolescentes](https://drive.google.com/file/d/1xlDPN-QrrtRzLi9V6zMoeRUy0BJBjt-R/view?usp=drive_web) | **E:** Liz <br> **A:** Camila | **E:** Karla <br> **A:** Alexa Sarai | **E:** Ramón y Claudia |
+| **29 de Noviembre** | **🚫 SIN CLASE (Cierre de Ayuno)** | - | - | - |
+| **06 de Diciembre** | Estatura Espiritual — Lección 4 <br> [Niños](https://drive.google.com/file/d/1KBdDfxSNCIDwEBpavvondMiPQk3yBxgp/view?usp=drive_web) · [Preadolescentes](https://drive.google.com/file/d/1PURW8A3Wu3RUDVMYmeaTU5hKfHsBGLbc/view?usp=drive_web) · [Adolescentes](https://drive.google.com/file/d/13pbfjnvkWnPX88gh5T-RSt_jc-nrQ7AA/view?usp=drive_web) | **E:** Danna <br> **A:** Alondra | **E:** Aby <br> **A:** Denisse | **E:** Josué y Raquel |
+| **13 de Diciembre** | Estatura Espiritual — Lección 5 <br> [Niños](https://drive.google.com/file/d/1yJ4pEwfvXs17sVLiKzkS0l-vPSS2U1hP/view?usp=drive_web) · [Preadolescentes](https://drive.google.com/file/d/1CSWmVCD6XjlpkUoFbPkAI4QHOKalxzX_/view?usp=drive_web) · [Adolescentes](https://drive.google.com/file/d/14WbYaYh2BID0N4Tlty4akdEkovrkRI5p/view?usp=drive_web) | **E:** Alexa <br> **A:** Rebeca | **E:** Daniel <br> **A:** Cristina | **E:** Sinddy y Juan Carlos |
+| **20 de Diciembre** | **🎄 LA VERDADERA CELEBRACIÓN (NAVIDAD)** <br> *(tema especial, fuera de la serie)* | **E:** Liz <br> **A:** Yadira | **E:** Ramón y Claudia | **E:** Robert y Sara |
+| **27 de Diciembre** | Estatura Espiritual — Lección 6 <br> [Niños](https://drive.google.com/file/d/1Jh-tSqEznspjBXEb5iJaB-V0jMmPUlEj/view?usp=drive_web) · [Preadolescentes](https://drive.google.com/file/d/1i03VUUKpYjG9qmozOYkCAyP7HBwWI8eb/view?usp=drive_web) · [Adolescentes](https://drive.google.com/file/d/1jjBJCBojmvkFdeMb6Kn3mXJVW3UzlJIM/view?usp=drive_web) | **E:** Danna <br> **A:** Camila | **E:** Joaquín <br> **A:** Isaí | **E:** Josué y Raquel |
+| **03 de Enero** | Estatura Espiritual — Lección 7 <br> [Niños](https://drive.google.com/file/d/1Q5FYlQ6tsBmcMwhRh2NPsfu_FK1BHPuw/view?usp=drive_web) · [Preadolescentes](https://drive.google.com/file/d/1izwexCfEW1kFA0937fVrnvQaAMwHpCWL/view?usp=drive_web) · [Adolescentes](https://drive.google.com/file/d/17ir64qMS2c0mU3_4Lt9gpeHKGVkPEDm6/view?usp=drive_web) | **E:** Alexa <br> **A:** Alondra | **E:** Alan <br> **A:** Mauricio | **E:** Ramón y Claudia |
+| **10 de Enero** | Estatura Espiritual — Lección 8 <br> [Niños](https://drive.google.com/file/d/1g5FfbR8LV2lC1Njvmi72LOq0QPm-WpSY/view?usp=drive_web) · [Preadolescentes](https://drive.google.com/file/d/1GFQosYNhUpfQ7-gULNnfWRqd3HApeSZd/view?usp=drive_web) · [Adolescentes](https://drive.google.com/file/d/10DIpRTzZ35wAGfZu2Yw_-WvV55gshyH1/view?usp=drive_web) | Por asignar | Por asignar | Por asignar |
 
 *Abreviaturas: **E** = Encargado, **A** = Apoyo.*
 
@@ -34,14 +37,8 @@ Este es el rol de maestros actualizado para los meses de **Junio, Julio, Agosto,
 ## 📚 Recursos y Carpetas de Materiales
 - 📂 [Carpeta General (Rol y Lecciones)](https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP)
 - 🎓 [Capacitación para Maestros](https://drive.google.com/drive/folders/148da5_TSqHRTMEg3lvD5izuBLahXNAhW)
-- 👶 [Clase 3 a 5 años (Pequeños)](https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n)
-- 👧 [Clase 6 a 8 años (Medianos)](https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n)
-- 👦 [Clase 9 a 11 años (Grandes)](https://drive.google.com/drive/folders/1CyetjuE3x-dzTMAR6wfMJPnHcN1cvsEC)
-- 🎓 [Clase JV 12 (Pre-adolescentes)](https://drive.google.com/drive/folders/1Z4kgoY0A6mOhTK84N0ZazT1CtjdWDrxa)
 
 ---
 
 ## 🛠️ Versión Interactiva
-Para buscar por tu nombre de maestro y ver automáticamente tus fechas de servicio, la cuenta regresiva a tu próxima clase y agregarlas a tu calendario, abre la aplicación en tu navegador:
-
 👉 [Abrir el Planner Dominical](https://rodriguezj75468-glitch.github.io/Rol-de-maestros/)
