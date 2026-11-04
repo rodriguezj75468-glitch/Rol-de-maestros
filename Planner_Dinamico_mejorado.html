@@ -3030,8 +3030,7 @@ body.bg-theme-light .theme-link-badge {
                             <th>Fecha</th>
                             <th>Lección / Tema</th>
                             <th>Preescolar y 1.º de Primaria</th>
-                            <th>2.º a 4.º Primaria</th>
-                            <th>5.º y 6.º Primaria</th>
+                            <th>2.º a 6.º Primaria</th>
                             <th>🎓 JV12 / Secundaria</th>
                         </tr>
                     </thead>
@@ -3080,28 +3079,20 @@ body.bg-theme-light .theme-link-badge {
     <!-- Month Selector Grid -->
         <div class="month-selector-grid">
         <div class="month-card" data-month="Todos" onclick="selectMonth('Todos')">
-            <span class="month-lessons-badge">18</span>
+            <span class="month-lessons-badge">10</span>
             <span class="month-name">Todos</span>
         </div>
-        <div class="month-card" data-month="Junio" onclick="selectMonth('Junio')">
-            <span class="month-lessons-badge">1</span>
-            <span class="month-name">Junio</span>
-        </div>
-        <div class="month-card" data-month="Julio" onclick="selectMonth('Julio')">
+        <div class="month-card active" data-month="Noviembre" onclick="selectMonth('Noviembre')">
             <span class="month-lessons-badge">4</span>
-            <span class="month-name">Julio</span>
+            <span class="month-name">Noviembre</span>
         </div>
-        <div class="month-card" data-month="Agosto" onclick="selectMonth('Agosto')">
-            <span class="month-lessons-badge">5</span>
-            <span class="month-name">Agosto</span>
-        </div>
-        <div class="month-card" data-month="Septiembre" onclick="selectMonth('Septiembre')">
+        <div class="month-card" data-month="Diciembre" onclick="selectMonth('Diciembre')">
             <span class="month-lessons-badge">4</span>
-            <span class="month-name">Septiembre</span>
+            <span class="month-name">Diciembre</span>
         </div>
-        <div class="month-card active" data-month="Octubre" onclick="selectMonth('Octubre')">
-            <span class="month-lessons-badge">4</span>
-            <span class="month-name">Octubre</span>
+        <div class="month-card" data-month="Enero" onclick="selectMonth('Enero')">
+            <span class="month-lessons-badge">2</span>
+            <span class="month-name">Enero</span>
         </div>
     </div>
 
@@ -3267,163 +3258,476 @@ body.bg-theme-light .theme-link-badge {
         // --- 📅 BASE DE DATOS DE ROLES ACTUALIZADA ---
         const scheduleData = [
             {
-                date: "28 de Junio", theme: "⭐ Lección 7: Esteban enfrenta a la muerte", status: "past", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
-                classes: {
-                    "3-5": { encargado: "Danna", apoyo: "Alondra", pdfUrl: "https://drive.google.com/file/d/1EzcNBNLpfYamaMaCxUglPDYHk6Yk1Rex/view?usp=drive_web" },
-                    "6-8": { encargado: "Sinddy, Joaquín", apoyo: "Carlos, Isaí" },
-                    "jv12": { encargado: "Josué", apoyo: "Raquel" }
+                "date": "01 de Noviembre",
+                "theme": "Clase completada",
+                "status": "past",
+                "badgeText": "Completado",
+                "classes": {
+                    "3-5": {
+                        "encargado": "Liz",
+                        "apoyo": "-"
+                    },
+                    "6-8": {
+                        "encargado": "Joaquín",
+                        "apoyo": "Carlos"
+                    },
+                    "jv12": {
+                        "encargado": "Alan",
+                        "apoyo": "Aby"
+                    }
                 }
             },
             {
-                date: "05 de Julio", theme: "🌟 Lección 8: Pablo en Filipos", status: "past", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
-                classes: {
-                    "3-5": { encargado: "Alexa", apoyo: "Rebeca" },
-                    "6-8": { encargado: "Aby, Alan", apoyo: "Denisse, Mauricio" },
-                    "jv12": { encargado: "Robert", apoyo: "Sara", pdfUrl: "https://drive.google.com/file/d/1RqHOtxuiOfq6ysBewqfb969tHhFV_0Ev/view?usp=drive_web" }
+                "date": "08 de Noviembre",
+                "theme": "Lección 1: ⭐ Sé un ejemplo a seguir",
+                "status": "current",
+                "badgeText": "Próximo",
+                "series": "Estatura Espiritual",
+                "materialUrl": "https://drive.google.com/drive/folders/1o-10epTbY41YcPJLReu20s7s8-LTsx1T",
+                "classes": {
+                    "3-5": {
+                        "encargado": "Danna",
+                        "apoyo": "Rebeca",
+                        "pdfUrl": "https://drive.google.com/file/d/1jLgzbfk8iE211R9nc_yLz9XhneH2GP8D/view?usp=drive_web",
+                        "devUrls": [
+                            {
+                                "label": "Conversación en familia (Niños)",
+                                "url": "https://drive.google.com/file/d/1ICuSjXKzyV5bY7Qx0Q-CeSqUV5I-xVvE/view?usp=drive_web"
+                            }
+                        ]
+                    },
+                    "6-8": {
+                        "encargado": "Ramón y Claudia",
+                        "apoyo": "-",
+                        "pdfUrl": "https://drive.google.com/file/d/1jLgzbfk8iE211R9nc_yLz9XhneH2GP8D/view?usp=drive_web",
+                        "extraLinks": [
+                            {
+                                "label": "Preadolescentes",
+                                "url": "https://drive.google.com/file/d/1uAGpfyFvCEgjDiK6lUwkBKOVUt6YfOa-/view?usp=drive_web"
+                            }
+                        ],
+                        "devUrls": [
+                            {
+                                "label": "Conversación en familia (Niños)",
+                                "url": "https://drive.google.com/file/d/1ICuSjXKzyV5bY7Qx0Q-CeSqUV5I-xVvE/view?usp=drive_web"
+                            },
+                            {
+                                "label": "Conversación en familia (Preadolescentes)",
+                                "url": "https://drive.google.com/file/d/19h87ZiAGsLRfDLMDky0vd3O4BaN6oc9N/view?usp=drive_web"
+                            }
+                        ]
+                    },
+                    "jv12": {
+                        "encargado": "Sinddy y Juan Carlos",
+                        "apoyo": "-",
+                        "pdfUrl": "https://drive.google.com/file/d/1jlxZk0SvlxvcIdqkgw3wJLqvjDKF5tQz/view?usp=drive_web",
+                        "devUrls": [
+                            {
+                                "label": "Devocional personal (Adolescentes)",
+                                "url": "https://drive.google.com/file/d/1TAEc8bPXtD_LZw3G1bcdbfM-G9fPOEc5/view?usp=drive_web"
+                            }
+                        ]
+                    }
                 }
             },
             {
-                date: "12 de Julio", theme: "🎉 Lección Libre", status: "past", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
-                classes: {
-                    "3-5": { encargado: "Liz", apoyo: "Yadira", pdfUrl: "https://drive.google.com/file/d/1OMgycMMi7shzo05vyaj_O7YCWpnKfmsT/view?usp=drive_web" },
-                    "6-8": { encargado: "Karla, Daniel", apoyo: "Alexa Sarai, Cristina" },
-                    "jv12": { encargado: "Ramón", apoyo: "Claudia" }
+                "date": "15 de Noviembre",
+                "theme": "Lección 2: 🗣️ Habla con sabiduría",
+                "status": "current",
+                "badgeText": "Próximo",
+                "series": "Estatura Espiritual",
+                "materialUrl": "https://drive.google.com/drive/folders/1o-10epTbY41YcPJLReu20s7s8-LTsx1T",
+                "classes": {
+                    "3-5": {
+                        "encargado": "Alexa",
+                        "apoyo": "Yadira",
+                        "pdfUrl": "https://drive.google.com/file/d/1RvNkk4sWk9u6WRIbgJklxsRCFOg73SRp/view?usp=drive_web",
+                        "devUrls": [
+                            {
+                                "label": "Conversación en familia (Niños)",
+                                "url": "https://drive.google.com/file/d/1QDBApT8uXhpwEn3dTP3_GD_IXo2L0cN5/view?usp=drive_web"
+                            }
+                        ]
+                    },
+                    "6-8": {
+                        "encargado": "Alan",
+                        "apoyo": "Mauricio",
+                        "pdfUrl": "https://drive.google.com/file/d/1RvNkk4sWk9u6WRIbgJklxsRCFOg73SRp/view?usp=drive_web",
+                        "extraLinks": [
+                            {
+                                "label": "Preadolescentes",
+                                "url": "https://drive.google.com/file/d/1uykt60oDwNyWIT81SyIOxcEM6BZEFKsF/view?usp=drive_web"
+                            }
+                        ],
+                        "devUrls": [
+                            {
+                                "label": "Conversación en familia (Niños)",
+                                "url": "https://drive.google.com/file/d/1QDBApT8uXhpwEn3dTP3_GD_IXo2L0cN5/view?usp=drive_web"
+                            },
+                            {
+                                "label": "Conversación en familia (Preadolescentes)",
+                                "url": "https://drive.google.com/file/d/19oA_nA8AWm7CbggELAEWlprpVUOUvP_F/view?usp=drive_web"
+                            }
+                        ]
+                    },
+                    "jv12": {
+                        "encargado": "Robert y Sara",
+                        "apoyo": "-",
+                        "pdfUrl": "https://drive.google.com/open?id=1tcSyKVwUJcyyGcvzhHmTKWHcdJn6nfnL",
+                        "devUrls": [
+                            {
+                                "label": "Devocional personal (Adolescentes)",
+                                "url": "https://drive.google.com/file/d/1Y33Cn4Izu42MoymnW9N3CadbmYoZfKFj/view?usp=drive_web"
+                            }
+                        ]
+                    }
                 }
             },
             {
-                date: "19 de Julio", series: "Vivir es Cristo", theme: "Lección 1: Vivir es Cristo - Filipenses 1:1-11", status: "past", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
-                classes: {
-                    "3-5": { encargado: "Danna", apoyo: "Rebeca", pdfUrl: "https://drive.google.com/file/d/1rAmMB34QB_sgRnBqUZ2DsBj_QE0iSqaq/view?usp=drive_web" },
-                    "6-8": { encargado: "Aby, Joaquín", apoyo: "Denisse, Isaí" },
-                    "jv12": { encargado: "Sinddy", apoyo: "Juan Carlos", pdfUrl: "https://drive.google.com/file/d/1q6fEWXrPCzsyrROCEbLuhGie1XF7ekEJ/view?usp=drive_web" }
+                "date": "22 de Noviembre",
+                "theme": "Lección 3: 🔍 Revisa tu conducta",
+                "status": "current",
+                "badgeText": "Próximo",
+                "series": "Estatura Espiritual",
+                "materialUrl": "https://drive.google.com/drive/folders/1o-10epTbY41YcPJLReu20s7s8-LTsx1T",
+                "classes": {
+                    "3-5": {
+                        "encargado": "Liz",
+                        "apoyo": "Camila",
+                        "pdfUrl": "https://drive.google.com/file/d/1MXyfcL1KFGEYgtUyvvK8TIcXE_3XdAc5/view?usp=drive_web",
+                        "devUrls": [
+                            {
+                                "label": "Conversación en familia (Niños)",
+                                "url": "https://drive.google.com/file/d/1fsqmgBCqFLXQkrSSCGqHsS3S8G2kQMGj/view?usp=drive_web"
+                            }
+                        ]
+                    },
+                    "6-8": {
+                        "encargado": "Karla",
+                        "apoyo": "Alexa Sarai",
+                        "pdfUrl": "https://drive.google.com/file/d/1MXyfcL1KFGEYgtUyvvK8TIcXE_3XdAc5/view?usp=drive_web",
+                        "extraLinks": [
+                            {
+                                "label": "Preadolescentes",
+                                "url": "https://drive.google.com/file/d/1Kdfm96PgVZgo2pn0wQkWKGe9bEYfS9JO/view?usp=drive_web"
+                            }
+                        ],
+                        "devUrls": [
+                            {
+                                "label": "Conversación en familia (Niños)",
+                                "url": "https://drive.google.com/file/d/1fsqmgBCqFLXQkrSSCGqHsS3S8G2kQMGj/view?usp=drive_web"
+                            },
+                            {
+                                "label": "Conversación en familia (Preadolescentes)",
+                                "url": "https://drive.google.com/file/d/1jPGa4PSITeYq5eVY407kNeAlViN4cp9F/view?usp=drive_web"
+                            }
+                        ]
+                    },
+                    "jv12": {
+                        "encargado": "Ramón y Claudia",
+                        "apoyo": "-",
+                        "pdfUrl": "https://drive.google.com/file/d/1xlDPN-QrrtRzLi9V6zMoeRUy0BJBjt-R/view?usp=drive_web",
+                        "devUrls": [
+                            {
+                                "label": "Devocional personal (Adolescentes)",
+                                "url": "https://drive.google.com/file/d/10FcRLVihyLeDUSCwAO32IPVHhOWvvHQr/view?usp=drive_web"
+                            }
+                        ]
+                    }
                 }
             },
             {
-                date: "26 de Julio", series: "Vivir es Cristo", theme: "Lección 2: Vivir es Cristo - Filipenses 1:12-30", status: "past", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
-                classes: {
-                    "3-5": { encargado: "Alexa", apoyo: "Yadira" },
-                    "6-8": { encargado: "Ramón, Cristina", apoyo: "Claudia, Mauricio" },
-                    "jv12": { encargado: "Aby", apoyo: "Alan" }
+                "date": "29 de Noviembre",
+                "theme": "Sin clase  •  Cierre de Ayuno",
+                "status": "suspended",
+                "badgeText": "Sin clase",
+                "materialUrl": "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
+                "suspendedNote": "Este domingo no habrá clases por el Cierre de Ayuno. El rol y las lecciones se recorren una semana hacia adelante."
+            },
+            {
+                "date": "06 de Diciembre",
+                "theme": "Lección 4: ❤️ Vive en amor",
+                "status": "current",
+                "badgeText": "Próximo",
+                "series": "Estatura Espiritual",
+                "materialUrl": "https://drive.google.com/drive/folders/1o-10epTbY41YcPJLReu20s7s8-LTsx1T",
+                "classes": {
+                    "3-5": {
+                        "encargado": "Danna",
+                        "apoyo": "Alondra",
+                        "pdfUrl": "https://drive.google.com/file/d/1KBdDfxSNCIDwEBpavvondMiPQk3yBxgp/view?usp=drive_web",
+                        "devUrls": [
+                            {
+                                "label": "Conversación en familia (Niños)",
+                                "url": "https://drive.google.com/file/d/1TuL3gBZu7Q7gWfxsUV2lDElj-UfbiCRj/view?usp=drive_web"
+                            }
+                        ]
+                    },
+                    "6-8": {
+                        "encargado": "Aby",
+                        "apoyo": "Denisse",
+                        "pdfUrl": "https://drive.google.com/file/d/1KBdDfxSNCIDwEBpavvondMiPQk3yBxgp/view?usp=drive_web",
+                        "extraLinks": [
+                            {
+                                "label": "Preadolescentes",
+                                "url": "https://drive.google.com/file/d/1PURW8A3Wu3RUDVMYmeaTU5hKfHsBGLbc/view?usp=drive_web"
+                            }
+                        ],
+                        "devUrls": [
+                            {
+                                "label": "Conversación en familia (Niños)",
+                                "url": "https://drive.google.com/file/d/1TuL3gBZu7Q7gWfxsUV2lDElj-UfbiCRj/view?usp=drive_web"
+                            },
+                            {
+                                "label": "Conversación en familia (Preadolescentes)",
+                                "url": "https://drive.google.com/file/d/1qPkUZUeDONM7lyKFxEoBvARDqC2FqUvK/view?usp=drive_web"
+                            }
+                        ]
+                    },
+                    "jv12": {
+                        "encargado": "Josué y Raquel",
+                        "apoyo": "-",
+                        "pdfUrl": "https://drive.google.com/file/d/13pbfjnvkWnPX88gh5T-RSt_jc-nrQ7AA/view?usp=drive_web",
+                        "devUrls": [
+                            {
+                                "label": "Devocional personal (Adolescentes)",
+                                "url": "https://drive.google.com/file/d/1B-E1EehXZnPhz1-h3MdtsOdGMPJ8nuo7/view?usp=drive_web"
+                            }
+                        ]
+                    }
                 }
             },
             {
-                date: "02 de Agosto", series: "Vivir es Cristo", theme: "Lección 3: Vivir es Cristo - Filipenses 2:1-11", status: "past", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
-                classes: {
-                    "3-5": { encargado: "Liz", apoyo: "Rebeca" },
-                    "6-8": { encargado: "Sinddy, Alan", apoyo: "Carlos, Juan Carlos" },
-                    "jv12": { encargado: "Robert", apoyo: "Sara", pdfUrl: "https://drive.google.com/file/d/1RqHOtxuiOfq6ysBewqfb969tHhFV_0Ev/view?usp=drive_web" }
+                "date": "13 de Diciembre",
+                "theme": "Lección 5: 🛡️ Fortalece tu fe",
+                "status": "current",
+                "badgeText": "Próximo",
+                "series": "Estatura Espiritual",
+                "materialUrl": "https://drive.google.com/drive/folders/1o-10epTbY41YcPJLReu20s7s8-LTsx1T",
+                "classes": {
+                    "3-5": {
+                        "encargado": "Alexa",
+                        "apoyo": "Rebeca",
+                        "pdfUrl": "https://drive.google.com/file/d/1yJ4pEwfvXs17sVLiKzkS0l-vPSS2U1hP/view?usp=drive_web",
+                        "devUrls": [
+                            {
+                                "label": "Conversación en familia (Niños)",
+                                "url": "https://drive.google.com/file/d/1JShuIkR7nCGzfCfaiJ-bc0H10GfN1jCA/view?usp=drive_web"
+                            }
+                        ]
+                    },
+                    "6-8": {
+                        "encargado": "Daniel",
+                        "apoyo": "Cristina",
+                        "pdfUrl": "https://drive.google.com/file/d/1yJ4pEwfvXs17sVLiKzkS0l-vPSS2U1hP/view?usp=drive_web",
+                        "extraLinks": [
+                            {
+                                "label": "Preadolescentes",
+                                "url": "https://drive.google.com/file/d/1CSWmVCD6XjlpkUoFbPkAI4QHOKalxzX_/view?usp=drive_web"
+                            }
+                        ],
+                        "devUrls": [
+                            {
+                                "label": "Conversación en familia (Niños)",
+                                "url": "https://drive.google.com/file/d/1JShuIkR7nCGzfCfaiJ-bc0H10GfN1jCA/view?usp=drive_web"
+                            },
+                            {
+                                "label": "Conversación en familia (Preadolescentes)",
+                                "url": "https://drive.google.com/file/d/1YY9_uJzO663Whp6doX4ZGWqJ48C0hVp7/view?usp=drive_web"
+                            }
+                        ]
+                    },
+                    "jv12": {
+                        "encargado": "Sinddy y Juan Carlos",
+                        "apoyo": "-",
+                        "pdfUrl": "https://drive.google.com/file/d/14WbYaYh2BID0N4Tlty4akdEkovrkRI5p/view?usp=drive_web",
+                        "devUrls": [
+                            {
+                                "label": "Devocional personal (Adolescentes)",
+                                "url": "https://drive.google.com/file/d/1kXr55eqajEBf09yJ8RxxNU7e__fqZT66/view?usp=drive_web"
+                            }
+                        ]
+                    }
                 }
             },
             {
-                date: "09 de Agosto", series: "Vivir es Cristo", theme: "Lección 4: Vivir es Cristo - Filipenses 2:12-18", status: "past", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
-                classes: {
-                    "3-5": { encargado: "Danna", apoyo: "Yadira", pdfUrl: "https://drive.google.com/file/d/1AK7dgxtIQT1UbXbkT3aQiKhEIFPXY1YQ/view?usp=drive_web" },
-                    "6-8": { encargado: "Karla, Daniel", apoyo: "Alexa Sarai, Cristina" },
-                    "jv12": { encargado: "Ramón", apoyo: "Claudia" }
+                "date": "20 de Diciembre",
+                "theme": "🎄 La verdadera celebración (Navidad)",
+                "status": "current",
+                "badgeText": "Especial",
+                "materialUrl": "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
+                "classes": {
+                    "3-5": {
+                        "encargado": "Liz",
+                        "apoyo": "Yadira"
+                    },
+                    "6-8": {
+                        "encargado": "Ramón y Claudia",
+                        "apoyo": "-"
+                    },
+                    "jv12": {
+                        "encargado": "Robert y Sara",
+                        "apoyo": "-"
+                    }
                 }
             },
             {
-                date: "16 de Agosto", series: "Vivir es Cristo", theme: "Lección 5: Vivir es Cristo - Filipenses 3", status: "past", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
-                classes: {
-                    "3-5": { encargado: "Alexa", apoyo: "Alondra" },
-                    "6-8": { encargado: "Aby, Alan", apoyo: "Denisse, Mauricio" },
-                    "jv12": { encargado: "Josué", apoyo: "Raquel" }
+                "date": "27 de Diciembre",
+                "theme": "Lección 6: 📖 Lee y comparte las Escrituras",
+                "status": "current",
+                "badgeText": "Próximo",
+                "series": "Estatura Espiritual",
+                "materialUrl": "https://drive.google.com/drive/folders/1o-10epTbY41YcPJLReu20s7s8-LTsx1T",
+                "classes": {
+                    "3-5": {
+                        "encargado": "Danna",
+                        "apoyo": "Camila",
+                        "pdfUrl": "https://drive.google.com/file/d/1Jh-tSqEznspjBXEb5iJaB-V0jMmPUlEj/view?usp=drive_web",
+                        "devUrls": [
+                            {
+                                "label": "Conversación en familia (Niños)",
+                                "url": "https://drive.google.com/file/d/1fOjxDmfEzekqKhSbOBG_AhTGRPJ2H9Vx/view?usp=drive_web"
+                            }
+                        ]
+                    },
+                    "6-8": {
+                        "encargado": "Joaquín",
+                        "apoyo": "Isaí",
+                        "pdfUrl": "https://drive.google.com/file/d/1Jh-tSqEznspjBXEb5iJaB-V0jMmPUlEj/view?usp=drive_web",
+                        "extraLinks": [
+                            {
+                                "label": "Preadolescentes",
+                                "url": "https://drive.google.com/file/d/1i03VUUKpYjG9qmozOYkCAyP7HBwWI8eb/view?usp=drive_web"
+                            }
+                        ],
+                        "devUrls": [
+                            {
+                                "label": "Conversación en familia (Niños)",
+                                "url": "https://drive.google.com/file/d/1fOjxDmfEzekqKhSbOBG_AhTGRPJ2H9Vx/view?usp=drive_web"
+                            },
+                            {
+                                "label": "Conversación en familia (Preadolescentes)",
+                                "url": "https://drive.google.com/file/d/1IKkBt1zxR28srizDFlX9zAIVGqeSx311/view?usp=drive_web"
+                            }
+                        ]
+                    },
+                    "jv12": {
+                        "encargado": "Josué y Raquel",
+                        "apoyo": "-",
+                        "pdfUrl": "https://drive.google.com/file/d/1jjBJCBojmvkFdeMb6Kn3mXJVW3UzlJIM/view?usp=drive_web",
+                        "devUrls": [
+                            {
+                                "label": "Devocional personal (Adolescentes)",
+                                "url": "https://drive.google.com/file/d/10Jvvn1L3KuZodTR0GIwiDLsq4nkKKDCo/view?usp=drive_web"
+                            }
+                        ]
+                    }
                 }
             },
             {
-                date: "23 de Agosto", series: "Vivir es Cristo", theme: "Lección 6: Vivir es Cristo - Filipenses 4:1-7", status: "past", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
-                classes: {
-                    "3-5": { encargado: "Liz", apoyo: "Camila" },
-                    "6-8": { encargado: "Sinddy, Joaquín", apoyo: "Carlos, Isaí" },
-                    "jv12": { encargado: "Ramón", apoyo: "Claudia" }
+                "date": "03 de Enero",
+                "theme": "Lección 7: ✨ Mantente en pureza",
+                "status": "current",
+                "badgeText": "Próximo",
+                "series": "Estatura Espiritual",
+                "materialUrl": "https://drive.google.com/drive/folders/1o-10epTbY41YcPJLReu20s7s8-LTsx1T",
+                "classes": {
+                    "3-5": {
+                        "encargado": "Alexa",
+                        "apoyo": "Alondra",
+                        "pdfUrl": "https://drive.google.com/file/d/1Q5FYlQ6tsBmcMwhRh2NPsfu_FK1BHPuw/view?usp=drive_web",
+                        "devUrls": [
+                            {
+                                "label": "Conversación en familia (Niños)",
+                                "url": "https://drive.google.com/file/d/1l8IbT44L0Q8Um4B41yNODq2lhll35U4D/view?usp=drive_web"
+                            }
+                        ]
+                    },
+                    "6-8": {
+                        "encargado": "Alan",
+                        "apoyo": "Mauricio",
+                        "pdfUrl": "https://drive.google.com/file/d/1Q5FYlQ6tsBmcMwhRh2NPsfu_FK1BHPuw/view?usp=drive_web",
+                        "extraLinks": [
+                            {
+                                "label": "Preadolescentes",
+                                "url": "https://drive.google.com/file/d/1izwexCfEW1kFA0937fVrnvQaAMwHpCWL/view?usp=drive_web"
+                            }
+                        ],
+                        "devUrls": [
+                            {
+                                "label": "Conversación en familia (Niños)",
+                                "url": "https://drive.google.com/file/d/1l8IbT44L0Q8Um4B41yNODq2lhll35U4D/view?usp=drive_web"
+                            },
+                            {
+                                "label": "Conversación en familia (Preadolescentes)",
+                                "url": "https://drive.google.com/file/d/19_2lDyzLns0agKFPLns7ydDsqcflctkv/view?usp=drive_web"
+                            }
+                        ]
+                    },
+                    "jv12": {
+                        "encargado": "Ramón y Claudia",
+                        "apoyo": "-",
+                        "pdfUrl": "https://drive.google.com/file/d/17ir64qMS2c0mU3_4Lt9gpeHKGVkPEDm6/view?usp=drive_web",
+                        "devUrls": [
+                            {
+                                "label": "Devocional personal (Adolescentes)",
+                                "url": "https://drive.google.com/file/d/1Y1n56SEJC-zNFl3Xiwc6q4AvKVicqjW6/view?usp=drive_web"
+                            }
+                        ]
+                    }
                 }
             },
             {
-                date: "30 de Agosto", series: "Vivir es Cristo", theme: "Lección 7: Vivir es Cristo - Filipenses 4:8-9", status: "past", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
-                classes: {
-                    "3-5": { encargado: "Danna", apoyo: "Rebeca", pdfUrl: "https://drive.google.com/file/d/1rAmMB34QB_sgRnBqUZ2DsBj_QE0iSqaq/view?usp=drive_web" },
-                    "6-8": { encargado: "Karla, Daniel", apoyo: "Alexa Sarai, Cristina" },
-                    "jv12": { encargado: "Robert", apoyo: "Sara", pdfUrl: "https://drive.google.com/file/d/1RqHOtxuiOfq6ysBewqfb969tHhFV_0Ev/view?usp=drive_web" }
-                }
-            },            {
-                date: "06 de Septiembre", series: "Vivir es Cristo", theme: "Lección 8: Vivir es Cristo - Filipenses 4:10-23", status: "past", badgeText: "Completado",
-                materialUrl: "https://drive.google.com/drive/folders/1b9Njh0BcQU9o7o0Aszfqe2vERVXgQY_n",
-                classes: {
-                    "3-5": { encargado: "Alexa", apoyo: "Yadira" },
-                    "6-8": { encargado: "Aby, Alan", apoyo: "Denisse, Mauricio" },
-                    "jv12": { encargado: "Josué", apoyo: "Raquel" }
-                }
-            },
-            {
-                date: "13 de Septiembre", series: "Mensaje Directo", theme: "Mensaje Directo  •  Lección Especial", status: "past", badgeText: "Completado",
-                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
-                classes: {
-                    "3-5": { encargado: "Liz", apoyo: "Camila" },
-                    "6-8": { encargado: "Karla, Joaquín", apoyo: "Alexa Sarai, Isaí" },
-                    "jv12": { encargado: "Robert", apoyo: "Sara", pdfUrl: "https://drive.google.com/file/d/1RqHOtxuiOfq6ysBewqfb969tHhFV_0Ev/view?usp=drive_web" }
-                }
-            },
-                                    {
-                date: "20 de Septiembre", series: "Mensaje Directo", theme: "Mensaje Directo  •  Lección 1: Confesión y arrepentimiento (Salmo 51)", status: "past", badgeText: "Completado",
-                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
-                classes: {
-                    "3-5": { encargado: "Danna", apoyo: "Alondra", pdfUrl: "https://drive.google.com/file/d/1EzcNBNLpfYamaMaCxUglPDYHk6Yk1Rex/view?usp=drive_web" },
-                    "6-8": { encargado: "Danna, Daniel", apoyo: "Alondra, Cristina", pdfUrl: "https://drive.google.com/open?id=1m5bw80XkmdbMBtvE6zFPelcBusi2YGDl" },
-                    "jv12": { encargado: "Sinddy", apoyo: "Juan Carlos", pdfUrl: "https://drive.google.com/file/d/1q6fEWXrPCzsyrROCEbLuhGie1XF7ekEJ/view?usp=drive_web" }
-                }
-            },
-            {
-                date: "27 de Septiembre", series: "Mensaje Directo", theme: "Mensaje Directo  •  Lección 2: Alabanza y gratitud (Salmo 136)", status: "past", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
-                classes: {
-                    "3-5": { encargado: "Liz", apoyo: "Yadira", pdfUrl: "https://drive.google.com/file/d/1OMgycMMi7shzo05vyaj_O7YCWpnKfmsT/view?usp=drive_web" },
-                    "6-8": { encargado: "Liz, Joaquín", apoyo: "Yadira, Carlos", pdfUrl: "https://drive.google.com/open?id=1DBVATmMUrn1LpbdwSD4hr74F3itS2unP" },
-                    "jv12": { encargado: "Ramón", apoyo: "Claudia", pdfUrl: "https://drive.google.com/file/d/1Be9P9zysMmTbMp82nRwfCzDG3j2tE0N9/view?usp=drive_web" }
-                }
-            },
-            {
-                date: "04 de Octubre", series: "Mensaje Directo", theme: "Mensaje Directo  •  Lección 3: Pedir su dirección (Salmo 119:26-35)", status: "current", badgeText: "Próximo",
-                classes: {
-                    "3-5": { encargado: "Danna", apoyo: "Rebeca", pdfUrl: "https://drive.google.com/file/d/1rAmMB34QB_sgRnBqUZ2DsBj_QE0iSqaq/view?usp=drive_web" },
-                    "6-8": { encargado: "Karla", apoyo: "Alexa Sarai", pdfUrl: "https://drive.google.com/open?id=1T3QatpPzZ52IdH5zvqSdvp79RJJwEFzd" },
-                    "jv12": { encargado: "Sinddy", apoyo: "Juan Carlos", pdfUrl: "https://drive.google.com/file/d/1S_I7Qf1rCtgdp0A1ufnd5TOL3i1ul-Le/view?usp=drive_web" }
-                }
-            },
-            {
-                date: "11 de Octubre", series: "Mensaje Directo", theme: "Mensaje Directo  •  Lección 4: Confiar en su amor (Efesios 3:14-21)", status: "current", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
-                classes: {
-                    "3-5": { encargado: "Alexa", apoyo: "Camila", pdfUrl: "https://drive.google.com/file/d/1yWy5Q6nmj1S8U-JoZmtnOfyeYEknTes8/view?usp=drive_web" },
-                    "6-8": { encargado: "Alan", apoyo: "Mauricio", pdfUrl: "https://drive.google.com/open?id=1tTswqhANFj4Wt3nj-2wu6oYFB2dFG0ZL" },
-                    "jv12": { encargado: "Robert", apoyo: "Sara", pdfUrl: "https://drive.google.com/file/d/1RqHOtxuiOfq6ysBewqfb969tHhFV_0Ev/view?usp=drive_web" }
-                }
-            },
-            {
-                date: "18 de Octubre", series: "Mensaje Directo", theme: "Mensaje Directo  •  Lección 5: Fortaleciendo para amar más y más (1 Tesalonicenses 3:12-13)", status: "current", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
-                classes: {
-                    "3-5": { encargado: "Liz", apoyo: "Alondra", pdfUrl: "https://drive.google.com/file/d/1TLwzYvidtCn1WmyPbZbr6NhDGVVEAuQF/view?usp=drive_web" },
-                    "6-8": { encargado: "Aby", apoyo: "Denisse", pdfUrl: "https://drive.google.com/file/d/1Rqt4OzKp1b3gzzheVuaEUm3oz2hV705Q/view?usp=drive_web" },
-                    "jv12": { encargado: "Josué", apoyo: "Raquel", pdfUrl: "https://drive.google.com/file/d/19GjbLXVgDaLBQbMKmGKx7wNHvdYvc6Ri/view?usp=drive_web" }
-                }
-            },
-            {
-                date: "25 de Octubre", series: "Mensaje Directo", theme: "Mensaje Directo  •  Lección 6: Dando gloria a Dios (2 Tesalonicenses 1:11-12)", status: "current", badgeText: "Próximo",
-                materialUrl: "https://drive.google.com/drive/folders/1iHDqimJd8QYLOPF7FKmW5UXUikSDfyeP",
-                classes: {
-                    "3-5": { encargado: "Danna", apoyo: "Yadira", pdfUrl: "https://drive.google.com/file/d/1AK7dgxtIQT1UbXbkT3aQiKhEIFPXY1YQ/view?usp=drive_web" },
-                    "6-8": { encargado: "Daniel", apoyo: "Cristina", pdfUrl: "https://drive.google.com/open?id=1CqRyA-EQzs_FkD5oSNaG7TGXMLAIRq2b" },
-                    "jv12": { encargado: "Ramón", apoyo: "Claudia", pdfUrl: "https://drive.google.com/file/d/1ZXZocw3D0EvB9tazYiGbr-i76iMtDa2T/view?usp=drive_web" }
+                "date": "10 de Enero",
+                "theme": "Lección 8: 🤝 Anima siempre a otros",
+                "status": "current",
+                "badgeText": "Próximo",
+                "series": "Estatura Espiritual",
+                "materialUrl": "https://drive.google.com/drive/folders/1o-10epTbY41YcPJLReu20s7s8-LTsx1T",
+                "classes": {
+                    "3-5": {
+                        "encargado": "Por asignar",
+                        "apoyo": "-",
+                        "pdfUrl": "https://drive.google.com/file/d/1g5FfbR8LV2lC1Njvmi72LOq0QPm-WpSY/view?usp=drive_web",
+                        "devUrls": [
+                            {
+                                "label": "Conversación en familia (Niños)",
+                                "url": "https://drive.google.com/file/d/1eHxfKKEV3AObtzUZTuSo7hhi3bv1v1Uy/view?usp=drive_web"
+                            }
+                        ]
+                    },
+                    "6-8": {
+                        "encargado": "Por asignar",
+                        "apoyo": "-",
+                        "pdfUrl": "https://drive.google.com/file/d/1g5FfbR8LV2lC1Njvmi72LOq0QPm-WpSY/view?usp=drive_web",
+                        "extraLinks": [
+                            {
+                                "label": "Preadolescentes",
+                                "url": "https://drive.google.com/file/d/1GFQosYNhUpfQ7-gULNnfWRqd3HApeSZd/view?usp=drive_web"
+                            }
+                        ],
+                        "devUrls": [
+                            {
+                                "label": "Conversación en familia (Niños)",
+                                "url": "https://drive.google.com/file/d/1eHxfKKEV3AObtzUZTuSo7hhi3bv1v1Uy/view?usp=drive_web"
+                            },
+                            {
+                                "label": "Conversación en familia (Preadolescentes)",
+                                "url": "https://drive.google.com/file/d/16EPbLsS9GgOxHBlem48phwBEIX3LzXAG/view?usp=drive_web"
+                            }
+                        ]
+                    },
+                    "jv12": {
+                        "encargado": "Por asignar",
+                        "apoyo": "-",
+                        "pdfUrl": "https://drive.google.com/file/d/10DIpRTzZ35wAGfZu2Yw_-WvV55gshyH1/view?usp=drive_web",
+                        "devUrls": [
+                            {
+                                "label": "Devocional personal (Adolescentes)",
+                                "url": "https://drive.google.com/file/d/18EYUvpQA8ugyY18v_30wvYpn3WRdM8yW/view?usp=drive_web"
+                            }
+                        ]
+                    }
                 }
             }
         ];
@@ -3471,7 +3775,7 @@ body.bg-theme-light .theme-link-badge {
 
         const timelineContainer = document.getElementById('timelineContainer');
         let currentFilteredTeacher = '';
-        let currentSelectedMonth = 'Octubre';
+        let currentSelectedMonth = 'Noviembre';
         let currentSelectedRoom = 'all';
 
         function selectMonth(monthName) {
@@ -3519,7 +3823,7 @@ body.bg-theme-light .theme-link-badge {
                 emptyBlock.className = 'week-block empty-month-block';
                 emptyBlock.innerHTML = `
                     <div class="coming-soon-icon">⏳</div>
-                    <div class="coming-soon-title">Rol de ${currentSelectedMonth} 2026 en Planeación</div>
+                    <div class="coming-soon-title">Rol de ${currentSelectedMonth} ${currentSelectedMonth === 'Enero' ? 2027 : 2026} en Planeación</div>
                     <div class="coming-soon-desc">El rol de maestros para este mes aún está siendo coordinado con los directores y coordinadores de apoyo. ¡Próximamente estará disponible!</div>
                 `;
                 timelineContainer.appendChild(emptyBlock);
@@ -3542,7 +3846,9 @@ body.bg-theme-light .theme-link-badge {
                     : '';
 
                 let headerThemeText = week.theme || '';
-                if (headerThemeText.includes("  •  ")) {
+                if (week.series && week.status !== 'suspended') {
+                    headerThemeText = week.series; // En el encabezado solo va el nombre de la serie
+                } else if (headerThemeText.includes("  •  ")) {
                     headerThemeText = headerThemeText.split("  •  ").slice(1).join("  •  ");
                 } else if (headerThemeText.includes(" - ")) {
                     headerThemeText = headerThemeText.split(" - ").slice(1).join(" - ");
@@ -3568,7 +3874,7 @@ body.bg-theme-light .theme-link-badge {
                     weekBlock.innerHTML = headerHtml + `
                         <div class="suspended-content">
                             <div class="suspended-title">🚫 Sesión Suspendida</div>
-                            <div class="suspended-desc">Este domingo no habrá clases programadas debido a la suspensión general. Las actividades y lecciones se recorren una semana hacia adelante a partir de este domingo.</div>
+                            <div class="suspended-desc">${week.suspendedNote || 'Este domingo no habrá clases programadas debido a la suspensión general. Las actividades y lecciones se recorren una semana hacia adelante a partir de este domingo.'}</div>
                         </div>
                     `;
                 } else if (week.classes) {
@@ -3634,7 +3940,8 @@ body.bg-theme-light .theme-link-badge {
                                 </div>
                                 <div class="group-header-badge">${groupInfo.fullGroupLabel}</div>
                                 <div class="card-date-label">📅 Domingo, ${week.date}</div>
-                                <a href="${lessonUrl}" target="_blank" class="card-lesson-title" title="Ver material de esta clase">${week.theme.includes(":") ? week.theme.split(":")[0].trim() : week.theme}</a>
+                                <a href="${lessonUrl}" target="_blank" class="card-lesson-title" title="Ver material de esta clase">${week.theme.includes(":") ? week.theme.split(":")[0].trim() : week.theme}${week.theme.includes(":") ? `<span style="display:block;font-size:0.82em;font-weight:600;opacity:0.9;margin-top:0.15rem;">${week.theme.substring(week.theme.indexOf(":") + 1).trim()}</span>` : ''}</a>
+                                ${(classData.extraLinks || []).map(l => `<a href="${l.url}" target="_blank" class="card-extra-link" style="display:inline-block;margin-top:0.35rem;font-size:0.78rem;font-weight:700;text-decoration:none;opacity:0.85;">📎 ${l.label}</a>`).join('')}
                                 <div class="card-role-row">
                                     ${rolesHtml}
                                 </div>
@@ -3950,7 +4257,7 @@ body.bg-theme-light .theme-link-badge {
                     tableHtml += `
                         <tr class="suspended-row">
                             <td style="font-weight: 700; white-space: nowrap;">📅 ${week.date}</td>
-                            <td colspan="5" style="text-align: center; vertical-align: middle;">
+                            <td colspan="4" style="text-align: center; vertical-align: middle;">
                                 <span class="admin-badge-suspended">Sesión Suspendida - Sin clases programadas</span>
                             </td>
                         </tr>
@@ -3973,11 +4280,6 @@ body.bg-theme-light .theme-link-badge {
                             <td>
                                 <div class="admin-table-role">
                                     ${getRoomClassBadgesHtml(week.classes["6-8"]?.encargado, week.classes["6-8"]?.apoyo)}
-                                </div>
-                            </td>
-                            <td>
-                                <div class="admin-table-role">
-                                    ${getRoomClassBadgesHtml(week.classes["9-11"]?.encargado, week.classes["9-11"]?.apoyo)}
                                 </div>
                             </td>
                             <td>
@@ -4096,7 +4398,8 @@ body.bg-theme-light .theme-link-badge {
         function parsePlannerDate(str) {
             const m = normalizeString(str).match(/(\d{1,2})\s+de\s+([a-z]+)/);
             if (!m || MONTHS_ES[m[2]] === undefined) return null;
-            return new Date(PLANNER_YEAR, MONTHS_ES[m[2]], parseInt(m[1], 10), CLASS_START.h, CLASS_START.m);
+            const yr = MONTHS_ES[m[2]] < 6 ? PLANNER_YEAR + 1 : PLANNER_YEAR; // Enero cae en 2027
+            return new Date(yr, MONTHS_ES[m[2]], parseInt(m[1], 10), CLASS_START.h, CLASS_START.m);
         }
 
         function cleanTheme(t) {
@@ -4126,7 +4429,7 @@ body.bg-theme-light .theme-link-badge {
                         partner = other.length ? (other[idx] || other[0]) : '';
                     }
                     out.push({ start, end, gid, role, partner, group: GROUP_LABELS[gid] || gid, theme: cleanTheme(week.theme),
-                               material: week.materialUrl, pdf: c.pdfUrl || '' });
+                               material: week.materialUrl, pdf: c.pdfUrl || '', dev: c.devUrls || [] });
                 });
             });
             return out.sort((x, y) => x.start - y.start);
@@ -4172,6 +4475,7 @@ body.bg-theme-light .theme-link-badge {
                         <button class="nc-btn" onclick="addNextToCalendar()">📅 Agregar a mi calendario</button>
                         ${_myUpcoming.length > 1 ? `<button class="nc-btn" onclick="addAllToCalendar()">🗓️ Agregar mis ${_myUpcoming.length} fechas</button>` : ''}
                         ${n.partner ? `<button class="nc-btn" onclick="messagePartner()">💬 Escribir a ${n.partner}</button>` : ''}
+                        ${(n.dev || []).map(d => `<a class="nc-btn" href="${d.url}" target="_blank" rel="noopener">📘 ${d.label}</a>`).join('')}
                         ${(n.pdf || n.material) ? `<a class="nc-btn" href="${n.pdf || n.material}" target="_blank" rel="noopener">📄 Material de la lección</a>` : ''}
                     </div>
                 </div>`;
@@ -4302,11 +4606,11 @@ body.bg-theme-light .theme-link-badge {
             if (!n) return;
             const fecha = n.start.toLocaleDateString('es-MX', { weekday: 'long', day: 'numeric', month: 'long' }).replace(',', '');
             const leccion = String(n.theme).split(' — ').pop().trim();
-            const link = n.pdf || n.material;
+            const devs = (n.dev && n.dev.length) ? n.dev : (n.pdf || n.material ? [{ label: 'Material de la lección', url: n.pdf || n.material }] : []);
             const text = `¡Hola! 🙏 Te escribe ${_prepTeacher}. ¿Me ayudas a imprimir el devocional para mi clase del ${fecha}?\n`
                 + `Grupo: ${n.group}\n`
                 + `${leccion}`
-                + (link ? `\n📄 ${link}` : '')
+                + devs.map(d => `\n📘 ${d.label}: ${d.url}`).join('')
                 + `\n¡Gracias!`;
             const base = PRINT_REQUEST_PHONE ? `https://wa.me/${PRINT_REQUEST_PHONE}` : 'https://api.whatsapp.com/send';
             window.open(`${base}?text=${encodeURIComponent(text)}`, '_blank');
@@ -4791,7 +5095,7 @@ body.bg-theme-light .theme-link-badge {
 
         function shareApp() {
             const shareUrl = "https://rodriguezj75468-glitch.github.io/Rol_de_maños/";
-            const shareText = "👋 ¡Hola! Aquí tienes el Rol de Clases Dominicales actualizado (Junio - Octubre 2026). Consúltalo en tiempo real aquí:";
+            const shareText = "👋 ¡Hola! Aquí tienes el Rol de Clases Dominicales actualizado (Noviembre 2026 - Enero 2027). Consúltalo en tiempo real aquí:";
             
             const urlInput = document.getElementById('shareUrlInput');
             if (urlInput) urlInput.value = shareUrl;
@@ -4828,7 +5132,7 @@ body.bg-theme-light .theme-link-badge {
 
         async function copyShareUrl() {
             const shareUrl = "https://rodriguezj75468-glitch.github.io/Rol_de_maños/";
-            const shareText = "👋 ¡Hola! Aquí tienes el Rol de Clases Dominicales actualizado (Junio - Octubre 2026). Consúltalo en tiempo real aquí:";
+            const shareText = "👋 ¡Hola! Aquí tienes el Rol de Clases Dominicales actualizado (Noviembre 2026 - Enero 2027). Consúltalo en tiempo real aquí:";
             
             try {
                 await navigator.clipboard.writeText(`${shareText}\n${shareUrl}`);
